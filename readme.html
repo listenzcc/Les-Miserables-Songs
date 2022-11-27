@@ -1,0 +1,2464 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta property="og:type" content="website"><meta name="twitter:card" content="summary"><style>@media screen{body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button{-webkit-tap-highlight-color:transparent;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;border:0;color:inherit;cursor:pointer;font-size:inherit;opacity:.8;outline:none;padding:0;transition:opacity .2s linear}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:disabled,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:disabled,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:disabled,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:disabled{cursor:not-allowed;opacity:.15!important}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:hover,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:hover,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:hover,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:hover{opacity:1}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:active,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:active,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:hover:active,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:hover:active{opacity:.6}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:not(:disabled),body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:not(:disabled),body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:hover:not(:disabled),body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:hover:not(:disabled){transition:none}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev],body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button.bespoke-marp-presenter-info-page-prev{background:transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJNNjggOTAgMjggNTBsNDAtNDAiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next],body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button.bespoke-marp-presenter-info-page-next{background:transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJtMzIgOTAgNDAtNDAtNDAtNDAiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=fullscreen],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=fullscreen]{background:transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZGVmcz48c3R5bGU+LmF7ZmlsbDpub25lO3N0cm9rZTojZmZmO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6NXB4fTwvc3R5bGU+PC9kZWZzPjxyZWN0IGNsYXNzPSJhIiB4PSIxMCIgeT0iMjAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI2MCIgcng9IjUuNjciLz48cGF0aCBjbGFzcz0iYSIgZD0iTTQwIDcwSDIwVjUwbTIwIDBMMjAgNzBtNDAtNDBoMjB2MjBtLTIwIDAgMjAtMjAiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button.exit[data-bespoke-marp-osc=fullscreen],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button.exit[data-bespoke-marp-osc=fullscreen]{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZGVmcz48c3R5bGU+LmF7ZmlsbDpub25lO3N0cm9rZTojZmZmO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6NXB4fTwvc3R5bGU+PC9kZWZzPjxyZWN0IGNsYXNzPSJhIiB4PSIxMCIgeT0iMjAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI2MCIgcng9IjUuNjciLz48cGF0aCBjbGFzcz0iYSIgZD0iTTIwIDUwaDIwdjIwbS0yMCAwIDIwLTIwbTQwIDBINjBWMzBtMjAgMEw2MCA1MCIvPjwvc3ZnPg==")}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=presenter],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=presenter]{background:transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNODcuOCA0Ny41Qzg5IDUwIDg3LjcgNTIgODUgNTJIMzVhOC43IDguNyAwIDAgMS03LjItNC41bC0xNS42LTMxQzExIDE0IDEyLjIgMTIgMTUgMTJoNTBhOC44IDguOCAwIDAgMSA3LjIgNC41ek02MCA1MnYzNm0tMTAgMGgyME00NSA0MmgyMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iNSIvPjwvc3ZnPg==") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button.bespoke-marp-presenter-note-bigger{background:transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNMTIgNTBoODBNNTIgOTBWMTAiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjUiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button.bespoke-marp-presenter-note-smaller{background:transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNMTIgNTBoODAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjUiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}}.bespoke-marp-note,.bespoke-marp-osc,.bespoke-progress-parent{display:none;transition:none}@media screen{body,html{height:100%;margin:0}body{background:#000;overflow:hidden}svg.bespoke-marp-slide{content-visibility:hidden;opacity:0;pointer-events:none;z-index:-1}svg.bespoke-marp-slide.bespoke-marp-active{content-visibility:visible;opacity:1;pointer-events:auto;z-index:0}svg.bespoke-marp-slide.bespoke-marp-active.bespoke-marp-active-ready *{-webkit-animation-name:__bespoke_marp__!important;animation-name:__bespoke_marp__!important}@supports not (content-visibility:hidden){svg.bespoke-marp-slide[data-bespoke-marp-load=hideable]{display:none}svg.bespoke-marp-slide[data-bespoke-marp-load=hideable].bespoke-marp-active{display:block}}[data-bespoke-marp-fragment=inactive]{visibility:hidden}body[data-bespoke-view=""] .bespoke-marp-parent,body[data-bespoke-view=next] .bespoke-marp-parent{bottom:0;left:0;position:absolute;right:0;top:0}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc{background:rgba(0,0,0,.65);border-radius:7px;bottom:50px;color:#fff;contain:paint;display:block;font-family:Helvetica,Arial,sans-serif;font-size:16px;left:50%;line-height:0;opacity:1;padding:12px;position:absolute;touch-action:manipulation;transform:translateX(-50%);transition:opacity .2s linear;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;white-space:nowrap;will-change:transform;z-index:1}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>*,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>*{margin-left:6px}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>:first-child,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>:first-child{margin-left:0}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>span,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>span{opacity:.8}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>span[data-bespoke-marp-osc=page],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>span[data-bespoke-marp-osc=page]{display:inline-block;min-width:140px;text-align:center}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=fullscreen],body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next],body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=presenter],body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=fullscreen],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=presenter],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev]{height:32px;line-height:32px;width:32px}body[data-bespoke-view=""] .bespoke-marp-parent.bespoke-marp-inactive,body[data-bespoke-view=next] .bespoke-marp-parent.bespoke-marp-inactive{cursor:none}body[data-bespoke-view=""] .bespoke-marp-parent.bespoke-marp-inactive>.bespoke-marp-osc,body[data-bespoke-view=next] .bespoke-marp-parent.bespoke-marp-inactive>.bespoke-marp-osc{opacity:0;pointer-events:none}body[data-bespoke-view=""] svg.bespoke-marp-slide,body[data-bespoke-view=next] svg.bespoke-marp-slide{height:100%;left:0;position:absolute;top:0;width:100%}body[data-bespoke-view=""] .bespoke-progress-parent{background:#222;display:flex;height:5px;width:100%}body[data-bespoke-view=""] .bespoke-progress-parent+.bespoke-marp-parent{top:5px}body[data-bespoke-view=""] .bespoke-progress-parent .bespoke-progress-bar{background:#0288d1;flex:0 0 0;transition:flex-basis .2s cubic-bezier(0,1,1,1)}body[data-bespoke-view=next]{background:transparent}body[data-bespoke-view=presenter]{background:#161616}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container{display:grid;font-family:Helvetica,Arial,sans-serif;grid-template:"current dragbar next" minmax(140px,1fr) "current dragbar note" 2fr "info    dragbar note" 3em;grid-template-columns:minmax(3px,var(--bespoke-marp-presenter-split-ratio,66%)) 0 minmax(3px,1fr);height:100%;left:0;position:absolute;top:0;width:100%}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-parent{grid-area:current;overflow:hidden;position:relative}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-parent svg.bespoke-marp-slide{height:calc(100% - 40px);left:20px;pointer-events:none;position:absolute;top:20px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:calc(100% - 40px)}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-parent svg.bespoke-marp-slide.bespoke-marp-active{filter:drop-shadow(0 3px 10px rgba(0,0,0,.5))}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-dragbar-container{background:#0288d1;cursor:col-resize;grid-area:dragbar;margin-left:-3px;opacity:0;position:relative;transition:opacity .4s linear .1s;width:6px;z-index:10}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-dragbar-container:hover{opacity:1}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-dragbar-container.active{opacity:1;transition-delay:0s}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-next-container{background:#222;cursor:pointer;display:none;grid-area:next;overflow:hidden;position:relative}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-next-container.active{display:block}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-next-container iframe.bespoke-marp-presenter-next{background:transparent;border:0;display:block;filter:drop-shadow(0 3px 10px rgba(0,0,0,.5));height:calc(100% - 40px);left:20px;pointer-events:none;position:absolute;top:20px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:calc(100% - 40px)}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container{background:#222;color:#eee;grid-area:note;position:relative;z-index:1}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button{height:1.5em;line-height:1.5em;width:1.5em}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-wrapper{bottom:0;display:block;left:0;position:absolute;right:0;top:0}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-buttons{background:rgba(0,0,0,.65);border-radius:4px;bottom:0;display:flex;gap:4px;margin:12px;opacity:0;padding:6px;pointer-events:none;position:absolute;right:0;transition:opacity .2s linear}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-buttons:focus-within,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-wrapper:focus-within+.bespoke-marp-presenter-note-buttons,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container:hover .bespoke-marp-presenter-note-buttons{opacity:1;pointer-events:auto}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note{word-wrap:break-word;box-sizing:border-box;font-size:calc(1.1em*var(--bespoke-marp-note-font-scale, 1));height:calc(100% - 40px);margin:20px;overflow:auto;padding-right:3px;scrollbar-color:hsla(0,0%,93%,.5) transparent;scrollbar-width:thin;white-space:pre-wrap;width:calc(100% - 40px)}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note::-webkit-scrollbar{width:6px}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note::-webkit-scrollbar-track{background:transparent}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note::-webkit-scrollbar-thumb{background:hsla(0,0%,93%,.5);border-radius:6px}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note:empty{pointer-events:none}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note.active{display:block}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note p:first-child{margin-top:0}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note p:last-child{margin-bottom:0}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container{align-items:center;box-sizing:border-box;color:#eee;display:flex;flex-wrap:nowrap;grid-area:info;justify-content:center;overflow:hidden;padding:0 10px}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-time,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-timer{box-sizing:border-box;display:block;padding:0 10px;white-space:nowrap;width:100%}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button{height:1.5em;line-height:1.5em;width:1.5em}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page{order:2;text-align:center}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page .bespoke-marp-presenter-info-page-text{display:inline-block;min-width:120px;text-align:center}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-time{color:#999;order:1;text-align:left}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-timer{color:#999;order:3;text-align:right}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-timer:hover{cursor:pointer}}@media print{.bespoke-marp-presenter-info-container,.bespoke-marp-presenter-next-container,.bespoke-marp-presenter-note-container{display:none}}</style><style>div#p>svg>foreignObject>section{width:1280px;height:720px;box-sizing:border-box;overflow:hidden;position:relative;scroll-snap-align:center center}div#p>svg>foreignObject>section:after{bottom:0;content:attr(data-marpit-pagination);padding:inherit;pointer-events:none;position:absolute;right:0}div#p>svg>foreignObject>section:not([data-marpit-pagination]):after{display:none}/* Normalization */div#p>svg>foreignObject>section h1{font-size:2em;margin:0.67em 0}div#p>svg>foreignObject>section video::-webkit-media-controls{will-change:transform}@page{size:1280px 720px;margin:0}@media print{body,html{background-color:#fff;margin:0;page-break-inside:avoid;break-inside:avoid-page}div#p>svg>foreignObject>section{page-break-before:always;break-before:page}div#p>svg>foreignObject>section,div#p>svg>foreignObject>section *{-webkit-print-color-adjust:exact!important;animation-delay:0s!important;animation-duration:0s!important;color-adjust:exact!important;transition:none!important}div#p>svg[data-marpit-svg]{display:block;height:100vh;width:100vw}}div#p>svg>foreignObject>section svg[data-marp-fitting=svg]{display:block;height:auto;width:100%}@supports (-ms-ime-align:auto){div#p>svg>foreignObject>section svg[data-marp-fitting=svg]{position:static}}div#p>svg>foreignObject>section svg[data-marp-fitting=svg].__reflow__{content:""}@supports (-ms-ime-align:auto){div#p>svg>foreignObject>section svg[data-marp-fitting=svg].__reflow__{position:relative}}div#p>svg>foreignObject>section [data-marp-fitting-svg-content]{display:table;white-space:nowrap;width:-webkit-max-content;width:-moz-max-content;width:max-content}div#p>svg>foreignObject>section [data-marp-fitting-svg-content-wrap]{white-space:pre}div#p>svg>foreignObject>section img[data-marp-twemoji]{background:transparent;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em;width:1em}
+/*!
+ * Marp default theme.
+ *
+ * @theme default
+ * @author Yuki Hattori
+ *
+ * @auto-scaling true
+ * @size 16:9 1280px 720px
+ * @size 4:3 960px 720px
+ */div#p>svg>foreignObject>section{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;word-wrap:break-word;background-color:#fff;color:#24292f;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:16px;line-height:1.5;margin:0}div#p>svg>foreignObject>section{--marpit-root-font-size:16px}div#p>svg>foreignObject>section h1:hover .anchor .octicon-link:before,div#p>svg>foreignObject>section h2:hover .anchor .octicon-link:before,div#p>svg>foreignObject>section h3:hover .anchor .octicon-link:before,div#p>svg>foreignObject>section h4:hover .anchor .octicon-link:before,div#p>svg>foreignObject>section h5:hover .anchor .octicon-link:before,div#p>svg>foreignObject>section h6:hover .anchor .octicon-link:before{background-color:currentColor;content:" ";display:inline-block;height:16px;-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');width:16px}div#p>svg>foreignObject>section details,div#p>svg>foreignObject>section figcaption,div#p>svg>foreignObject>section figure{display:block}div#p>svg>foreignObject>section summary{display:list-item}div#p>svg>foreignObject>section [hidden]{display:none!important}div#p>svg>foreignObject>section a{background-color:transparent;color:#0969da;text-decoration:none}div#p>svg>foreignObject>section a:active,div#p>svg>foreignObject>section a:hover{outline-width:0}div#p>svg>foreignObject>section abbr[title]{border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}div#p>svg>foreignObject>section b,div#p>svg>foreignObject>section strong{font-weight:600}div#p>svg>foreignObject>section dfn{font-style:italic}div#p>svg>foreignObject>section h1{border-bottom:1px solid #d8dee4;font-size:2em;font-weight:600;margin:.67em 0;padding-bottom:.3em}div#p>svg>foreignObject>section mark{background-color:#fff8c5;color:#24292f}div#p>svg>foreignObject>section small{font-size:90%}div#p>svg>foreignObject>section sub,div#p>svg>foreignObject>section sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}div#p>svg>foreignObject>section sub{bottom:-.25em}div#p>svg>foreignObject>section sup{top:-.5em}div#p>svg>foreignObject>section img{background-color:#fff;border-style:none;box-sizing:content-box;max-width:100%}div#p>svg>foreignObject>section code,div#p>svg>foreignObject>section kbd,div#p>svg>foreignObject>section pre,div#p>svg>foreignObject>section samp{font-family:monospace,monospace;font-size:1em}div#p>svg>foreignObject>section figure{margin:1em 40px}div#p>svg>foreignObject>section hr{background:transparent;background-color:#d0d7de;border:0;box-sizing:content-box;height:.25em;margin:24px 0;overflow:hidden;padding:0}div#p>svg>foreignObject>section input{font:inherit;font-family:inherit;font-size:inherit;line-height:inherit;margin:0;overflow:visible}div#p>svg>foreignObject>section [type=button],div#p>svg>foreignObject>section [type=reset],div#p>svg>foreignObject>section [type=submit]{-webkit-appearance:button}div#p>svg>foreignObject>section [type=button]::-moz-focus-inner,div#p>svg>foreignObject>section [type=reset]::-moz-focus-inner,div#p>svg>foreignObject>section [type=submit]::-moz-focus-inner{border-style:none;padding:0}div#p>svg>foreignObject>section [type=button]:-moz-focusring,div#p>svg>foreignObject>section [type=reset]:-moz-focusring,div#p>svg>foreignObject>section [type=submit]:-moz-focusring{outline:1px dotted ButtonText}div#p>svg>foreignObject>section [type=checkbox],div#p>svg>foreignObject>section [type=radio]{box-sizing:border-box;padding:0}div#p>svg>foreignObject>section [type=number]::-webkit-inner-spin-button,div#p>svg>foreignObject>section [type=number]::-webkit-outer-spin-button{height:auto}div#p>svg>foreignObject>section [type=search]{-webkit-appearance:textfield;outline-offset:-2px}div#p>svg>foreignObject>section [type=search]::-webkit-search-cancel-button,div#p>svg>foreignObject>section [type=search]::-webkit-search-decoration{-webkit-appearance:none}div#p>svg>foreignObject>section ::-webkit-input-placeholder{color:inherit;opacity:.54}div#p>svg>foreignObject>section ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}div#p>svg>foreignObject>section a:hover{text-decoration:underline}div#p>svg>foreignObject>section hr:after,div#p>svg>foreignObject>section hr:before{content:"";display:table}div#p>svg>foreignObject>section hr:after{clear:both}div#p>svg>foreignObject>section table{border-collapse:collapse;border-spacing:0;display:block;max-width:100%;overflow:auto;width:-webkit-max-content;width:-moz-max-content;width:max-content}div#p>svg>foreignObject>section td,div#p>svg>foreignObject>section th{padding:0}div#p>svg>foreignObject>section details summary{cursor:pointer}div#p>svg>foreignObject>section details:not([open])>:not(summary){display:none!important}div#p>svg>foreignObject>section kbd{background-color:#f6f8fa;border:1px solid rgba(175,184,193,.2);border-radius:6px;box-shadow:inset 0 -1px 0 rgba(175,184,193,.2);color:#24292f;display:inline-block;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;padding:3px 5px;vertical-align:middle}div#p>svg>foreignObject>section h1,div#p>svg>foreignObject>section h2,div#p>svg>foreignObject>section h3,div#p>svg>foreignObject>section h4,div#p>svg>foreignObject>section h5,div#p>svg>foreignObject>section h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}div#p>svg>foreignObject>section h2{border-bottom:1px solid #d8dee4;font-size:1.5em;font-weight:600;padding-bottom:.3em}div#p>svg>foreignObject>section h3{font-size:1.25em;font-weight:600}div#p>svg>foreignObject>section h4{font-size:1em;font-weight:600}div#p>svg>foreignObject>section h5{font-size:.875em;font-weight:600}div#p>svg>foreignObject>section h6{color:#57606a;font-size:.85em;font-weight:600}div#p>svg>foreignObject>section p{margin-bottom:10px;margin-top:0}div#p>svg>foreignObject>section blockquote{border-left:.25em solid #d0d7de;color:#57606a;margin:0;padding:0 1em}div#p>svg>foreignObject>section ol,div#p>svg>foreignObject>section ul{margin-bottom:0;margin-top:0;padding-left:2em}div#p>svg>foreignObject>section ol ol,div#p>svg>foreignObject>section ul ol{list-style-type:lower-roman}div#p>svg>foreignObject>section ol ol ol,div#p>svg>foreignObject>section ol ul ol,div#p>svg>foreignObject>section ul ol ol,div#p>svg>foreignObject>section ul ul ol{list-style-type:lower-alpha}div#p>svg>foreignObject>section dd{margin-left:0}div#p>svg>foreignObject>section code,div#p>svg>foreignObject>section pre,div#p>svg>foreignObject>section tt{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px}div#p>svg>foreignObject>section pre{word-wrap:normal;margin-bottom:0;margin-top:0}div#p>svg>foreignObject>section .octicon{fill:currentColor;display:inline-block;overflow:visible!important;vertical-align:text-bottom}div#p>svg>foreignObject>section ::-moz-placeholder{color:#6e7781;opacity:1}div#p>svg>foreignObject>section :-ms-input-placeholder{color:#6e7781;opacity:1}div#p>svg>foreignObject>section ::placeholder{color:#6e7781;opacity:1}div#p>svg>foreignObject>section input::-webkit-inner-spin-button,div#p>svg>foreignObject>section input::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}div#p>svg>foreignObject>section .pl-c{color:#6e7781}div#p>svg>foreignObject>section .pl-c1,div#p>svg>foreignObject>section .pl-s .pl-v{color:#0550ae}div#p>svg>foreignObject>section .pl-e,div#p>svg>foreignObject>section .pl-en{color:#8250df}div#p>svg>foreignObject>section .pl-s .pl-s1,div#p>svg>foreignObject>section .pl-smi{color:#24292f}div#p>svg>foreignObject>section .pl-ent{color:#116329}div#p>svg>foreignObject>section .pl-k{color:#cf222e}div#p>svg>foreignObject>section .pl-pds,div#p>svg>foreignObject>section .pl-s,div#p>svg>foreignObject>section .pl-s .pl-pse .pl-s1,div#p>svg>foreignObject>section .pl-sr,div#p>svg>foreignObject>section .pl-sr .pl-cce,div#p>svg>foreignObject>section .pl-sr .pl-sra,div#p>svg>foreignObject>section .pl-sr .pl-sre{color:#0a3069}div#p>svg>foreignObject>section .pl-smw,div#p>svg>foreignObject>section .pl-v{color:#953800}div#p>svg>foreignObject>section .pl-bu{color:#82071e}div#p>svg>foreignObject>section .pl-ii{background-color:#82071e;color:#f6f8fa}div#p>svg>foreignObject>section .pl-c2{background-color:#cf222e;color:#f6f8fa}div#p>svg>foreignObject>section .pl-sr .pl-cce{color:#116329;font-weight:700}div#p>svg>foreignObject>section .pl-ml{color:#3b2300}div#p>svg>foreignObject>section .pl-mh,div#p>svg>foreignObject>section .pl-mh .pl-en,div#p>svg>foreignObject>section .pl-ms{color:#0550ae;font-weight:700}div#p>svg>foreignObject>section .pl-mi{color:#24292f;font-style:italic}div#p>svg>foreignObject>section .pl-mb{color:#24292f;font-weight:700}div#p>svg>foreignObject>section .pl-md{background-color:#ffebe9;color:#82071e}div#p>svg>foreignObject>section .pl-mi1{background-color:#dafbe1;color:#116329}div#p>svg>foreignObject>section .pl-mc{background-color:#ffd8b5;color:#953800}div#p>svg>foreignObject>section .pl-mi2{background-color:#0550ae;color:#eaeef2}div#p>svg>foreignObject>section .pl-mdr{color:#8250df;font-weight:700}div#p>svg>foreignObject>section .pl-ba{color:#57606a}div#p>svg>foreignObject>section .pl-sg{color:#8c959f}div#p>svg>foreignObject>section .pl-corl{color:#0a3069;text-decoration:underline}div#p>svg>foreignObject>section [data-catalyst]{display:block}div#p>svg>foreignObject>section g-emoji{font-family:Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-.075em}div#p>svg>foreignObject>section g-emoji img{height:1em;width:1em}div#p>svg>foreignObject>section:after,div#p>svg>foreignObject>section:before{
+  /* content:""; */display:table}div#p>svg>foreignObject>section:after{clear:both}div#p>svg>foreignObject>section>:first-child{margin-top:0!important}div#p>svg>foreignObject>section>:last-child{margin-bottom:0!important}div#p>svg>foreignObject>section a:not([href]){color:inherit;text-decoration:none}div#p>svg>foreignObject>section .absent{color:#cf222e}div#p>svg>foreignObject>section .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}div#p>svg>foreignObject>section .anchor:focus{outline:none}div#p>svg>foreignObject>section blockquote,div#p>svg>foreignObject>section details,div#p>svg>foreignObject>section dl,div#p>svg>foreignObject>section ol,div#p>svg>foreignObject>section p,div#p>svg>foreignObject>section pre,div#p>svg>foreignObject>section table,div#p>svg>foreignObject>section ul{margin-bottom:16px;margin-top:0}div#p>svg>foreignObject>section blockquote>:first-child{margin-top:0}div#p>svg>foreignObject>section blockquote>:last-child{margin-bottom:0}div#p>svg>foreignObject>section sup>a:before{content:"["}div#p>svg>foreignObject>section sup>a:after{content:"]"}div#p>svg>foreignObject>section h1 .octicon-link,div#p>svg>foreignObject>section h2 .octicon-link,div#p>svg>foreignObject>section h3 .octicon-link,div#p>svg>foreignObject>section h4 .octicon-link,div#p>svg>foreignObject>section h5 .octicon-link,div#p>svg>foreignObject>section h6 .octicon-link{color:#24292f;vertical-align:middle;visibility:hidden}div#p>svg>foreignObject>section h1:hover .anchor,div#p>svg>foreignObject>section h2:hover .anchor,div#p>svg>foreignObject>section h3:hover .anchor,div#p>svg>foreignObject>section h4:hover .anchor,div#p>svg>foreignObject>section h5:hover .anchor,div#p>svg>foreignObject>section h6:hover .anchor{text-decoration:none}div#p>svg>foreignObject>section h1:hover .anchor .octicon-link,div#p>svg>foreignObject>section h2:hover .anchor .octicon-link,div#p>svg>foreignObject>section h3:hover .anchor .octicon-link,div#p>svg>foreignObject>section h4:hover .anchor .octicon-link,div#p>svg>foreignObject>section h5:hover .anchor .octicon-link,div#p>svg>foreignObject>section h6:hover .anchor .octicon-link{visibility:visible}div#p>svg>foreignObject>section h1 code,div#p>svg>foreignObject>section h1 tt,div#p>svg>foreignObject>section h2 code,div#p>svg>foreignObject>section h2 tt,div#p>svg>foreignObject>section h3 code,div#p>svg>foreignObject>section h3 tt,div#p>svg>foreignObject>section h4 code,div#p>svg>foreignObject>section h4 tt,div#p>svg>foreignObject>section h5 code,div#p>svg>foreignObject>section h5 tt,div#p>svg>foreignObject>section h6 code,div#p>svg>foreignObject>section h6 tt{font-size:inherit;padding:0 .2em}div#p>svg>foreignObject>section ol.no-list,div#p>svg>foreignObject>section ul.no-list{list-style-type:none;padding:0}div#p>svg>foreignObject>section ol[type="1"]{list-style-type:decimal}div#p>svg>foreignObject>section ol[type=a]{list-style-type:lower-alpha}div#p>svg>foreignObject>section ol[type=i]{list-style-type:lower-roman}div#p>svg>foreignObject>section div>ol:not([type]){list-style-type:decimal}div#p>svg>foreignObject>section ol ol,div#p>svg>foreignObject>section ol ul,div#p>svg>foreignObject>section ul ol,div#p>svg>foreignObject>section ul ul{margin-bottom:0;margin-top:0}div#p>svg>foreignObject>section li>p{margin-top:16px}div#p>svg>foreignObject>section li+li{margin-top:.25em}div#p>svg>foreignObject>section dl{padding:0}div#p>svg>foreignObject>section dl dt{font-size:1em;font-style:italic;font-weight:600;margin-top:16px;padding:0}div#p>svg>foreignObject>section dl dd{margin-bottom:16px;padding:0 16px}div#p>svg>foreignObject>section table th{font-weight:600}div#p>svg>foreignObject>section table td,div#p>svg>foreignObject>section table th{border:1px solid #d0d7de;padding:6px 13px}div#p>svg>foreignObject>section table tr{background-color:#fff;border-top:1px solid #d8dee4}div#p>svg>foreignObject>section table tr:nth-child(2n){background-color:#f6f8fa}div#p>svg>foreignObject>section table img{background-color:transparent}div#p>svg>foreignObject>section img[align=right]{padding-left:20px}div#p>svg>foreignObject>section img[align=left]{padding-right:20px}div#p>svg>foreignObject>section .emoji{background-color:transparent;max-width:none;vertical-align:text-top}div#p>svg>foreignObject>section span.frame,div#p>svg>foreignObject>section span.frame>span{display:block;overflow:hidden}div#p>svg>foreignObject>section span.frame>span{border:1px solid #d0d7de;float:left;margin:13px 0 0;padding:7px;width:auto}div#p>svg>foreignObject>section span.frame span img{display:block;float:left}div#p>svg>foreignObject>section span.frame span span{clear:both;color:#24292f;display:block;padding:5px 0 0}div#p>svg>foreignObject>section span.align-center{clear:both;display:block;overflow:hidden}div#p>svg>foreignObject>section span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}div#p>svg>foreignObject>section span.align-center span img{margin:0 auto;text-align:center}div#p>svg>foreignObject>section span.align-right{clear:both;display:block;overflow:hidden}div#p>svg>foreignObject>section span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}div#p>svg>foreignObject>section span.align-right span img{margin:0;text-align:right}div#p>svg>foreignObject>section span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}div#p>svg>foreignObject>section span.float-left span{margin:13px 0 0}div#p>svg>foreignObject>section span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}div#p>svg>foreignObject>section span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}div#p>svg>foreignObject>section code,div#p>svg>foreignObject>section tt{background-color:rgba(175,184,193,.2);border-radius:6px;font-size:85%;margin:0;padding:.2em .4em}div#p>svg>foreignObject>section code br,div#p>svg>foreignObject>section tt br{display:none}div#p>svg>foreignObject>section del code{text-decoration:inherit}div#p>svg>foreignObject>section pre code{font-size:100%}div#p>svg>foreignObject>section pre>code{background:transparent;border:0;margin:0;padding:0;white-space:pre;word-break:normal}div#p>svg>foreignObject>section .highlight{margin-bottom:16px}div#p>svg>foreignObject>section .highlight pre{margin-bottom:0;word-break:normal}div#p>svg>foreignObject>section pre{background-color:#f6f8fa;border-radius:6px;font-size:85%;line-height:1.45;overflow:auto;padding:16px}div#p>svg>foreignObject>section pre code,div#p>svg>foreignObject>section pre tt{word-wrap:normal;background-color:transparent;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}div#p>svg>foreignObject>section .csv-data td,div#p>svg>foreignObject>section .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}div#p>svg>foreignObject>section .csv-data .blob-num{background:#fff;border:0;padding:10px 8px 9px;text-align:right}div#p>svg>foreignObject>section .csv-data tr{border-top:0}div#p>svg>foreignObject>section .csv-data th{background:#f6f8fa;border-top:0;font-weight:600}div#p>svg>foreignObject>section .footnotes{border-top:1px solid #d0d7de;color:#57606a;font-size:12px}div#p>svg>foreignObject>section div#p>svg>foreignObject>section section.footnotes{--marpit-root-font-size:12px}div#p>svg>foreignObject>section .footnotes ol{padding-left:16px}div#p>svg>foreignObject>section .footnotes li{position:relative}div#p>svg>foreignObject>section .footnotes li:target:before{border:2px solid #0969da;border-radius:6px;bottom:-8px;content:"";left:-24px;pointer-events:none;position:absolute;right:-8px;top:-8px}div#p>svg>foreignObject>section .footnotes li:target{color:#24292f}div#p>svg>foreignObject>section .footnotes .data-footnote-backref g-emoji{font-family:monospace}div#p>svg>foreignObject>section .task-list-item{list-style-type:none}div#p>svg>foreignObject>section .task-list-item label{font-weight:400}div#p>svg>foreignObject>section .task-list-item.enabled label{cursor:pointer}div#p>svg>foreignObject>section .task-list-item+.task-list-item{margin-top:3px}div#p>svg>foreignObject>section .task-list-item .handle{display:none}div#p>svg>foreignObject>section .task-list-item-checkbox{margin:0 .2em .25em -1.6em;vertical-align:middle}div#p>svg>foreignObject>section .contains-task-list:dir(rtl) .task-list-item-checkbox{margin:0 -1.6em .25em .2em}div#p>svg>foreignObject>section ::-webkit-calendar-picker-indicator{filter:invert(50%)}div#p>svg>foreignObject>section .hljs{background:#fff;color:#333;display:block;overflow-x:auto;padding:.5em}div#p>svg>foreignObject>section .hljs-comment,div#p>svg>foreignObject>section .hljs-meta{color:#969896}div#p>svg>foreignObject>section .hljs-emphasis,div#p>svg>foreignObject>section .hljs-quote,div#p>svg>foreignObject>section .hljs-strong,div#p>svg>foreignObject>section .hljs-template-variable,div#p>svg>foreignObject>section .hljs-variable{color:#df5000}div#p>svg>foreignObject>section .hljs-keyword,div#p>svg>foreignObject>section .hljs-selector-tag,div#p>svg>foreignObject>section .hljs-type{color:#d73a49}div#p>svg>foreignObject>section .hljs-attribute,div#p>svg>foreignObject>section .hljs-bullet,div#p>svg>foreignObject>section .hljs-literal,div#p>svg>foreignObject>section .hljs-symbol{color:#0086b3}div#p>svg>foreignObject>section .hljs-name,div#p>svg>foreignObject>section .hljs-section{color:#63a35c}div#p>svg>foreignObject>section .hljs-tag{color:#333}div#p>svg>foreignObject>section .hljs-attr,div#p>svg>foreignObject>section .hljs-selector-attr,div#p>svg>foreignObject>section .hljs-selector-class,div#p>svg>foreignObject>section .hljs-selector-id,div#p>svg>foreignObject>section .hljs-selector-pseudo,div#p>svg>foreignObject>section .hljs-title{color:#6f42c1}div#p>svg>foreignObject>section .hljs-addition{background-color:#eaffea;color:#55a532}div#p>svg>foreignObject>section .hljs-deletion{background-color:#ffecec;color:#bd2c00}div#p>svg>foreignObject>section .hljs-link{text-decoration:underline}div#p>svg>foreignObject>section .hljs-number{color:#005cc5}div#p>svg>foreignObject>section .hljs-string{color:#032f62}div#p>svg>foreignObject>section svg[data-marp-fitting=svg]{max-height:563px}div#p>svg>foreignObject>section h1{color:#246;font-size:1.6em}div#p>svg>foreignObject>section h1,div#p>svg>foreignObject>section h2{border-bottom:none}div#p>svg>foreignObject>section h2{font-size:1.3em}div#p>svg>foreignObject>section h3{font-size:1.1em}div#p>svg>foreignObject>section h4{font-size:1.05em}div#p>svg>foreignObject>section h5{font-size:1em}div#p>svg>foreignObject>section h6{font-size:.9em}div#p>svg>foreignObject>section h1 strong,div#p>svg>foreignObject>section h2 strong,div#p>svg>foreignObject>section h3 strong,div#p>svg>foreignObject>section h4 strong,div#p>svg>foreignObject>section h5 strong,div#p>svg>foreignObject>section h6 strong{color:#48c;font-weight:inherit}div#p>svg>foreignObject>section hr{height:0;padding-top:.25em}div#p>svg>foreignObject>section pre{border:1px solid #999;line-height:1.15;overflow:visible}div#p>svg>foreignObject>section pre code svg[data-marp-fitting=svg]{max-height:529px}div#p>svg>foreignObject>section footer,div#p>svg>foreignObject>section header{color:hsla(0,0%,40%,.75);font-size:18px;left:30px;margin:0;position:absolute}div#p>svg>foreignObject>section header{top:21px}div#p>svg>foreignObject>section footer{bottom:21px}div#p>svg>foreignObject>section{align-items:stretch;background:#fff;display:flex;flex-flow:column nowrap;font-size:29px;height:720px;justify-content:center;padding:78.5px;width:1280px}div#p>svg>foreignObject>section{--marpit-root-font-size:29px}div#p>svg>foreignObject>section>:last-child,div#p>svg>foreignObject>section[data-footer]>:nth-last-child(2){margin-bottom:0}div#p>svg>foreignObject>section>:first-child,div#p>svg>foreignObject>section>header:first-child+*{margin-top:0}div#p>svg>foreignObject>section:after{bottom:21px;color:#777;font-size:24px;padding:0;position:absolute;right:30px}div#p>svg>foreignObject>section:after{--marpit-root-font-size:24px}div#p>svg>foreignObject>section.invert{background-color:#222;color:#e6eaf0}div#p>svg>foreignObject>section.invert:after{color:#999}div#p>svg>foreignObject>section.invert img{background-color:transparent}div#p>svg>foreignObject>section.invert a{color:#50b3ff}div#p>svg>foreignObject>section.invert h1{color:#a3c5e7}div#p>svg>foreignObject>section.invert h2,div#p>svg>foreignObject>section.invert h3,div#p>svg>foreignObject>section.invert h4,div#p>svg>foreignObject>section.invert h5{color:#ebeff5}div#p>svg>foreignObject>section.invert blockquote,div#p>svg>foreignObject>section.invert h6{border-color:#3d3f43;color:#939699}div#p>svg>foreignObject>section.invert h1 strong,div#p>svg>foreignObject>section.invert h2 strong,div#p>svg>foreignObject>section.invert h3 strong,div#p>svg>foreignObject>section.invert h4 strong,div#p>svg>foreignObject>section.invert h5 strong,div#p>svg>foreignObject>section.invert h6 strong{color:#7bf}div#p>svg>foreignObject>section.invert hr{background-color:#3d3f43}div#p>svg>foreignObject>section.invert footer,div#p>svg>foreignObject>section.invert header{color:hsla(0,0%,60%,.75)}div#p>svg>foreignObject>section.invert code,div#p>svg>foreignObject>section.invert kbd{background-color:#111}div#p>svg>foreignObject>section.invert kbd{border-color:#666;box-shadow:inset 0 -1px 0 #555;color:#e6eaf0}div#p>svg>foreignObject>section.invert table tr{background-color:#12181d;border-color:#60657b}div#p>svg>foreignObject>section.invert table tr:nth-child(2n){background-color:#1b2024}div#p>svg>foreignObject>section.invert table td,div#p>svg>foreignObject>section.invert table th{border-color:#5b5e61}div#p>svg>foreignObject>section.invert pre{background-color:#0a0e12;border-color:#777}div#p>svg>foreignObject>section.invert pre code{background-color:transparent}div#p>svg>foreignObject>section[data-color] h1,div#p>svg>foreignObject>section[data-color] h2,div#p>svg>foreignObject>section[data-color] h3,div#p>svg>foreignObject>section[data-color] h4,div#p>svg>foreignObject>section[data-color] h5,div#p>svg>foreignObject>section[data-color] h6{color:currentcolor}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]{columns:initial!important;display:block!important;padding:0!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]:after,div#p>svg>foreignObject>section[data-marpit-advanced-background=background]:before,div#p>svg>foreignObject>section[data-marpit-advanced-background=content]:after,div#p>svg>foreignObject>section[data-marpit-advanced-background=content]:before{display:none!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]{all:initial;display:flex;flex-direction:row;height:100%;overflow:hidden;width:100%}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container][data-marpit-advanced-background-direction=vertical]{flex-direction:column}div#p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split]>div[data-marpit-advanced-background-container]{width:var(--marpit-advanced-background-split,50%)}div#p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split=right]>div[data-marpit-advanced-background-container]{margin-left:calc(100% - var(--marpit-advanced-background-split, 50%))}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure{all:initial;background-position:center;background-repeat:no-repeat;background-size:cover;flex:auto;margin:0}div#p>svg>foreignObject>section[data-marpit-advanced-background=content],div#p>svg>foreignObject>section[data-marpit-advanced-background=pseudo]{background:transparent!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=pseudo],div#p>svg[data-marpit-svg]>foreignObject[data-marpit-advanced-background=pseudo]{pointer-events:none!important}div#p>svg>foreignObject>section[data-marpit-advanced-background-split]{width:100%;height:100%}</style></head><body><div class="bespoke-marp-osc"><button data-bespoke-marp-osc="prev" tabindex="-1" title="Previous slide">Previous slide</button><span data-bespoke-marp-osc="page"></span><button data-bespoke-marp-osc="next" tabindex="-1" title="Next slide">Next slide</button><button data-bespoke-marp-osc="fullscreen" tabindex="-1" title="Toggle fullscreen (f)">Toggle fullscreen</button><button data-bespoke-marp-osc="presenter" tabindex="-1" title="Open presenter view (p)">Open presenter view</button></div><div id="p"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="1">
+<h1>Les Miserables</h1>
+<p>// TOC</p>
+<h2>ACT 1</h2>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2">
+<h3>PROLOGUE (WORK SONG)</h3>
+<p><strong>CHAIN GANG</strong></p>
+<p>Look down, look down</p>
+<p>Don’t look ’em in the eye</p>
+<p>Look down, look down</p>
+<p>You’re here until you die.</p>
+<p>The sun is strong</p>
+<p>It’s hot as hell below</p>
+<p>Look down, look down</p>
+<p>There’s twenty years to go.</p>
+<p>I’ve done no wrong</p>
+<p>Sweet Jesus, hear my prayer</p>
+<p>Look down, look down</p>
+<p>Sweet Jesus doesn’t care</p>
+<p>I know she’ll wait</p>
+<p>I know that she’ll be true</p>
+<p>Look down, look down</p>
+<p>They’ve all forgotten you</p>
+<p>When I get free</p>
+<p>You won’t see me</p>
+<p>Here for dust</p>
+<p>Look down, look down</p>
+<p>Don’t look ’em in the eye.</p>
+<p>How long, 0 Lord,</p>
+<p>Before you let me die?</p>
+<p>Look down, look down</p>
+<p>You’ll always be a slave</p>
+<p>Look down, look down,</p>
+<p>You’re standing in your grave.</p>
+<p><strong>JAVERT</strong></p>
+<p>Now bring me prisoner 24601</p>
+<p>Your time is up</p>
+<p>And your parole’s begun</p>
+<p>You know what that means,</p>
+<p><strong>VALJEAN</strong></p>
+<p>Yes, it means I’m free.</p>
+<p><strong>JAVERT</strong></p>
+<p>No! It means You get</p>
+<p>Your yellow ticket-of-leave</p>
+<p>You are a thief.</p>
+<p><strong>VALJEAN</strong></p>
+<p>I stole a loaf of bread.</p>
+<p><strong>JAVERT</strong></p>
+<p>You robbed a house.</p>
+<p><strong>VALJEAN</strong></p>
+<p>I broke a window pane.</p>
+<p>My sister’s child was close to death</p>
+<p>And we were starving.</p>
+<p><strong>JAVERT</strong></p>
+<p>You will starve again</p>
+<p>Unless you learn the meaning of the law.</p>
+<p><strong>VALJEAN</strong></p>
+<p>I know the meaning of those 19 years</p>
+<p>A slave of the law.</p>
+<p><strong>JAVERT</strong></p>
+<p>Five years for what you did</p>
+<p>The rest because you tried to run</p>
+<p>Yes, 24601.</p>
+<p><strong>VALJEAN</strong></p>
+<p>My name is Jean Valjean.</p>
+<p><strong>JAVERT</strong></p>
+<p>And I’m Javert</p>
+<p>Do not forget my name</p>
+<p>Do not forget me</p>
+<ol start="24601">
+<li></li>
+</ol>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3">
+<h3>ON PAROLE / THE BISHOP</h3>
+<p><strong>VALJEAN</strong></p>
+<p>Freedom is mine. The earth is still.</p>
+<p>I feel the wind. I breathe again</p>
+<p>And the sky clears</p>
+<p>The world is waking</p>
+<p>Drink from the pool. How clean the taste</p>
+<p>Never forget the years, the waste</p>
+<p>Nor forgive them</p>
+<p>For what they’ve done</p>
+<p>They are the guilty—every one</p>
+<p>The day begins</p>
+<p>And now let’s see</p>
+<p>What this new world</p>
+<p>Will do for me</p>
+<p><strong>EMPLOYER</strong></p>
+<p>You’ll have to go</p>
+<p>I’ll pay you off for the day</p>
+<p>Collect your bits and pieces there</p>
+<p>And be on your way</p>
+<p><strong>VALJEAN</strong></p>
+<p>You have given me half</p>
+<p>What the other men get</p>
+<p>This handful of tin</p>
+<p>Wouldn’t buy my sweat</p>
+<p><strong>LABORER</strong></p>
+<p>You’ve broke the law</p>
+<p>It’s there for people to see</p>
+<p>Why should you get the same</p>
+<p>As honest men like me.</p>
+<p><strong>VALJEAN</strong></p>
+<p>And now I know how freedom feels</p>
+<p>The jailer always at your heels.</p>
+<p>It is the law</p>
+<p>This piece of paper in my hand</p>
+<p>That makes me cast throughout the land.</p>
+<p>It is the law</p>
+<p>Like a cur</p>
+<p>I walk the street</p>
+<p>The dirt beneath their feet.</p>
+<p><strong>BISHOP</strong></p>
+<p>Come in, Sir, for you are weary</p>
+<p>And the night is cold out there</p>
+<p>Though our lives are very humble</p>
+<p>What we have we have to share</p>
+<p>There is wine here to revive you</p>
+<p>There is bread to make you strong</p>
+<p>There’s a bed to rest till morning</p>
+<p>Rest from pain, and rest from wrong</p>
+<p><strong>VALJEAN</strong></p>
+<p>He let me eat my fill</p>
+<p>I have the lion’s share</p>
+<p>The silver in my hand</p>
+<p>Cost twice what I had earned</p>
+<p>In all those nineteen years</p>
+<p>That lifetime of despair</p>
+<p>And yet he trusted me</p>
+<p>The old fool trusted me</p>
+<p>He’d done his bit of good</p>
+<p>I played the grateful serf</p>
+<p>And thanked him like I should</p>
+<p>And when the house was still</p>
+<p>I got up in the night</p>
+<p>Took the silver</p>
+<p>Took my flight!</p>
+<p><strong>CONSTABLES</strong></p>
+<p>Tell His Reverence your story.</p>
+<p>Let us see if he’s impressed.</p>
+<p>You were lodging here last night.</p>
+<p>You were the honest Bishop’s guest.</p>
+<p>And then, out of Christian goodness.</p>
+<p>When he learned about your plight</p>
+<p>You maintain he made a present of this silver</p>
+<p><strong>BISHOP</strong></p>
+<p>That is right.</p>
+<p>But my friend, you left so early</p>
+<p>Surely something slipped your mind.</p>
+<p>You forgot I gave these also</p>
+<p>Would you leave the best behind?</p>
+<p>So, Messieurs, you may release him</p>
+<p>For this man has spoken true.</p>
+<p>I commend you for your duty</p>
+<p>And God’s blessing go with you.</p>
+<p>But remember this, my brother</p>
+<p>See in this some higher plan.</p>
+<p>You must use this precious silver</p>
+<p>To become an honest man.</p>
+<p>By the witness of the martyrs</p>
+<p>By the Passion and the Blood</p>
+<p>God has raised you out of darkness</p>
+<p>I have bought your soul for God!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4">
+<h3>VALJEAN’S SOLILOQUY</h3>
+<p><strong>VALJEAN</strong></p>
+<p>What have I done?</p>
+<p>Sweet Jesus, what have I done?</p>
+<p>Become a thief in the night!</p>
+<p>Become a dog on the run!</p>
+<p>And have I fallen so far</p>
+<p>And is the hour so late</p>
+<p>That nothing remains but the cry of my hate,</p>
+<p>The cries in the dark that nobody hears</p>
+<p>Here where I stand at the turning of the years?</p>
+<p>If there’s another way to go</p>
+<p>I missed it twenty long years ago.</p>
+<p>My life was a war that could never be won</p>
+<p>They gave me a number and murdered Valjean</p>
+<p>When they chained Me and left me for dead</p>
+<p>Just for stealing a mouthful of bread.</p>
+<p>Yet why did I allow this man</p>
+<p>To touch my soul and teach me love?</p>
+<p>He treated me like any other.</p>
+<p>He gave me his trust.</p>
+<p>He called me Brother.</p>
+<p>My life he claims for God above.</p>
+<p>Can such things be?</p>
+<p>For I had come to hate the world.</p>
+<p>This world that always hated me!</p>
+<p>Take an eye for an eye.</p>
+<p>Turn your heart into stone.</p>
+<p>This is all I have lived for.</p>
+<p>This is all I have known.</p>
+<p>One word from him and I’d be back</p>
+<p>Beneath the lash, upon the rack.</p>
+<p>Instead, he offers me my freedom.</p>
+<p>I feel my shame inside me like a knife.</p>
+<p>He told me that I have a soul.</p>
+<p>How does he know?</p>
+<p>What spirit comes to move my life?</p>
+<p>Is there another way to go?</p>
+<p>I am reaching, but I fall,</p>
+<p>And the night is closing in,</p>
+<p>And I stare into the void —</p>
+<p>To the whirlpool of my sin.</p>
+<p>I’ll escape now from the world</p>
+<p>From the world of Jean Valjean</p>
+<p>Jean Valjean is nothing now.</p>
+<p>Another story must begin!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5">
+<h3>AT THE END OF THE DAY</h3>
+<p><strong>THE POOR</strong></p>
+<p>At the end of the day you’re another day older</p>
+<p>And that’s all you can I say for the life of the poor</p>
+<p>It’s a struggle, it’s a war</p>
+<p>And there’s nothing that anyone’s giving</p>
+<p>One more day standing about</p>
+<p>What is it for?</p>
+<p>One day less to be living!</p>
+<p>At the end of the day you’re another day colder</p>
+<p>And the shirt on your back doesn’t keep out the chill</p>
+<p>And the righteous hurry past</p>
+<p>They don’t hear the little ones crying</p>
+<p>And the winter is coming on fast</p>
+<p>Ready to kill</p>
+<p>One day nearer to dying!</p>
+<p>At the end of the day there’s another day dawning</p>
+<p>And the sun in the morning is waiting to rise</p>
+<p>Like the waves crash on the sand</p>
+<p>Like a storm that’ll break any second</p>
+<p>There’s a hunger in the land</p>
+<p>There’s a reckoning still to be reckoned and</p>
+<p>There’s gonna be hell to pay</p>
+<p>At the end of the day!</p>
+<p><strong>FOREMAN</strong></p>
+<p>At the end of the day you get nothing for nothing</p>
+<p>Sitting flat on your butt doesn’t buy any bread.</p>
+<p><strong>WORKERS</strong></p>
+<p>There are children back at home</p>
+<p>And the children have got to be fed</p>
+<p>And you’re lucky to be in a job</p>
+<p>And in a bed</p>
+<p>And we’re counting our blessings!</p>
+<p><strong>WOMEN</strong></p>
+<p>Have you seen how the foreman is fuming today</p>
+<p>With his terrible breath and his wandering hands?</p>
+<p>It’s because little Fantine won’t give him his way</p>
+<p>Take a look at his trousers, you see where he stands!</p>
+<p><strong>WORKERS</strong></p>
+<p>At the end of the day it’s another day over</p>
+<p>With enough in your pocket to last for a week</p>
+<p>Pay the landlord, pay the shop</p>
+<p>Keep on grafting as long as you’re able</p>
+<p>Keep on grafting till you drop</p>
+<p>Or it’s back to the crumbs off the table</p>
+<p>You’ve got to pay your way</p>
+<p>At the end of the day!</p>
+<p><strong>GIRL</strong></p>
+<p>And what have we here, little innocent sister?</p>
+<p>Come on Fantine let’s have all the news</p>
+<p>“Ooh…dear Fantine, you must send us more money …</p>
+<p>your child needs a doctor … There’s no time to lose … &quot;</p>
+<p><strong>FANTINE</strong></p>
+<p>Give that letter to me</p>
+<p>It is none of your business</p>
+<p>With a husband at home</p>
+<p>And a bit on the side</p>
+<p>Is there anyone here</p>
+<p>Who can swear before God</p>
+<p>She has nothing to fear</p>
+<p>She has nothing to hide?</p>
+<p><strong>VALJEAN</strong></p>
+<p>What is this fighting all about?</p>
+<p>Will someone tear these two apart</p>
+<p>This is a factory, not a circus.</p>
+<p>Now, come on ladies, settle down</p>
+<p>I run a business of repute</p>
+<p>I am the Mayor of this town</p>
+<p>I look to you to sort this out</p>
+<p>And be as patient as you can.</p>
+<p><strong>FOREMAN</strong></p>
+<p>Now someone say how this began!</p>
+<p><strong>GIRL</strong></p>
+<p>At the end of the day</p>
+<p>She’s the one who began it,</p>
+<p>There’s a kid that she’s hiding</p>
+<p>In some little town.</p>
+<p>There’s a man she has to pay</p>
+<p>You can guess how she picks up the extra.</p>
+<p>You can bet she’s earning her keep</p>
+<p>Sleeping around</p>
+<p>And the boss wouldn’t like it!</p>
+<p><strong>FANTINE</strong></p>
+<p>Yes it’s true there’s a child</p>
+<p>And the child is my daughter</p>
+<p>And her father abandoned us</p>
+<p>Leaving us flat.</p>
+<p>Now she lives with an innkeeper man</p>
+<p>And his wife</p>
+<p>And I pay for the child.</p>
+<p>What’s the matter with that?</p>
+<p><strong>WOMEN</strong></p>
+<p>At the end of the day</p>
+<p>She’ll be nothing but trouble</p>
+<p>And there’s trouble for all</p>
+<p>When there’s trouble for one!</p>
+<p>While we’re earning our daily bread</p>
+<p>She’s the one with her hands in the butter</p>
+<p>You must send the slut away</p>
+<p>Or we’re all gonna end in the gutter</p>
+<p>And it’s us who’ll have to pay</p>
+<p>At the end of the day!</p>
+<p><strong>FOREMAN</strong></p>
+<p>I might have known the bitch could bite</p>
+<p>I might have known the cat had claws</p>
+<p>I might have guessed your little secret.</p>
+<p>Ah yes, the virtuous Fantine</p>
+<p>Who keeps herself so pure and clean</p>
+<p>You’d be the cause, I had no doubt</p>
+<p>Of any trouble hereabout</p>
+<p>You play a virgin in the light</p>
+<p>But need no urgin’ in the night!</p>
+<p><strong>GIRL</strong></p>
+<p>She’s been laughing at you</p>
+<p>While she’s having her men.</p>
+<p><strong>WOMEN</strong></p>
+<p>She’ll be nothing but trouble again and again.</p>
+<p><strong>WOMAN</strong></p>
+<p>You must sack her today.</p>
+<p><strong>ALL WORKERS</strong></p>
+<p>Sack the girl today</p>
+<p><strong>FOREMAN</strong></p>
+<p>Right my girl. On your way!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6">
+<h3>I DREAMED A DREAM</h3>
+<p><strong>FANTINE</strong></p>
+<p>There was time when men were kind.</p>
+<p>When their voices were soft</p>
+<p>And their words inviting.</p>
+<p>There was a time when love was blind</p>
+<p>And the world was a song</p>
+<p>And the song was exciting.</p>
+<p>There was a time.</p>
+<p>Then it all went wrong.</p>
+<p>I dreamed a dream in time gone by</p>
+<p>When hope was high</p>
+<p>And life worth living</p>
+<p>I dreamed that love would never die</p>
+<p>I dreamed that God would be forgiving.</p>
+<p>Then I was young and unafraid</p>
+<p>And dreams were made and used</p>
+<p>And wasted</p>
+<p>There was no ransom to be paid</p>
+<p>No song unsung</p>
+<p>No wine untasted.</p>
+<p>But the tigers come at night</p>
+<p>With their voices soft as thunder</p>
+<p>As they tear your hope apart</p>
+<p>As they turn your dream to shame.</p>
+<p>He slept a summer by my side</p>
+<p>He filled my days</p>
+<p>With endless wonder</p>
+<p>He took my childhood in his stride</p>
+<p>But he was gone when autumn came.</p>
+<p>And still I dream he’ll come to me</p>
+<p>That we will live the years together</p>
+<p>But there are dreams that cannot be</p>
+<p>And there are storms</p>
+<p>We cannot weather . . .</p>
+<p>I had a dream my life would be</p>
+<p>So different from this hell I’m living</p>
+<p>So different now from what it seemed</p>
+<p>Now life has killed</p>
+<p>The dream I dreamed.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7">
+<h3>LOVELY LADIES</h3>
+<p><strong>SAILORS</strong></p>
+<p>I smell women</p>
+<p>Smell ’em in the air.</p>
+<p>Think I’ll drop my anchor</p>
+<p>In that harbor over there.</p>
+<p>Lovely ladies</p>
+<p>Smell ’em through the smoke</p>
+<p>Seven days at sea</p>
+<p>Can make you hungry for a poke.</p>
+<p>Even stokers need a little stoke!</p>
+<p><strong>WHORE</strong></p>
+<p>Lovely ladies</p>
+<p>Waiting for a bite</p>
+<p>Waiting for the customers</p>
+<p>Who only come at night</p>
+<p>Lovely ladies</p>
+<p>Ready for the call</p>
+<p>Standing up or lying down</p>
+<p>Or any way at all.</p>
+<p>Bargain prices up against the wall,</p>
+<p><strong>CRONE</strong></p>
+<p>What pretty hair!</p>
+<p>What pretty locks you got there.</p>
+<p>What luck you got. It’s worth a centime, my dear</p>
+<p>I’ll take the lot.</p>
+<p><strong>FANTINE</strong></p>
+<p>Don’t touch me. Leave me alone.</p>
+<p><strong>CRONE</strong></p>
+<p>Let’s make a price. I’ll give you all of ten francs.</p>
+<p>Just think of that!</p>
+<p><strong>FANTINE</strong></p>
+<p>It pays a debt.</p>
+<p><strong>CRONE</strong></p>
+<p>Just think of that!</p>
+<p><strong>FANTINE</strong></p>
+<p>What can I do? It pays a debt</p>
+<p>Ten francs may save my poor Cosette!</p>
+<p><strong>WHORES</strong></p>
+<p>Old men, young men, take ’em as they come,</p>
+<p>Harbor rats and alley cats and every kind of scum.</p>
+<p>Poor men, rich men, leaders of the land,</p>
+<p>See them with their trousers off they’re never quite as grand</p>
+<p>All it takes is money in your hand!</p>
+<p>Lovely ladies</p>
+<p>Going for a song</p>
+<p>Got a lot of callers</p>
+<p>But they never stay for long.</p>
+<p><strong>FANTINE</strong></p>
+<p>Come on, Captain, you can wear your shoes</p>
+<p>Don’t it make a change</p>
+<p>To have a girl who can’t refuse?</p>
+<p>Easy money</p>
+<p>Lying on a bed.</p>
+<p>Just is well they never see the hate</p>
+<p>That’s in your head!</p>
+<p>Don’t they know</p>
+<p>They’re making love to one already dead!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8">
+<h3>FANTINE’S ARREST</h3>
+<p><strong>SAILOR</strong></p>
+<p>Here’s something new, I think I’ll give it a try</p>
+<p>Come closer, you!</p>
+<p>I like to see what I buy…</p>
+<p>The usual price</p>
+<p>For just one slice of your pie</p>
+<p><strong>FANTINE</strong></p>
+<p>I don’t want you</p>
+<p>No, no M’sieur let me go</p>
+<p><strong>SAILOR</strong></p>
+<p>Is this a trick? I won’t pay more!</p>
+<p><strong>FANTINE</strong></p>
+<p>No, no, not at all</p>
+<p><strong>SAILOR</strong></p>
+<p>You’ve got some nerve, you little whore</p>
+<p>You’ve got some gall.</p>
+<p>It’s the same with a tart</p>
+<p>As it is with a grocer—</p>
+<p>The customer sees what he gets in advance</p>
+<p>It’s not for the whore to say ‘yes sir’ or ’no sir’</p>
+<p>It’s not for the harlot to pick or to choose or to lead in the dance</p>
+<p><strong>FANTINE</strong></p>
+<p>I’ll kill you, you bastard</p>
+<p>Try any of that!</p>
+<p>Even a whore who has gone to the bird</p>
+<p>Won’t be had by a rat</p>
+<p><strong>JAVERT</strong></p>
+<p>Tell me quickly what’s the story?</p>
+<p>Who saw what, and why, and where?</p>
+<p>Let him a give a full description</p>
+<p>Let him answer to Javert!</p>
+<p>In this nest of whores and vipers</p>
+<p>Let one speak who saw it all</p>
+<p>Who laid hands on this good man here?</p>
+<p>What’s the substance of this brawl?</p>
+<p><strong>SAILOR</strong></p>
+<p>Javert, would you believe it—</p>
+<p>I was crossing from the park</p>
+<p>When this prostitute attacked me</p>
+<p>You can see she left her mark</p>
+<p><strong>JAVERT</strong></p>
+<p>She will answer for her actions</p>
+<p>When you make a full report</p>
+<p>You may rest assured, M’sieur</p>
+<p>That she will answer to the court</p>
+<p><strong>FANTINE</strong></p>
+<p>There’s a child who sorely needs me</p>
+<p>Please, M’sieur, she’s but ’that high’</p>
+<p>Holy God, is there no mercy?</p>
+<p>If I go to jail she’ll die!</p>
+<p><strong>JAVERT</strong></p>
+<p>I have heard such protestations</p>
+<p>Every day for twenty years</p>
+<p>Let’s have no more explanations</p>
+<p>Save your breath, and save your tears’ honest work.</p>
+<p>Just reward.</p>
+<p>That’s the way to please the lord.</p>
+<p><strong>VALJEAN</strong></p>
+<p>A moment of your time, Javert</p>
+<p>I do believe this woman’s tale</p>
+<p><strong>JAVERT</strong></p>
+<p>But M’sieur Mayor!</p>
+<p><strong>VALJEAN</strong></p>
+<p>You’ve done your duty, let her be</p>
+<p>She needs a doctor, not a jail</p>
+<p><strong>JAVERT</strong></p>
+<p>But M’sieur Mayor</p>
+<p><strong>VALJEAN</strong></p>
+<p>Where will she end</p>
+<p>This child without a friend?</p>
+<p>I’ve seen your face before</p>
+<p>Show me some way to help you</p>
+<p>How have you come to grief</p>
+<p>In such a place as this?</p>
+<p><strong>FANTINE</strong></p>
+<p>M’sieur, don’t mock me now I pray</p>
+<p>It’s hard enough, I’ve lost my pride</p>
+<p>You let your foreman send me away</p>
+<p>Yes you were there and turned aside</p>
+<p>I never did no wrong!</p>
+<p><strong>VALJEAN</strong></p>
+<p>Is it true what I’ve done?</p>
+<p><strong>FANTINE</strong></p>
+<p>My daughter’s close to dying…</p>
+<p><strong>VALJEAN</strong></p>
+<p>To an innocent soul?</p>
+<p><strong>FANTINE</strong></p>
+<p>If there’s a god above</p>
+<p><strong>VALJEAN</strong></p>
+<p>Had I only known then…</p>
+<p><strong>FANTINE</strong></p>
+<p>He’d let me die instead</p>
+<p><strong>VALJEAN</strong></p>
+<p>In his name my task has just begun. I will see it done</p>
+<p><strong>JAVERT</strong></p>
+<p>But M’sieur Mayor</p>
+<p><strong>VALJEAN</strong></p>
+<p>I will see it done</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9">
+<h3>THE RUNAWAY CART</h3>
+<p><strong>JAVERT</strong></p>
+<p>Can this be true?</p>
+<p>I don’t believe what I see</p>
+<p>A man your age</p>
+<p>To be as strong as you are</p>
+<p>A mem’ry stirs</p>
+<p>You make me think of a man</p>
+<p>From years ago</p>
+<p>A man who broke his parole</p>
+<p>He disappeared</p>
+<p>Forgive me, sir</p>
+<p>I would not dare</p>
+<p><strong>VALJEAN</strong></p>
+<p>Say what you must</p>
+<p>Don’t leave it there</p>
+<p><strong>JAVERT</strong></p>
+<p>I have only known one other</p>
+<p>Who can do what you have done</p>
+<p>He’s a convict from the chain gang</p>
+<p>He’s been ten years on the run</p>
+<p>But he couldn’t run forever</p>
+<p>We have found his hide-away</p>
+<p>And he’s just been rearrested</p>
+<p>And he comes to court today</p>
+<p>But, of course, he now denies it—</p>
+<p>You’d expect that of a ‘con’</p>
+<p>But he couldn’t run forever</p>
+<p>No, not even Jean Valjean!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10">
+<h3>WHO AM I? — THE TRIAL</h3>
+<p><strong>VALJEAN</strong></p>
+<p>He thinks that man is me</p>
+<p>He knew him at a glance!</p>
+<p>That stranger he has found</p>
+<p>This man could be my chance!</p>
+<p>Why should I save his hide?</p>
+<p>Why should I right this wrong</p>
+<p>When I have come so far</p>
+<p>And struggled for so long?</p>
+<p>If I speak, I am condemned</p>
+<p>If I stay silent, I am damned!</p>
+<p>I am the master of hundreds of workers.</p>
+<p>They all look to me.</p>
+<p>Can I abandon them?</p>
+<p>How would they live</p>
+<p>If I am not free</p>
+<p>If I speak, I am condemned.</p>
+<p>If I stay silent, I am damned!</p>
+<p>Who am I?</p>
+<p>Can I condemn this man to slavery?</p>
+<p>Pretend I do not see his agony?</p>
+<p>This innocent who bears my face</p>
+<p>Who goes to judgment in my place.</p>
+<p>Who am I?</p>
+<p>Can I conceal myself for evermore?</p>
+<p>Pretend I’m not the man I was before?</p>
+<p>And must my name until I die</p>
+<p>Be no more than an alibi?</p>
+<p>Must I lie?</p>
+<p>How can I ever face my fellow men?</p>
+<p>How can I ever face myself again?</p>
+<p>My soul belongs to God, I know</p>
+<p>I made that bargain long ago</p>
+<p>He gave me hope when hope was gone</p>
+<p>He gave me strength to journey on</p>
+<p>Who am I? Who am I?</p>
+<p>I am Jean Valjean!</p>
+<p>And so, Javert, you see it’s true</p>
+<p>That man bears no more guilt than you!</p>
+<p>Who am I?</p>
+<p>24601!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11">
+<h3>FANTINE’S DEATH</h3>
+<p><strong>FANTINE</strong></p>
+<p>Cosette, it’s turned so cold</p>
+<p>Cosette, it’s past your bed time!</p>
+<p>You’ve played the day away</p>
+<p>And soon it will be night.</p>
+<p>Come to me. Cosette, the light is fading</p>
+<p>Don’t you see the evening star appearing?</p>
+<p>Come to me and rest against my shoulder</p>
+<p>How fast the minutes fly away and every minute colder.</p>
+<p>Hurry near, another day is dying</p>
+<p>Don’t you hear the winter wind is crying?</p>
+<p>There’s a darkness which comes without a warning</p>
+<p>But I will sing you lullabies and wake you in the morning.</p>
+<p><strong>VALJEAN</strong></p>
+<p>Oh, Fantine, our time is running out</p>
+<p>But, Fantine, I swear this on my life.</p>
+<p><strong>FANTINE</strong></p>
+<p>Look, M’sieur, where all the children play.</p>
+<p><strong>VALJEAN</strong></p>
+<p>Be at peace, be at peace evermore.</p>
+<p><strong>FANTINE</strong></p>
+<p>My Cosette …</p>
+<p><strong>VALJEAN</strong></p>
+<p>Shall live in my protection.</p>
+<p><strong>FANTINE</strong></p>
+<p>Take her now</p>
+<p><strong>VALJEAN</strong></p>
+<p>Your child will want for nothing.</p>
+<p><strong>FANTINE</strong></p>
+<p>Good M’sieur, you come from God in heaven.</p>
+<p><strong>VALJEAN</strong></p>
+<p>And none will ever harm Cosette</p>
+<p>As long as I am living.</p>
+<p><strong>FANTINE</strong></p>
+<p>Take my hand</p>
+<p>The night grows ever colder.</p>
+<p><strong>VALJEAN</strong></p>
+<p>Then I will keep you warm.</p>
+<p><strong>FANTINE</strong></p>
+<p>Take my child</p>
+<p>I give her to your keeping.</p>
+<p><strong>VALJEAN</strong></p>
+<p>Take shelter from the storm.</p>
+<p><strong>FANTINE</strong></p>
+<p>For God’s sake, please stay till I am sleeping</p>
+<p>And tell Cosette I love her</p>
+<p>And I’ll see her when I wake …</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12">
+<h3>THE CONFRONTATION</h3>
+<p><strong>JAVERT</strong></p>
+<p>Valjean, at last.</p>
+<p>We see each other plain</p>
+<p>‘M’sieur le Mayor’.</p>
+<p>You’ll wear a different chain!</p>
+<p><strong>VALJEAN</strong></p>
+<p>Before you say another word, Javert</p>
+<p>Before you chain me up like a slave again</p>
+<p>Listen to me. There is something I must do.</p>
+<p>This woman leaves behind a suffering child.</p>
+<p>There is none but me who can intercede.</p>
+<p>In mercy’s name, three days are all I need</p>
+<p>Then I’ll return. I pledge my word.</p>
+<p>Then I’ll return . . .</p>
+<p><strong>JAVERT</strong></p>
+<p>You must think me mad!</p>
+<p>I’ve hunted you across the years.</p>
+<p>Men like you can never change.</p>
+<p>A man such as you.</p>
+<p><strong>VALJEAN</strong></p>
+<p>Believe of me what you will</p>
+<p>There is a duty that I’m sworn to do</p>
+<p>You know nothing of my life</p>
+<p>All I did was steal some bread</p>
+<p>You know nothing of the world</p>
+<p>You would sooner see me dead</p>
+<p>But not before I see this justice done.</p>
+<p>I am warning you, Javert</p>
+<p>I’m a stronger man by far</p>
+<p>There is power in me yet</p>
+<p>My race is not yet run</p>
+<p>I am warning you, Javert</p>
+<p>There is nothing I won’t dare</p>
+<p>If I have to kill you here.</p>
+<p>I’ll do what must be done</p>
+<p><strong>JAVERT</strong></p>
+<p>Men like me can never change.</p>
+<p>Men like you can never change.</p>
+<p>No. 24601</p>
+<p>My duty’s to the law</p>
+<p>You have no rights</p>
+<p>Come with me. 24601</p>
+<p>Now the wheel has turned around</p>
+<p>Jean Valjean is nothing now</p>
+<p>Dare you talk to me of crime</p>
+<p>And the price you had to pay</p>
+<p>Every man is born in sin</p>
+<p>Every man must choose his way</p>
+<p>You know nothing of Javert</p>
+<p>I was born inside a jail</p>
+<p>I was born with scum like you</p>
+<p>I am from the gutter too.</p>
+<p><strong>VALJEAN</strong></p>
+<p>And this I swear to you tonight</p>
+<p><strong>JAVERT</strong></p>
+<p>There is no place for you to hide.</p>
+<p><strong>VALJEAN</strong></p>
+<p>Your child will live within my care.</p>
+<p><strong>JAVERT</strong></p>
+<p>Wherever you may hide away.</p>
+<p><strong>VALJEAN</strong></p>
+<p>And I will raise her to the light.</p>
+<p><strong>VALJEAN &amp; JAVERT</strong></p>
+<p>I swear to you. I will be there!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="13">
+<h3>CASTLE ON A CLOUD</h3>
+<p><strong>YOUNG COSETTE</strong></p>
+<p>There is a castle on a cloud</p>
+<p>I like to go there in my sleep</p>
+<p>Aren’t any floors for me to sweep</p>
+<p>Not in my castle on a cloud.</p>
+<p>There is a room that’s full of toys</p>
+<p>There are a hundred boys and girls</p>
+<p>Nobody shouts or talks too loud</p>
+<p>Not in my castle on a cloud.</p>
+<p>There is a lady all in white</p>
+<p>Holds me and sings a lullaby</p>
+<p>She’s nice to see</p>
+<p>And she’s soft to touch</p>
+<p>She says: ‘Cosette I love you very much’.</p>
+<p>I know a place where no one’s lost</p>
+<p>I know a place where no one cries</p>
+<p>Crying at all is not allowed</p>
+<p>Not in my castle on a cloud.</p>
+<p>Oh help! I think I hear them now, and I’m nowhere near</p>
+<p>finished sweeping and scrubbing and polishing the floor.</p>
+<p>Oh, it’s her! It’s Madame!</p>
+<p><strong>MADAM THENARDIER</strong></p>
+<p>Now look, who’s here!</p>
+<p>The little madam herself</p>
+<p>Pretending once again she’s being so awfully good!</p>
+<p>Better not let me catch you slacking</p>
+<p>Better not catch my eye</p>
+<p>Ten rotten francs your mother sends me</p>
+<p>What is that going to buy</p>
+<p>Now take that pail</p>
+<p>My little ‘Mademoiselle’</p>
+<p>And go draw some water from the well</p>
+<p>We should never have taken you in in the first place</p>
+<p>How stupid the things we do</p>
+<p>Like mother, like daughter, the scum of the streets</p>
+<p>Still there, Cosette?</p>
+<p>Your tears will do you no good!</p>
+<p>I told you fetch some water from the well in the wood…</p>
+<p><strong>COSETTE</strong></p>
+<p>Please do not send me out alone</p>
+<p>Not in the darkness on my own.</p>
+<p><strong>MADAM THENARDIER</strong></p>
+<p>Enough of that or I’ll forget to be nice!</p>
+<p>You heard me ask for something and I never ask twice!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="14">
+<h3>MASTER OF THE HOUSE</h3>
+<p><strong>THENARDIER</strong></p>
+<p>Welcome, M’sieur</p>
+<p>Sit yourself down</p>
+<p>And meet the best</p>
+<p>Innkeeper in town.</p>
+<p>As for the rest.</p>
+<p>All of them crooks</p>
+<p>Rooking the guest</p>
+<p>And cooking the books.</p>
+<p>Seldom do you see</p>
+<p>Honest men like me</p>
+<p>A gent of good intent</p>
+<p>Who’s content to be</p>
+<p>Master of the house</p>
+<p>Doling out the charm</p>
+<p>Ready with a handshake</p>
+<p>And an open palm</p>
+<p>Tells a saucy tale</p>
+<p>Makes a little stir</p>
+<p>Customers appreciate a bon-viveur</p>
+<p>Glad to do my friends a favor</p>
+<p>Doesn’t cost me to be nice</p>
+<p>But nothing gets you nothing</p>
+<p>Everything has got a little price!</p>
+<p>Master of the house</p>
+<p>Keeper of the zoo</p>
+<p>Ready to relieve ’em</p>
+<p>Of a sou, or two.</p>
+<p>Watering the wine</p>
+<p>Making up the weight</p>
+<p>Picking up their knickknacks</p>
+<p>When they can’t see straight</p>
+<p>Everybody loves landlord</p>
+<p>Everybody’s bosom friend</p>
+<p>I do whatever pleases</p>
+<p>Jesus, Won’t I bleed ’em in the end!</p>
+<p><strong>THENARDIER &amp; CHORUS</strong></p>
+<p>Master of the house</p>
+<p>Quick to catch your eye</p>
+<p>Never wants a passer-by</p>
+<p>To pass him by</p>
+<p>Servant to the poor</p>
+<p>Butler to the great</p>
+<p>Comforter. philosopher</p>
+<p>And lifelong mate!</p>
+<p>Everybody’s boon companion</p>
+<p>Everybody’s chaperone</p>
+<p><strong>THENARDIER</strong></p>
+<p>But lock up your valises</p>
+<p>Jesus! Won’t I skin you to the bone!</p>
+<p>Enter. M’sieur</p>
+<p>Lay down yer load</p>
+<p>Unlace yer boots</p>
+<p>And rest from the road</p>
+<p>This weighs a ton</p>
+<p>Travel’s a curse</p>
+<p>But here we strive</p>
+<p>To lighten your purse.</p>
+<p>Here the goose is cooked</p>
+<p>Here the fat is fried</p>
+<p>And nothing’s overlooked</p>
+<p>Till I’m satisfied</p>
+<p>Food beyond compare</p>
+<p>Food beyond belief</p>
+<p>Mix it in a mincer</p>
+<p>And pretend it’s beef</p>
+<p>Kidney of a horse</p>
+<p>Liver of a cat</p>
+<p>Filling up the sausages</p>
+<p>With this and that!</p>
+<p>Residents are more than welcome</p>
+<p>Bridal suite is occupied!</p>
+<p>Reasonable charges</p>
+<p>Plus some little extras on the side!</p>
+<p>Charge ’em for the lice</p>
+<p>Extra for the mice</p>
+<p>Two per cent for looking in the mirror twice.</p>
+<p>Here a little slice</p>
+<p>There a little cut</p>
+<p>Three per cent for sleeping with the window shut.</p>
+<p>When it comes to fixing prices</p>
+<p>There are lots of tricks he knows</p>
+<p>How it all increases</p>
+<p>All those bits and pieces</p>
+<p>Jesus! It’s amazing how it grows!</p>
+<p><strong>THENARDIER &amp; CHORUS</strong></p>
+<p>Master of the house</p>
+<p>Quick to catch your eye</p>
+<p>Never wants a passer-by to pass him by</p>
+<p>Servant to the poor</p>
+<p>Butler to the great</p>
+<p>Comforter, philosopher</p>
+<p>And life-long mate</p>
+<p>Everybody’s boon companion</p>
+<p>Gives ’em everything he’s got.</p>
+<p><strong>THENARDIER</strong></p>
+<p>Dirty bunch of geezers</p>
+<p>Jesus! What a sorry little lot!</p>
+<p><strong>MADAME THENARDIER</strong></p>
+<p>I used to dream</p>
+<p>That I would meet a prince.</p>
+<p>But God Almighty.</p>
+<p>Have you seen what’s happened since?</p>
+<p>‘Master of the house’?</p>
+<p>Isn’t worth me spit!</p>
+<p>‘Comforter, philosopher’</p>
+<p>—and lifelong shit’</p>
+<p>Cunning little brain</p>
+<p>Regular Voltaire</p>
+<p>Thinks he’s quite a lover</p>
+<p>But there’s not much there.</p>
+<p>What a cruel trick of nature</p>
+<p>Landed me with such a louse</p>
+<p>God knows how I’ve lasted</p>
+<p>Living with this bastard in the house!</p>
+<p><strong>THENARDIER &amp; CHORUS</strong></p>
+<p>Master of the house</p>
+<p><strong>MADAME THENARDIER</strong></p>
+<p>Master and a half.</p>
+<p><strong>THENARDIER &amp; CHORUS</strong></p>
+<p>Comforter, philosopher.</p>
+<p><strong>MADAME THENARDIER</strong></p>
+<p>Don’t make me laugh</p>
+<p><strong>THENARDIER &amp; CHORUS</strong></p>
+<p>Servant to the poor</p>
+<p>Butler to the great</p>
+<p><strong>MADAME THENARDIER</strong></p>
+<p>Hypocrite and toady</p>
+<p>And inebriate!</p>
+<p><strong>THENARDIER &amp; CHORUS</strong></p>
+<p>Everybody bless the landlord!</p>
+<p>Everybody bless his spouse!</p>
+<p><strong>THENARDIER</strong></p>
+<p>Everybody raise a glass</p>
+<p><strong>MADAME THENARDIER</strong></p>
+<p>Raise it up the master’s ass.</p>
+<p><strong>ALL</strong></p>
+<p>Everybody raise a glass ta the master of the house.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="15">
+<h3>THE BARGAIN — WALTZ OF TREACHERY</h3>
+<p><strong>VALJEAN</strong></p>
+<p>I found her wandering in the woods</p>
+<p>This little child, I found her trembling in the shadows</p>
+<p>And I am here to help, Cosette</p>
+<p>And I will settle any debt you may think proper</p>
+<p>I will pay what I must pay</p>
+<p>To take Cosette away.</p>
+<p><strong>THENARDIER</strong></p>
+<p>What to do? What to say?</p>
+<p>Shall you carry our treasure away?</p>
+<p>What a gem! What a pearl!</p>
+<p>Beyond rubies is our little girl!</p>
+<p>How can we speak of debt?</p>
+<p>Let’s not haggle for darling Cosette!</p>
+<p>Dear Fantine, gone to rest</p>
+<p>Have we done for her child what is best?</p>
+<p>Shared our bread. Shared each bone.</p>
+<p>Treated her like she’s one of our own!</p>
+<p>Like our own, Monsieur!</p>
+<p><strong>VALJEAN</strong></p>
+<p>Your feelings do you credit, sir</p>
+<p>And I will ease the parting blow</p>
+<p>Let us not talk of bargains or bones or greed</p>
+<p>Now, may I say, we are agreed?</p>
+<p><strong>MADAM THENARDIER</strong></p>
+<p>That would quite fit the bill</p>
+<p>If she hadn’t so often been ill</p>
+<p>Little dear, cost us dear</p>
+<p>Medicines are expensive, M’sieur!</p>
+<p>Not that we begrudged a sou—</p>
+<p>It’s no more than we Christians must do!</p>
+<p><strong>M. &amp; M’ME THENARDIER</strong></p>
+<p>One thing more. One small doubt</p>
+<p>There are treacherous people about</p>
+<p>No offense. Please reflect</p>
+<p>Your intentions may not be correct?</p>
+<p><strong>VALJEAN</strong></p>
+<p>No more words. Here’s your price.</p>
+<p>Fifteen hundred for your sacrifice</p>
+<p>Come, Cosette, say goodbye</p>
+<p>Let us seek out a friendlier sky</p>
+<p>Thank you both for Cosette</p>
+<p>It won’t take you too long to forget.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="16">
+<h3>LOOK DOWN</h3>
+<p><strong>BEGGARS</strong></p>
+<p>Look down and see the beggars at your feet</p>
+<p>Look down and show some mercy if you can</p>
+<p>Look down and see</p>
+<p>The sweepings of the street</p>
+<p>Look down. Look down</p>
+<p>Upon your fellow man!</p>
+<p><strong>GAVROCHE</strong></p>
+<p>How do you do? My name’s Gavroche.</p>
+<p>These are my people Here’s my patch.</p>
+<p>Not much to look at, nothing posh</p>
+<p>Nothing that you’d call up to scratch.</p>
+<p>This is my school, my high society</p>
+<p>Here in the slums of Saint Michele</p>
+<p>We live on crumbs of humble piety—</p>
+<p>Tough on the teeth, but what the hell!</p>
+<p>Think you’re poor.</p>
+<p>Think you’re free?</p>
+<p>Follow me! Follow me!</p>
+<p><strong>BEGGARS</strong></p>
+<p>Look down and show some mercy if you can.</p>
+<p>Look down, look down upon your fellow man.</p>
+<p><strong>OLD BEGGAR WOMAN</strong></p>
+<p>What d’ you think yer at</p>
+<p>Hanging round me pitch?</p>
+<p>If you’re new around here, girl,</p>
+<p>You’ve got a lot to learn!</p>
+<p><strong>YOUNG PROSTITUTE</strong></p>
+<p>Listen, you old bat</p>
+<p>Crazy bloody witch</p>
+<p>‘Least I give my customers</p>
+<p>Some pleasure in return!</p>
+<p><strong>OLD BEGGAR WOMAN</strong></p>
+<p>I know what you give.</p>
+<p>Give ’em all the pox!</p>
+<p>Spread around your poison</p>
+<p>Till they end up in a box</p>
+<p><strong>PIMP</strong></p>
+<p>Leave the poor old cow.</p>
+<p>Move it, Madeleine.</p>
+<p>She used to be no better</p>
+<p>Till the clap got to her brain</p>
+<p><strong>BEGGARS</strong></p>
+<p>When’s it gonna end?</p>
+<p>When we gonna live?</p>
+<p>Something’s gotta happen now or</p>
+<p>something’s gonna give</p>
+<p>It’ll come, It’ll come. It’ll come</p>
+<p>It’ll come, It’ll come. It’ll come. It’ll come.</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Where are the leaders of the land?</p>
+<p>Where are the swells who run the show?</p>
+<p><strong>MARIUS</strong></p>
+<p>Only one man — and that’s Lamarque</p>
+<p>Speaks for these people here below.</p>
+<p><strong>BEGGARS</strong></p>
+<p>See our children fed</p>
+<p>Help us in our shame</p>
+<p>Something for a crust of bread</p>
+<p>In Holy Jesus’ name</p>
+<p><strong>URCHIN</strong></p>
+<p>In the Lord’s Holy name.</p>
+<p><strong>BEGGARS</strong></p>
+<p>In his name</p>
+<p>In his name</p>
+<p>In his name</p>
+<p><strong>MARIUS</strong></p>
+<p>Lamarque is ill and fading fast</p>
+<p>Won’t last the week out so they say.</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>With all the anger in the land</p>
+<p>How long before the judgment day!</p>
+<p>Before we cut the fat ones down to size?</p>
+<p>Before the barricades arise?</p>
+<p><strong>BEGGARS</strong></p>
+<p>Look down and show some mercy if you can</p>
+<p>Look down, look down</p>
+<p>Upon your fellow man</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="17">
+<h3>STARS</h3>
+<p><strong>JAVERT</strong></p>
+<p>There out in the darkness</p>
+<p>A fugitive running</p>
+<p>Fallen from grace</p>
+<p>Fallen from grace</p>
+<p>God be my witness</p>
+<p>I never shall yield</p>
+<p>Till we come face to face</p>
+<p>Till we come face to face.</p>
+<p>He knows his way in the dark</p>
+<p>But mine is the way of the Lord</p>
+<p>And those who do follow the path of the righteous</p>
+<p>Shall have their reward</p>
+<p>And if they fall</p>
+<p>As Lucifer fell</p>
+<p>The flame</p>
+<p>The sword!</p>
+<p>Stars in your multitudes</p>
+<p>Scarce to be counted</p>
+<p>Filling the darkness</p>
+<p>With order and light</p>
+<p>You are the sentinels</p>
+<p>Silent and sure</p>
+<p>Keeping watch in the night</p>
+<p>Keeping watch in the night</p>
+<p>You know your place in the sky</p>
+<p>You hold your course</p>
+<p>And your aim</p>
+<p>And each in your season</p>
+<p>Returns and returns</p>
+<p>And is always the same</p>
+<p>And if you fall</p>
+<p>As Lucifer fell</p>
+<p>You fall</p>
+<p>In flame!</p>
+<p>And so it has been and so it’s written</p>
+<p>On the doorway to paradise</p>
+<p>That those who falter</p>
+<p>And those who fall</p>
+<p>Must pay</p>
+<p>The price.</p>
+<p>Lord let me find him</p>
+<p>That I may see him</p>
+<p>Safe behind bars</p>
+<p>I will never rest</p>
+<p>Till then</p>
+<p>This I swear</p>
+<p>This I swear by the stars!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="18">
+<h3>ABC CAFE / RED AND BLACK</h3>
+<p><strong>STUDENTS</strong></p>
+<p>At Notre Dame</p>
+<p>The sections are prepared!</p>
+<p>At Rue du Bac</p>
+<p>They’re straining at the leash!</p>
+<p>Students, workers, everyone,</p>
+<p>There’s a river on the run:</p>
+<p>Like the flowing of the tide</p>
+<p>Paris coming to our side!</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>The time is near</p>
+<p>So near it’s stirring the blood in their veins</p>
+<p>And yet beware</p>
+<p>Don’t let the wine go to your brains</p>
+<p>For the army we fight is a dangerous foe</p>
+<p>With the men and the arms that we never can match</p>
+<p>it is easy to sit here and swat ’em like flies</p>
+<p>But the National Guard will be harder to catch</p>
+<p>We need a sign</p>
+<p>To rally the people</p>
+<p>To call them to arms</p>
+<p>To bring them in line!</p>
+<p>Marius, you’re late</p>
+<p><strong>JOLY</strong></p>
+<p>What’s wrong today?</p>
+<p>You look as if you’ve seen a ghost</p>
+<p><strong>GRANTAIRE</strong></p>
+<p>Some wine, and say what’s going on.</p>
+<p><strong>MARIUS</strong></p>
+<p>A ghost you say, a ghost maybe</p>
+<p>She was just like a ghost to me</p>
+<p>One minute there…then she was gone!</p>
+<p><strong>GRANTAIRE</strong></p>
+<p>I am agog!</p>
+<p>I am aghast!</p>
+<p>Is Marius in love at last?</p>
+<p>I have never seen him ‘ooh’ and ‘aah’</p>
+<p>You talk of battles to be won</p>
+<p>And here he comes like Don Ju-an</p>
+<p>It’s better than an o-per-a!</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>It is time for us all</p>
+<p>To decide who we are</p>
+<p>Do we fight for the right</p>
+<p>To a night at the opera now?</p>
+<p>Have you asked of yourselves</p>
+<p>What’s the price you might pay?</p>
+<p>Is it simply a game</p>
+<p>For rich young boys to play,</p>
+<p>The color of the world</p>
+<p>Is changing day by day</p>
+<p>Red — the blood of angry men!</p>
+<p>Black — the dark of ages past!</p>
+<p>Red — a world about to dawn!</p>
+<p>Black — the night that ends at last!</p>
+<p><strong>MARIUS</strong></p>
+<p>Had you been there tonight</p>
+<p>You might know how it feels</p>
+<p>To be struck to the bone</p>
+<p>In a moment of breathless delight!</p>
+<p>Had you been there tonight</p>
+<p>You might also have known</p>
+<p>How your world may be changed</p>
+<p>In just one burst of light</p>
+<p>And what was right seems wrong</p>
+<p>And what was wrong seems right!</p>
+<p>Red — I feel my soul on fire!</p>
+<p>Black — my world if she’s not there!</p>
+<p>Red — the color of desire!</p>
+<p>Black — the color of despair!</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Marius, you’re no longer a child</p>
+<p>I do not doubt you mean it well</p>
+<p>But now there is a higher call</p>
+<p>Who cares about your lonely soul?</p>
+<p>We strive towards a larger goal</p>
+<p>Our little lives don’t count at all!</p>
+<p><strong>STUDENTS</strong></p>
+<p>Red — the blood of angry men!</p>
+<p>Black — the dark of ages past!</p>
+<p>Red - a world about to dawn!</p>
+<p>Black - the night that ends at last!</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Well, Courfeyrac, do we have all the guns we need</p>
+<p>Feuilly, Combeferre, our time is running short</p>
+<p>Grantaire, put that bottle down!</p>
+<p>Do we have the guns we need?</p>
+<p><strong>GRANTAIRE</strong></p>
+<p>Give me brandy on my breath</p>
+<p>And I’ll breathe them all to death</p>
+<p><strong>COURFEYRAC</strong></p>
+<p>At St. Antoine they’re with us to a man</p>
+<p><strong>COMBEFERRE</strong></p>
+<p>At Notre Dame they’re tearing up the stones</p>
+<p><strong>FEUILLY</strong></p>
+<p>Twenty rifles good as new</p>
+<p>JOLY</p>
+<p>Twenty rounds for every man.</p>
+<p><strong>GAVROCHE</strong></p>
+<p>Listen</p>
+<p>Listen to me</p>
+<p>Listen everybody</p>
+<p>General Lamarque is dead</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Lamarque is dead</p>
+<p>Lamarque</p>
+<p>His death is the hour of fate</p>
+<p>The people’s man</p>
+<p>His death is the sign we await</p>
+<p>On his funeral day they will honor his name</p>
+<p>It’s a rallying cry that will reach every ear.</p>
+<p>In the death of Lamarque we will kindle the a flame</p>
+<p>They will see that the day of salvation is near</p>
+<p>The time is here</p>
+<p>Let us welcome it gladly with courage and cheer</p>
+<p>Let us take to the streets with no doubt in our hearts</p>
+<p>But a jubilant shout</p>
+<p>They will come one and all,</p>
+<p>They will come when we call!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="19">
+<h3>DO YOU HEAR THE PEOPLE SING?</h3>
+<p><strong>ENJOLRAS</strong></p>
+<p>Do you hear the people sing?</p>
+<p>Singing the song of angry men?</p>
+<p>It is the music of a people</p>
+<p>Who will not be slaves again!</p>
+<p>When the beating of your heart</p>
+<p>Echoes the beating of the drums</p>
+<p>There is a life about to start</p>
+<p>When tomorrow comes!</p>
+<p><strong>COMBEFERRE</strong></p>
+<p>Will you join in our crusade?</p>
+<p>Who will be strong and stand with me?</p>
+<p>Beyond the barricade</p>
+<p>Is there a world you long to see?</p>
+<p><strong>COURFEYRAC</strong></p>
+<p>Then join in the fight</p>
+<p>That will give you the right to be free…</p>
+<p><strong>CHORUS</strong></p>
+<p>Do you hear the people sing?</p>
+<p>Singing the song of angry men?</p>
+<p>It is the music of a people</p>
+<p>Who will not be slaves again!</p>
+<p>When the beating of your heart</p>
+<p>Echoes the beating of the drums</p>
+<p>There is a life about to start</p>
+<p>When tomorrow comes!</p>
+<p><strong>FEUILLY</strong></p>
+<p>Will you give all you can give</p>
+<p>So that our banner may advance?</p>
+<p>Some will fall and some will live</p>
+<p>Will you stand up and take your chance?</p>
+<p>The blood of the martyrs</p>
+<p>Will water the meadows of France!</p>
+<p><strong>CHORUS</strong></p>
+<p>Do you hear the people sing?</p>
+<p>Singing the song of angry men?</p>
+<p>It is the music of a people</p>
+<p>Who will not be slaves again!</p>
+<p>When the beating of your heart</p>
+<p>Echoes the beating of the drums</p>
+<p>There is a life about to start</p>
+<p>When tomorrow comes!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20">
+<h3>RUE PLUMET —IN MY LIFE</h3>
+<p><strong>COSETTE</strong></p>
+<p>How strange this feeling that my life’s begun at last</p>
+<p>This change, can people really fall in love so fast?</p>
+<p>What’s the matter with you, Cosette?</p>
+<p>Have you been too much on your own?</p>
+<p>So many things unclear</p>
+<p>So many things unknown,</p>
+<p>In my life</p>
+<p>There are so many questions and answers</p>
+<p>That somehow seem wrong</p>
+<p>In my life</p>
+<p>There are times when I catch in the silence</p>
+<p>The sigh of a far away song</p>
+<p>And it sings</p>
+<p>Of a world that I long to see</p>
+<p>Out of reach</p>
+<p>Just a whisper away</p>
+<p>Waiting for me.</p>
+<p>Does he know I’m alive?</p>
+<p>Do I know if he’s real?</p>
+<p>Does he see what I saw?</p>
+<p>Does he feel what I feel?</p>
+<p>In my life</p>
+<p>I’m no longer alone</p>
+<p>Now the love in my life</p>
+<p>Is so near</p>
+<p>Find me now, find me here!</p>
+<p><strong>MARIUS</strong></p>
+<p>In my life</p>
+<p>She has burst like the music of angels</p>
+<p>The light of the sun!</p>
+<p>And my life seems to stop</p>
+<p>As if something is over</p>
+<p>And something has scarcely begun</p>
+<p>Eponine, you’re the friend</p>
+<p>Who has brought me here</p>
+<p>Thanks to you, I am one with the gods</p>
+<p>And Heaven is near!</p>
+<p>And I soar through a world that is new, that is free</p>
+<p><strong>EPONINE</strong></p>
+<p>Every word that he says</p>
+<p>Is a dagger in me!</p>
+<p>In my life, there’s been no one like him anywhere,</p>
+<p>Anywhere, where he is</p>
+<p>If he asked…I’d be his!</p>
+<p><strong>MARIUS &amp; EPONINE</strong></p>
+<p>In my life, there is someone who touches my life.</p>
+<p><strong>MARIUS</strong></p>
+<p>Waiting near!</p>
+<p><strong>EPONINE</strong></p>
+<p>Waiting near!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21">
+<h3>A HEART FULL OF LOVE</h3>
+<p><strong>MARIUS</strong></p>
+<p>A heart full of love</p>
+<p>A heart full of song</p>
+<p>I’m doing everything all wrong</p>
+<p>Oh God, for shame</p>
+<p>I do not even know your name</p>
+<p>Dear Mad’moiselle</p>
+<p>Won’t you say?</p>
+<p>Will you tell?</p>
+<p><strong>COSETTE</strong></p>
+<p>A heart full of love</p>
+<p>No fear, no regret.</p>
+<p><strong>MARIUS</strong></p>
+<p>My name is Marius Pontmercy.</p>
+<p><strong>COSETTE</strong></p>
+<p>And mine’s Cosette.</p>
+<p><strong>MARIUS</strong></p>
+<p>Cosette. I don’t know what to say.</p>
+<p><strong>COSETTE</strong></p>
+<p>Then make no sound.</p>
+<p><strong>MARIUS</strong></p>
+<p>I am lost.</p>
+<p><strong>COSETTE</strong></p>
+<p>I am found!</p>
+<p><strong>MARIUS</strong></p>
+<p>A heart full of light.</p>
+<p><strong>COSETTE</strong></p>
+<p>A night bright as day.</p>
+<p><strong>MARIUS</strong></p>
+<p>And you must never go away</p>
+<p>Cosette, Cosette!</p>
+<p><strong>COSETTE</strong></p>
+<p>This is a chain we’ll never break.</p>
+<p><strong>MARIUS</strong></p>
+<p>Do I dream?</p>
+<p><strong>COSETTE</strong></p>
+<p>I’m awake.</p>
+<p><strong>MARIUS</strong></p>
+<p>A heart full of love.</p>
+<p><strong>COSETTE</strong></p>
+<p>A heart full of you.</p>
+<p><strong>MARIUS</strong></p>
+<p>A single look and then I knew.</p>
+<p><strong>COSETTE</strong></p>
+<p>I knew it too.</p>
+<p><strong>MARIUS</strong></p>
+<p>From today.</p>
+<p><strong>COSETTE</strong></p>
+<p>Every day.</p>
+<p><strong>COSETTE &amp; MARIUS</strong></p>
+<p>For it isn’t a dream</p>
+<p>Not a dream</p>
+<p>After all</p>
+<p><strong>EPONINE</strong><br />
+(interjections)</p>
+<p>He was never mine to lose</p>
+<p>Why regret</p>
+<p>What could not be?</p>
+<p>These are words</p>
+<p>He’ll never say</p>
+<p>Not to me</p>
+<p>Not to me</p>
+<p>Not for me</p>
+<p>His heart</p>
+<p>Full of love</p>
+<p>He will never</p>
+<p>Feel this way.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22">
+<h3>ATTACK ON RUE PLUMET</h3>
+<p><strong>THENARDIER</strong></p>
+<p>This is his lair</p>
+<p>I’ve seen the old fox around</p>
+<p>He keeps himself to himself</p>
+<p>He’s staving close to the ground</p>
+<p>I smell profit here</p>
+<p>Ten years ago</p>
+<p>He came and paid for Cosette</p>
+<p>I let her go for a song</p>
+<p>It’s time we settled the debt</p>
+<p>This’ll cost him dear</p>
+<p><strong>BRUJON</strong></p>
+<p>What do I care</p>
+<p>Who you should rob?</p>
+<p>Gimme my share</p>
+<p>Finish the job!</p>
+<p><strong>THENARDIER</strong></p>
+<p>You shut your mouth</p>
+<p>Give me your hand.</p>
+<p><strong>BRUJON</strong></p>
+<p>What have we here?</p>
+<p><strong>THENARDIER</strong></p>
+<p>Who is this hussy?</p>
+<p><strong>BABET</strong></p>
+<p>It’s your brat Eponine</p>
+<p>Don’t you know your own kid</p>
+<p>Why’s she hanging about you?</p>
+<p><strong>THENARDIER</strong></p>
+<p>Eponine, get on home</p>
+<p>You’re not needed in this</p>
+<p>We’re enough here without you</p>
+<p><strong>EPONINE</strong></p>
+<p>I know this house</p>
+<p>I tell you there’s nothing here for you</p>
+<p>Just the old man and the girl,</p>
+<p>They live ordinary lives.</p>
+<p><strong>THENARDIER</strong></p>
+<p>Don’t interfere</p>
+<p>You’ve got some gall</p>
+<p>Take care, young miss</p>
+<p>You’ve got a lot to say</p>
+<p><strong>BRUJON</strong></p>
+<p>She’s going soft</p>
+<p><strong>CLAQUESOUS</strong></p>
+<p>Happens to us all.</p>
+<p>MONTPARNASSE</p>
+<p>Go home. ‘Ponine</p>
+<p>Go home, you’re in the way.</p>
+<p><strong>EPONINE</strong></p>
+<p>I’m gonna scream. I’m gonna warn them here.</p>
+<p><strong>THENARDIER</strong></p>
+<p>One little scream and you’ll regret it</p>
+<p>For a year.</p>
+<p><strong>CLAQUESOUS</strong></p>
+<p>What a palaver</p>
+<p>What an absolute treat</p>
+<p>To watch a cat and it’s father</p>
+<p>Pick a bone in the street.</p>
+<p><strong>BRUJON</strong></p>
+<p>Not a sound out of you!</p>
+<p><strong>EPONINE</strong></p>
+<p>Well. I told you I’d do it</p>
+<p>Told you I’d do it…</p>
+<p><strong>THENARDIER</strong></p>
+<p>You wait my girl, you’ll rue this night</p>
+<p>I’ll make you scream. You’ll scream alright.</p>
+<p>Leave her to me. Don’t wait around.</p>
+<p>Make for the sewers. Go underground.</p>
+<p><strong>MARIUS</strong></p>
+<p>It was your cry sent them away</p>
+<p>Once more ‘Ponine, saving the day!</p>
+<p>Dearest Cosette—my friend ‘Ponine</p>
+<p>Brought me to you</p>
+<p>Showed me the way!</p>
+<p>Someone is near</p>
+<p>Let’s not be seen</p>
+<p>Somebody’s here.</p>
+<p><strong>VALJEAN</strong></p>
+<p>My dear Cosette</p>
+<p>I heard a cry in the dark</p>
+<p>I heard the shout of angry voices in the street</p>
+<p><strong>COSETTE</strong></p>
+<p>That was my cry you heard, Papa</p>
+<p>I was afraid of what they’d do</p>
+<p>They ran away when they heard my cry</p>
+<p><strong>VALJEAN</strong></p>
+<p>Cosette, my child, what will become of you?</p>
+<p><strong>COSETTE</strong></p>
+<p>Three men I saw beyond the wall</p>
+<p>Three men in shadow moving fast!</p>
+<p><strong>VALJEAN</strong></p>
+<p>This was a warning to us all</p>
+<p>These were the shadows of the past!</p>
+<p>Must be Javert!</p>
+<p>He’s found my cover at last</p>
+<p>I’ve got to take Cosette away</p>
+<p>Before they return</p>
+<p>We must get away from shadows</p>
+<p>That will never let us be</p>
+<p>Tomorrow to Calais,</p>
+<p>And then a ship across the sea!</p>
+<p>Hurry, Cosette, prepare to leave and say no more</p>
+<p>Tomorrow, we’ll away!</p>
+<p>Hurry, Cosette, it’s time to close another door</p>
+<p>And live another day!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="23">
+<h3>ONE DAY MORE!</h3>
+<p><strong>VALJEAN</strong></p>
+<p>One day more!</p>
+<p>Another day, another destiny.</p>
+<p>This never-ending road to Calvary</p>
+<p>These men who seem to know my crime</p>
+<p>Will surely come a second time.</p>
+<p>One day more!</p>
+<p><strong>MARIUS</strong></p>
+<p>I did not live until today</p>
+<p>How can I live when we are parted?</p>
+<p><strong>VALJEAN</strong></p>
+<p>One day more.</p>
+<p><strong>MARIUS &amp; COSETTE</strong></p>
+<p>Tomorrow you’ll be worlds away</p>
+<p>And yet with you my world has started!</p>
+<p><strong>EPONINE</strong></p>
+<p>One more day all on my own.</p>
+<p><strong>MARIUS &amp; COSETTE</strong></p>
+<p>Will we ever meet again?</p>
+<p><strong>EPONINE</strong></p>
+<p>One more day with him not caring.</p>
+<p><strong>MARIUS &amp; COSETTE</strong></p>
+<p>I was born to be with you.</p>
+<p><strong>EPONINE</strong></p>
+<p>What a life I might have known.</p>
+<p><strong>MARIUS &amp; COSETTE</strong></p>
+<p>And I swear I will be true.</p>
+<p><strong>EPONINE</strong></p>
+<p>But he never saw me there!</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>One more day before the storm.</p>
+<p><strong>MARIUS</strong></p>
+<p>Do I follow where she goes?</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>At the barricades of freedom.</p>
+<p><strong>MARIUS</strong></p>
+<p>Shall I join my brothers there?</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>When our ranks begin to form.</p>
+<p><strong>MARIUS</strong></p>
+<p>Do I stay: and do I dare?</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Will you take your place with me?</p>
+<p><strong>CHORUS</strong></p>
+<p>The time is now</p>
+<p>The day is here</p>
+<p><strong>VALJEAN</strong></p>
+<p>One day more!</p>
+<p><strong>JAVERT</strong></p>
+<p>One day more to revolution</p>
+<p>We will nip it in the bud</p>
+<p>I will join these little schoolboys</p>
+<p>They will wet themselves…with blood!</p>
+<p><strong>VALJEAN</strong></p>
+<p>One day more.</p>
+<p><strong>THENARDIER</strong></p>
+<p>Watch ’em run amuck</p>
+<p>Catch ’em as they fall</p>
+<p>Never know your luck</p>
+<p>When there’s a free-for-all.</p>
+<p>Here a little ‘dip’</p>
+<p>There a little ’touch’</p>
+<p>Most of them are goners</p>
+<p>So they won’t miss much!</p>
+<p><strong>REBEL STUDENTS</strong></p>
+<p>One day to a new beginning.</p>
+<p>Raise the flag of freedom high</p>
+<p>Every man will be a king</p>
+<p>Every man will be a king</p>
+<p>There’s a new world for the winning</p>
+<p>There’s a new world to be won!</p>
+<p>Do you hear the people sing?</p>
+<p><strong>MARIUS</strong></p>
+<p>My place is here</p>
+<p>I fight with you.</p>
+<p><strong>VALJEAN</strong></p>
+<p>One day more.</p>
+<p><strong>MARIUS &amp; COSETTE</strong></p>
+<p>I did not live until today</p>
+<p>How can I live when we are parted?</p>
+<p><strong>JAVERT</strong></p>
+<p>I will join these people’s heroes</p>
+<p>I will follow where they go</p>
+<p>I will learn their little secrets</p>
+<p>I will know the things they know.</p>
+<p><strong>EPONINE</strong></p>
+<p>One more day all on my own.</p>
+<p><strong>VALJEAN</strong></p>
+<p>One day more.</p>
+<p><strong>MARIUS &amp; COSETTE</strong></p>
+<p>Tomorrow you’ll be worlds away</p>
+<p>And yet with you my world has started.</p>
+<p><strong>JAVERT</strong></p>
+<p>One more day to revolution</p>
+<p>We will nip it in the bud</p>
+<p>I will join these little schoolboys</p>
+<p><strong>THENARDIER</strong></p>
+<p>Watch ’em run amuck</p>
+<p>Catch ’em as they fall</p>
+<p>Never know your luck</p>
+<p>When there’s a free for ail.</p>
+<p><strong>VALJEAN</strong></p>
+<p>Tomorrow we’ll be far away</p>
+<p>Tomorrow is the judgment day.</p>
+<p>Tomorrow is the judgment.</p>
+<p><strong>JAVERT</strong></p>
+<p>Tomorrow is the judgment day</p>
+<p><strong>ALL</strong></p>
+<p>Tomorrow we’ll discover</p>
+<p>What our God in Heaven has in store</p>
+<p>One more dawn</p>
+<p>One more day</p>
+<p>One day more!</p>
+<h2>ACT 2</h2>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="24">
+<h3>ON MY OWN</h3>
+<p><strong>EPONINE</strong></p>
+<p>And now I’m all alone again</p>
+<p>Nowhere to turn, no one to go to</p>
+<p>Without a home, without a friend</p>
+<p>Without a face to say hello to</p>
+<p>And now the night is near, now I can make</p>
+<p>Believe he’s here.</p>
+<p>Sometimes I walk alone at night</p>
+<p>When everybody else is sleeping</p>
+<p>I think of him and then I’m happy</p>
+<p>With the company I’m keeping</p>
+<p>The city goes to bed</p>
+<p>And I can live inside my head.</p>
+<p>On my own</p>
+<p>Pretending he’s beside me.</p>
+<p>All alone, I walk with him till morning</p>
+<p>Without him</p>
+<p>I feel his arms around me</p>
+<p>And when I lose my way I close my eyes</p>
+<p>And he has found me.</p>
+<p>In the rain the pavement shines like silver</p>
+<p>All the lights are misty in the river</p>
+<p>In the darkness the trees are full of starlight</p>
+<p>And all I see is him and me for ever and forever.</p>
+<p>And I know it’s only in my mind</p>
+<p>That I’m talking to myself and not to him</p>
+<p>And although I know that he is blind</p>
+<p>Still I say there’s a way for us.</p>
+<p>I love him</p>
+<p>But when the night is over</p>
+<p>He is gone, the river’s just a river</p>
+<p>Without him the world around me changes</p>
+<p>The trees are bare and everywhere</p>
+<p>The streets are full of strangers.</p>
+<p>I love him</p>
+<p>But everyday I’m learning</p>
+<p>All my life I’ve only been pretending</p>
+<p>Without me his world will go on turning</p>
+<p>A world that’s full of happiness that I have never known.</p>
+<p>I love him, I love him.</p>
+<p>I love him, but only on my own.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="25">
+<h3>BACK AT THE BARRICADE</h3>
+<p><strong>CHORUS</strong></p>
+<p>Red — the blood of angry men!</p>
+<p>Black — the dark of ages past!</p>
+<p>Red — a world about to dawn!</p>
+<p>Black — the night that ends at last!</p>
+<p><strong>STUDENTS</strong></p>
+<p>Now we pledge ourselves to hold this barricade.</p>
+<p><strong>MARIUS</strong></p>
+<p>Let them come in their legions</p>
+<p>And they will be met!</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Have faith in yourselves</p>
+<p>And don’t be afraid.</p>
+<p><strong>GRANTAIRE</strong></p>
+<p>Let’s give ’em a screwing</p>
+<p>They’ll never forget!</p>
+<p><strong>COMBEFERRE</strong></p>
+<p>This is where it begins!</p>
+<p><strong>COURFEYRAC</strong></p>
+<p>And if I should die in the fight to be free</p>
+<p>Where the fighting is hardest</p>
+<p>There will I be.</p>
+<p><strong>FEUILLY</strong></p>
+<p>Let them come if they dare</p>
+<p>We’ll be there!</p>
+<p><strong>ARMY OFFICER</strong></p>
+<p>You at the barricade, listen to this!</p>
+<p>No one is coming to help you to fight!</p>
+<p>You’re on your own</p>
+<p>You have no friends</p>
+<p>Give up your guns—or die!</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Damn their warnings. Damn their lies!</p>
+<p>They will see the people rise!</p>
+<p><strong>STUDENTS</strong></p>
+<p>Damn their warnings. Damn their lies!</p>
+<p>They will see the people rise!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="26">
+<h3>JAVERT’S ARRIVAL / LITTLE PEOPLE</h3>
+<p><strong>JAVERT</strong></p>
+<p>Listen my friends</p>
+<p>I have done as I said</p>
+<p>I have been to their lines</p>
+<p>I have counted each man</p>
+<p>I will tell what I can</p>
+<p>Better be warned.</p>
+<p>They have armies to spare</p>
+<p>And our danger is real</p>
+<p>We will need enough cunning</p>
+<p>To bring them to heal</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Have faith</p>
+<p>If you know what their movements are</p>
+<p>We’ll spoil their game</p>
+<p>There are ways that a people can fight</p>
+<p>We shall overcome their power</p>
+<p><strong>JAVERT</strong></p>
+<p>I have overhead their plans</p>
+<p>There will be no attack tonight</p>
+<p>They intend to starve you out</p>
+<p>Before they start a proper fight</p>
+<p>Concentrate their force</p>
+<p>Hit us from the right</p>
+<p><strong>GAVROCHE</strong></p>
+<p>Liar!</p>
+<p>Good evening dear Inspector</p>
+<p>Lovely evening, my dear</p>
+<p>I know this man, my friends</p>
+<p>His name’s Inspector Javert!</p>
+<p>So don’t believe a word he says</p>
+<p>‘Cause none of it’s true</p>
+<p>This only goes to show</p>
+<p>What little people can do!</p>
+<p>And little people know</p>
+<p>When little people fight</p>
+<p>We may look easy pickings</p>
+<p>But we got some bite</p>
+<p>So never kick a dog</p>
+<p>Because he’s just a pup</p>
+<p>We’ll fight like twenty armies</p>
+<p>And we won’t give up!</p>
+<p>So you’d better run for cover</p>
+<p>When the pup grows up!</p>
+<p><strong>STUDENT</strong></p>
+<p>Bravo, little Gavroche! You’re the top of the class</p>
+<p>So what are we gonna do with this snake in the grass</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Tie this man and take him</p>
+<p>To the tavern in there</p>
+<p>The people will decide your fate</p>
+<p>Inspector Javert!</p>
+<p><strong>COURFEYRAC</strong></p>
+<p>Take this bastard now and shoot him!</p>
+<p><strong>FEUILLY</strong></p>
+<p>Let us watch this devil dance.</p>
+<p><strong>LESGLES</strong></p>
+<p>You’d have done the same, Inspector</p>
+<p>If we’d let you have your chance!</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Take this man. Bring him through.</p>
+<p>There is work we have to do.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="27">
+<h3>A LITTLE FALL OF RAIN</h3>
+<p><strong>EPONINE</strong></p>
+<p>Don’t you fret. M’sieur Marius,</p>
+<p>I don’t feel any pain</p>
+<p>A little fall of rain</p>
+<p>Can hardly hurt me now</p>
+<p>You’re here. That’s all I need to know.</p>
+<p>And you will keep me safe</p>
+<p>And you will keep me close</p>
+<p>And rain will make the flowers grow.</p>
+<p><strong>MARIUS</strong></p>
+<p>But you will live ‘Ponine — dear God above</p>
+<p>If I could heal your wounds with words of love.</p>
+<p><strong>EPONINE</strong></p>
+<p>Just hold me now, and let it be.</p>
+<p>Shelter me, comfort me.</p>
+<p><strong>MARIUS</strong></p>
+<p>You would live a hundred years</p>
+<p>If I could show you how</p>
+<p>I won’t desert you now…</p>
+<p><strong>EPONINE</strong></p>
+<p>The rain can’t hurt me now</p>
+<p>This rain will wash away what’s past</p>
+<p>And you will keep me safe</p>
+<p>And you will keep me close.</p>
+<p>I’ll sleep in your embrace at last.</p>
+<p>The rain that brings you here</p>
+<p>Is heaven blessed.</p>
+<p>The skies begin to clear</p>
+<p>And I’m at rest.</p>
+<p>A breath away from where you are</p>
+<p>I’ve come home from so far</p>
+<p>So don’t you fret. M’sieur Marius</p>
+<p>I don’t feel any pain</p>
+<p>A little fall of rain</p>
+<p>Can hardly hurt me now.</p>
+<p>That’s all I need to know.</p>
+<p>And you will keep me safe</p>
+<p>And you will keep me close</p>
+<p>And rain will make the flowers</p>
+<p><strong>MARIUS</strong></p>
+<p>Hush-a-bye, dear Eponine</p>
+<p>You won’t feel any pain</p>
+<p>A little fall of rain</p>
+<p>Can hardly hurt you now</p>
+<p>I’m here.</p>
+<p>I will stay with you till you are sleeping</p>
+<p>And rain will make the flowers grow.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="28">
+<h3>NIGHT OF ANGUISH</h3>
+<p><strong>ENJOLRAS</strong></p>
+<p>She is the first to fall.</p>
+<p>The first of us to fall upon this barricade.</p>
+<p><strong>MARIUS</strong></p>
+<p>Her name was Eponine.</p>
+<p>Her life was cold and dark yet she was unafraid.</p>
+<p><strong>COMBEFERRE</strong></p>
+<p>We fight here in the name.</p>
+<p><strong>PROUVAIRE</strong></p>
+<p>She will not die in vain.</p>
+<p><strong>LESGLES</strong></p>
+<p>She will not be betrayed.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="29">
+<h3>FIRST ATTACK</h3>
+<p><strong>JOLY</strong></p>
+<p>Here comes a man in uniform</p>
+<p>What brings you to this place?</p>
+<p><strong>VALJEAN</strong></p>
+<p>I come here as a volunteer.</p>
+<p><strong>JOLY</strong></p>
+<p>Approach and show your face.</p>
+<p><strong>SENTRY</strong></p>
+<p>You wear an army uniform.</p>
+<p><strong>VALJEAN</strong></p>
+<p>That’s why they let me through.</p>
+<p><strong>JOLY</strong></p>
+<p>You’ve got some years behind you, sir.</p>
+<p><strong>VALJEAN</strong></p>
+<p>But much that I can do.</p>
+<p><strong>JOLY</strong></p>
+<p>You see that prisoner over there?</p>
+<p><strong>GRANTAIRE</strong></p>
+<p>A volunteer like you!</p>
+<p><strong>COMBEFERRE</strong></p>
+<p>A spy! who calls himself, Javert!</p>
+<p><strong>GRANTAIRE</strong></p>
+<p>He’s gonna get it, too!</p>
+<p><strong>SENTRY</strong></p>
+<p>They’re getting ready to attack.</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Take this and use it well!</p>
+<p>But if you shoot us in the back</p>
+<p>You’ll never live to tell.</p>
+<p><strong>STUDENT 1</strong></p>
+<p>Platoon of sappers advancing towards the barricade.</p>
+<p><strong>STUDENT 2</strong></p>
+<p>Troops behind them! Fifty men or more!</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Fire!</p>
+<p><strong>LESGLES</strong></p>
+<p>See how they run away!</p>
+<p><strong>GRANTAIRE</strong></p>
+<p>By God, we’ve won the day!</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>They will be back again.</p>
+<p>Make an attack again.</p>
+<p>For your presence of mind,</p>
+<p>For the deed you have done,</p>
+<p>I will thank you, M’sieur</p>
+<p>When our battle is won.</p>
+<p><strong>VALJEAN</strong></p>
+<p>Give me no thanks, M’sieur</p>
+<p>There’s something you can do.</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>If it is in my power.</p>
+<p><strong>VALJEAN</strong></p>
+<p>Give me the spy, Javert—</p>
+<p>Let me take care of him!</p>
+<p><strong>JAVERT</strong></p>
+<p>The law is inside out,</p>
+<p>The world is upside down.</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Do what you have to do,</p>
+<p>This man belongs to you.</p>
+<p>The enemy may be regrouping. Hold yourselves in</p>
+<p>readiness. Come, my friends, back to your positions, the</p>
+<p>night is falling fast.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="30">
+<h3>DRINK WITH ME</h3>
+<p><strong>VALJEAN</strong></p>
+<p>We meet again.</p>
+<p><strong>JAVERT</strong></p>
+<p>You’ve hungered for this all your life</p>
+<p>Take your revenge!</p>
+<p>How right you should kill with a knife!</p>
+<p><strong>VALJEAN</strong></p>
+<p>You talk too much</p>
+<p>You’re life is safe in my hands.</p>
+<p><strong>JAVERT</strong></p>
+<p>Don’t understand.</p>
+<p><strong>VALJEAN</strong></p>
+<p>Get out of here.</p>
+<p><strong>JAVERT</strong></p>
+<p>Valjean, take care!</p>
+<p>I’m warning you…</p>
+<p><strong>VALJEAN</strong></p>
+<p>Clear out of here.</p>
+<p><strong>JAVERT</strong></p>
+<p>Once a thief, forever a thief</p>
+<p>What you want you always steal!</p>
+<p>You would trade your life for mine</p>
+<p>Yes, Valjean, you want a deal!</p>
+<p>Shoot me now, for all I care</p>
+<p>If you let me go, beware</p>
+<p>You’ll still answer too Javert!</p>
+<p><strong>VALJEAN</strong></p>
+<p>You are wrong, and always have been wrong.</p>
+<p>I’m a man no worse than any man.</p>
+<p>You are free and there are no conditions,</p>
+<p>No bargains or petitions.</p>
+<p>There’s nothing that I blame you for</p>
+<p>You’ve done your duty, nothing more.</p>
+<p>If I come out of this alive, you’ll find me</p>
+<p>At number fifty-five, Rue Plumet</p>
+<p>No doubt our paths will cross again.</p>
+<p>Go!</p>
+<p><strong>FEUILLY</strong></p>
+<p>Drink with me to days gone by</p>
+<p>Sing with me the songs we knew.</p>
+<p><strong>PROUVAIRE</strong></p>
+<p>Here’s to pretty girls</p>
+<p>Who went to our heads.</p>
+<p><strong>JOLY</strong></p>
+<p>Here’s to witty girls</p>
+<p>Who went to our beds.</p>
+<p><strong>ALL THREE</strong></p>
+<p>Here’s to them</p>
+<p>And here’s to you!</p>
+<p><strong>GRANTAIRE</strong></p>
+<p>Drink with me to days gone by</p>
+<p>Can it be you fear to die?</p>
+<p>Will the world remember you</p>
+<p>When you fall?</p>
+<p>Could it be your death</p>
+<p>Means nothing at all?</p>
+<p>Is your life just one more lie?</p>
+<p><strong>MEN</strong></p>
+<p>Drink with me to days gone by</p>
+<p>To the life that used to be</p>
+<p>Let the wine of friendship never run dry.</p>
+<p>Here’s to you</p>
+<p>And here’s to me.</p>
+<p><strong>WOMEN</strong></p>
+<p>Drink with me to days gone by</p>
+<p>To the life that used to be.</p>
+<p>At the shrine of friendship never say die.</p>
+<p>Here’s to you</p>
+<p>And here’s to me.</p>
+<p><strong>MARIUS</strong></p>
+<p>Do I care if I should die</p>
+<p>Now she goes across the sea?</p>
+<p>Life without Cosette</p>
+<p>Means nothing at all.</p>
+<p>Would you weep, Cosette.</p>
+<p>Should Marius fall?</p>
+<p>Will you weep, Cosette.</p>
+<p>For me?</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="31">
+<h3>BRING HIM HOME</h3>
+<p><strong>VALJEAN</strong></p>
+<p>God on high</p>
+<p>Hear my prayer</p>
+<p>In my need</p>
+<p>You have always been there</p>
+<p>He is young</p>
+<p>He’s afraid</p>
+<p>Let him rest</p>
+<p>Heaven blessed.</p>
+<p>Bring him home</p>
+<p>Bring him home</p>
+<p>Bring him home.</p>
+<p>He’s like the son I might have known</p>
+<p>If God had granted me a son.</p>
+<p>The summers die</p>
+<p>One by one</p>
+<p>How soon they fly</p>
+<p>On and on</p>
+<p>And I am old</p>
+<p>And will be gone</p>
+<p>Bring him peace</p>
+<p>Bring him joy</p>
+<p>He is young</p>
+<p>He is only a boy</p>
+<p>You can take</p>
+<p>You can give</p>
+<p>Let him be</p>
+<p>Let him live</p>
+<p>If I die, let me die</p>
+<p>Let him live, bring him home</p>
+<p>Bring him home</p>
+<p>Bring him home.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="32">
+<h3>SECOND ATTACK / THE FINAL BATTLE</h3>
+<p><strong>ARMY OFFICER</strong></p>
+<p>You at the barricades, listen to this</p>
+<p>The people of Paris sleep in their beds.</p>
+<p>You’ll have no chance</p>
+<p>No chance at all.</p>
+<p>Why throw your lives away?</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Let us die facing our foe—</p>
+<p>Make them bleed while we can</p>
+<p><strong>COMBEFERRE</strong></p>
+<p>Make ’em pay through the nose.</p>
+<p><strong>COURFEYRAC</strong></p>
+<p>Make ’em pay for every man.</p>
+<p><strong>ENJOLRAS</strong></p>
+<p>Let others rise</p>
+<p>To take our place</p>
+<p>Until the earth is free!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="33">
+<h3>THE SEWERS - DOG EATS DOG</h3>
+<p><strong>THENARDIER</strong></p>
+<p>Here’s a hint of gold</p>
+<p>Stuck into a tooth</p>
+<p>Pardon me. M’sieur</p>
+<p>You won’t be needing this no more.</p>
+<p>Shouldn’t be too hard to sell</p>
+<p>Add it to the pile</p>
+<p>Add it to the stock</p>
+<p>Here among the sewer rats</p>
+<p>A breath away from Hell</p>
+<p>Y’ get accustomed to the smell.</p>
+<p>Well someone’s got to clean them up, my friends</p>
+<p>Bodies on the highway</p>
+<p>Law and order upside down</p>
+<p>Someone’s got to collect their odds and ends</p>
+<p>As a service to the town</p>
+<p>Here’s a tasty ring</p>
+<p>Pretty little thing</p>
+<p>Wouldn’t want to waste it</p>
+<p>That would really be a crime.</p>
+<p>Thank you sir, I’m in your debt</p>
+<p>Here’s a little toy</p>
+<p>Take it off the boy</p>
+<p>His heart’s no longer going</p>
+<p>And he’s lived his little time</p>
+<p>But his watch is ticking yet!</p>
+<p>Well someone’s got to clean them up, my friends</p>
+<p>Before the little harvest</p>
+<p>Disappears into the mud</p>
+<p>Someone’s got to collect their odds and ends</p>
+<p>When the gutters run with blood</p>
+<p>It’s a world where the dogs eat the dogs</p>
+<p>Where they kill for the bones in the street</p>
+<p>And God in His Heaven</p>
+<p>He don’t interfere</p>
+<p>‘Cos he’s dead as the stiffs at my feet.</p>
+<p>I raise my eyes to see the heavens</p>
+<p>And only the moon looks down.</p>
+<p>The harvest moon shines down.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="34">
+<h3>JAVERT’S SUICIDE</h3>
+<p><strong>VALJEAN</strong></p>
+<p>It’s you Javert</p>
+<p>I knew you wouldn’t wait too long</p>
+<p>The faithful servant at his post once more</p>
+<p>This man’s done no wrong</p>
+<p>And he needs a doctor’s care.</p>
+<p><strong>JAVERT</strong></p>
+<p>I warned you I would not give IN,</p>
+<p>I won’t be swayed.</p>
+<p><strong>VALJEAN</strong></p>
+<p>Another hour yet and then I’m yours</p>
+<p>And all our debts are paid.</p>
+<p><strong>JAVERT</strong></p>
+<p>The man of mercy</p>
+<p>Comes again</p>
+<p>And talks of justice.</p>
+<p><strong>VALJEAN</strong></p>
+<p>Come, time is running short</p>
+<p>Look down, Javert,</p>
+<p>He’s standing in his grave</p>
+<p>Give way, Javert,</p>
+<p>There is a life to save.</p>
+<p><strong>JAVERT</strong></p>
+<p>Take him, Valjean</p>
+<p>Before I change my mind.</p>
+<p>I will be waiting</p>
+<ol start="24601">
+<li>Who is this man?</li>
+</ol>
+<p>What sort of devil is he</p>
+<p>To have me caught in a trap</p>
+<p>And choose to let me go free?</p>
+<p>It was his hour at last</p>
+<p>To put a seal on my fate</p>
+<p>Wipe out the past</p>
+<p>And wash me clean off the slate!</p>
+<p>All it would take</p>
+<p>Was a flick of his knife.</p>
+<p>Vengeance was his and he gave me back my life!</p>
+<p>Damned if I’ll live in the debt of a thief</p>
+<p>Damned if I’ll yield at the end of the chase</p>
+<p>I am the Law and the Law is not mocked</p>
+<p>I’ll spit his pity right back in his face</p>
+<p>There is nothing on earth that we share</p>
+<p>It is either Valjean or Javert!</p>
+<p>How can I now allow this man</p>
+<p>To hold dominion over me?</p>
+<p>This desperate man that I have hunted</p>
+<p>He gave me my life. He gave me freedom.</p>
+<p>I should have perished by his hand</p>
+<p>It was his right</p>
+<p>It was my right to die as well.</p>
+<p>Instead, I live … but live in hell.</p>
+<p>And my thoughts fly apart</p>
+<p>Can this man be believed?</p>
+<p>Shall his sins be forgiven?</p>
+<p>Shall his crimes be reprieved?</p>
+<p>And must I now begin to doubt.</p>
+<p>Who never doubted all these years?</p>
+<p>My heart is stone and still it trembles</p>
+<p>The world I have known is lost in shadow</p>
+<p>Is he from heaven or from hell?</p>
+<p>And does he know</p>
+<p>That, granting me my life today</p>
+<p>This man has killed me even so?</p>
+<p>I am reaching but I fall</p>
+<p>And the stars are black and cold</p>
+<p>As I stare into the void</p>
+<p>Of a world that cannot hold</p>
+<p>I’ll escape now from the world</p>
+<p>From the world of Jean Valjean</p>
+<p>There is nowhere I can turn</p>
+<p>There is no way to go on…</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="35">
+<h3>TURNING</h3>
+<p><strong>WOMEN</strong></p>
+<p>Did you see them</p>
+<p>Going off to fight</p>
+<p>Children of the barricades</p>
+<p>Who didn’t last the night?</p>
+<p>Did you see them</p>
+<p>Lying where they died?</p>
+<p>Someone used to cradle them</p>
+<p>And kiss them when they cried</p>
+<p>Did you see them lying side by side?</p>
+<p>Who will wake them?</p>
+<p>No one ever will</p>
+<p>No one ever told them</p>
+<p>That a summer day can kill</p>
+<p>They were school boys</p>
+<p>Never held a gun</p>
+<p>Fighting for a new world</p>
+<p>That would rise up like the sun.</p>
+<p>Where’s that new world now the fighting’s done?</p>
+<p>Nothing changes. Nothing ever will.</p>
+<p>Every year another brat, another mouth to fill</p>
+<p>Same old story. What’s the use of tears?</p>
+<p>What’s the use of praying</p>
+<p>If there’s nobody who hears?</p>
+<p>Turning turning turning turning turning</p>
+<p>Through the years</p>
+<p>Turning, turning, turning through the years.</p>
+<p>Minutes into hours, and the hours into years.</p>
+<p>Nothing changes. Nothing ever can</p>
+<p>Round about the roundabout, and back where you began.</p>
+<p>Round and round and back where you began!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="36">
+<h3>EMPTY CHAIRS AT EMPTY TABLES</h3>
+<p><strong>MARIUS</strong></p>
+<p>There’s a grief that can’t be spoken</p>
+<p>There’s a pain goes on and on</p>
+<p>Empty chairs at empty tables</p>
+<p>Now my friends are dead and gone</p>
+<p>Here they talked of revolution</p>
+<p>Here it was they lit the flame</p>
+<p>Here they sang about ’tomorrow’</p>
+<p>And tomorrow never came.</p>
+<p>From the table in the corner</p>
+<p>They could see a world reborn</p>
+<p>And they rose with voices ringing</p>
+<p>I can hear them now</p>
+<p>The very words that they had sung</p>
+<p>Became their last communion</p>
+<p>On the lonely barricade at dawn!</p>
+<p>Oh my friends, my friends, forgive me</p>
+<p>That I live and you are gone</p>
+<p>There’s a grief that can’t be spoken</p>
+<p>There’s a pain goes on and on</p>
+<p>Phantom faces at the window</p>
+<p>Phantom shadows on the floor</p>
+<p>Empty chairs at empty tables</p>
+<p>Where my friends will meet no more,</p>
+<p>Oh my friends, my friends, don’t ask me</p>
+<p>What your sacrifice was for</p>
+<p>Empty chairs at empty tables</p>
+<p>Where my friends will sing no more.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="37">
+<h3>EVERY DAY / A HEART FULL OF LIFE (reprise)</h3>
+<p><strong>COSETTE</strong></p>
+<p>Every day</p>
+<p>You walk with stronger step</p>
+<p>You with longer step,</p>
+<p>‘The worst is over’.</p>
+<p><strong>MARIUS</strong></p>
+<p>Every day,</p>
+<p>I wonder every day</p>
+<p>Who was it brought me here</p>
+<p>From the barricade?</p>
+<p><strong>COSETTE</strong></p>
+<p>Don’t think about it, Marius!</p>
+<p>With all the years ahead of us!</p>
+<p>I will never go away</p>
+<p>And we will be together</p>
+<p>‘Every day’,</p>
+<p>‘Every day’.</p>
+<p>We’ll remember that night</p>
+<p>And the vow that we made.</p>
+<p>A heart full of love.</p>
+<p>A night full of you.</p>
+<p>The words are old</p>
+<p>But always true.</p>
+<p>Oh, God for shame</p>
+<p>You did not even know my name.</p>
+<p><strong>MARIUS</strong></p>
+<p>Dear Mad’moiselle</p>
+<p>I was lost in your spell.</p>
+<p>Cosette, Cosette.</p>
+<p>Waiting for you</p>
+<p>At your feet.</p>
+<p><strong>COSETTE</strong></p>
+<p>A heart full of love</p>
+<p>No fear nor regret</p>
+<p>‘My name is Marius Pontmercy.’</p>
+<p>I saw you waiting and I knew.</p>
+<p>At your call.</p>
+<p><strong>VALJEAN</strong></p>
+<p>She was never mine to keep</p>
+<p>She is youthful, she is free.</p>
+<p>Love is the garden of the young.</p>
+<p><strong>MARIUS &amp; COSETTE</strong></p>
+<p>And it wasn’t a dream</p>
+<p>Not a dream, after all.</p>
+<p><strong>VALJEAN</strong></p>
+<p>A heart full of love,</p>
+<p>This I give you this day.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="38">
+<h3>WEDDING CHORALE / BEGGARS AT THE FEAST</h3>
+<p><strong>FIRST CHORUS</strong></p>
+<p>Ring out the bells</p>
+<p>Upon this day of days</p>
+<p>May all the angels</p>
+<p>Of the Lord above</p>
+<p>In jubilation</p>
+<p>Sing their songs of praise</p>
+<p>And crown this</p>
+<p>Blessed time with</p>
+<p>Peace and love.</p>
+<p><strong>SECOND CHORUS</strong></p>
+<p>Ring out the bells</p>
+<p>Upon this day of days</p>
+<p>May all the angels</p>
+<p>Of the Lord above</p>
+<p>In jubilation</p>
+<p>Sing their songs of praise</p>
+<p>And crown this</p>
+<p>Blessed time with</p>
+<p>Peace and love.</p>
+<p>BEGGARS AT THE FEAST</p>
+<p><strong>THENARDIER</strong></p>
+<p>Ain’t it a laugh?</p>
+<p>Ain’t it a treat?</p>
+<p>Hob-nobbin’ here</p>
+<p>Among the elite?</p>
+<p>Here comes a prince</p>
+<p>There goes a Jew</p>
+<p>This one’s a queer</p>
+<p>But what can you do?</p>
+<p>Paris at my feet</p>
+<p>Paris in the dust</p>
+<p>And here’s me breaking bread</p>
+<p>With the upper crust . .</p>
+<p>Beggar at the feast!</p>
+<p>Master of the dance!</p>
+<p>Life is easy pickins</p>
+<p>If you grab your chance</p>
+<p>Everywhere you go</p>
+<p>Law-abiding folk</p>
+<p>Doing what is decent</p>
+<p>But they’re mostly broke!</p>
+<p>Singing to the Lord on Sundays</p>
+<p>Praying for the gifts He’ll send.</p>
+<p><strong>M. &amp;.MME. THENARDIER</strong></p>
+<p>But we’re the ones who take it</p>
+<p>We’re the ones who make it in the end!</p>
+<p>Watch the buggers dance</p>
+<p>Watch ’em till they drop</p>
+<p>Keep your wits about you</p>
+<p>And you stand on top!</p>
+<p>Masters of the land</p>
+<p>Always get our share</p>
+<p>Clear away the barricades</p>
+<p>And we’re still there!</p>
+<p>We know where the wind is blowing</p>
+<p>Money is the stuff we smell.</p>
+<p>And when we’re rich as Croesus</p>
+<p>Jesus! won’t we see you all in Hell!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="39">
+<h3>EPILOGUE (FINALE)</h3>
+<p><strong>VALJEAN</strong></p>
+<p>Alone I wait in the shadows</p>
+<p>I count the hours till I can sleep</p>
+<p>I dreamed a dream Cosette stood by</p>
+<p>It made her weep</p>
+<p>To know I die</p>
+<p>Alone, at the end of the day</p>
+<p>Upon this wedding night I pray</p>
+<p>Take these children, my Lord, to thy embrace</p>
+<p>And show them grace.</p>
+<p>God on high,</p>
+<p>Hear my prayer</p>
+<p>Take me now</p>
+<p>To thy care</p>
+<p>Where you are.</p>
+<p>Let me be,</p>
+<p>Take me now,</p>
+<p>Take me there</p>
+<p>Bring me home,</p>
+<p>Bring me home</p>
+<p><strong>FANTINE</strong></p>
+<p>Mssr. I bless your name.</p>
+<p><strong>VALJEAN</strong></p>
+<p>I am ready, Fontaine.</p>
+<p><strong>FANTINE</strong></p>
+<p>Mssr. lay down your burden.</p>
+<p><strong>VALJEAN</strong></p>
+<p>At the end of my days.</p>
+<p><strong>FANTINE</strong></p>
+<p>You raised my child with love</p>
+<p><strong>VALJEAN</strong></p>
+<p>She’s the best of my life</p>
+<p><strong>FANTINE</strong></p>
+<p>And you will be with God.</p>
+<p><strong>COSETTE</strong></p>
+<p>Papa, Papa I do not understand</p>
+<p>Are you all right? They said you’d gone away.</p>
+<p><strong>VALJEAN</strong></p>
+<p>Cosette, my child, am I forgiven now?</p>
+<p>Thank God, thank God, I’ve lived to see this day.</p>
+<p><strong>MARIUS</strong></p>
+<p>It’s you who must forgive a thoughtless fool.</p>
+<p>It’s you who must forgive a thankless man.</p>
+<p>It’s thanks to you that I am living</p>
+<p>And again I lay down my life at your feet.</p>
+<p>Cosette, your father is a saint.</p>
+<p>When they wounded me</p>
+<p>He took me from the barricade</p>
+<p>Carried like a babe, and brought me home to you!</p>
+<p><strong>VALJEAN</strong></p>
+<p>Now you are here,</p>
+<p>Again beside me.</p>
+<p>Now I can die in peace</p>
+<p>For now my life is blessed…</p>
+<p><strong>COSETTE</strong></p>
+<p>You will live, Papa, you’re going to live.</p>
+<p>It’s too soon, too soon to say good-bye!</p>
+<p><strong>VALJEAN</strong></p>
+<p>Yes, Cosette, forbid me not to die.</p>
+<p>I’ll obey,</p>
+<p>I will try.</p>
+<p>On this page</p>
+<p>I write my last confession.</p>
+<p>Read it well</p>
+<p>When I, at last, am sleeping</p>
+<p>It’s a story</p>
+<p>Of those who always loved you.</p>
+<p>Your mother gave her life for you</p>
+<p>Then gave you to my keeping.</p>
+<p><strong>FANTINE</strong></p>
+<p>Come with me</p>
+<p>Where chains will never bind you</p>
+<p>All your grief,</p>
+<p>Your grief, at last, behind you</p>
+<p>Lord in heaven,</p>
+<p>Look down on him in mercy.</p>
+<p><strong>VALJEAN</strong></p>
+<p>Forgive me all my trespasses</p>
+<p>And take me to your glory.</p>
+<p><strong>FANTINE, EPONINE</strong></p>
+<p>Take my hand</p>
+<p>And lead me to salvation</p>
+<p>Take my love</p>
+<p>For love is everlasting.</p>
+<p><strong>VALJEAN, FANTINE &amp; EPONINE</strong></p>
+<p>And remember</p>
+<p>The truth that once was spoken,</p>
+<p>To love another person</p>
+<p>Is to see the face of God.</p>
+<p><strong>CHORUS</strong></p>
+<p>Do you hear the people sing</p>
+<p>Lost in the valley of the night?</p>
+<p>It is the music of the people</p>
+<p>Who are climbing to the light</p>
+<p>For the wretched of the earth</p>
+<p>There is a flame that never dies</p>
+<p>Even the darkest night will end</p>
+<p>And the sun will rise.</p>
+<p>They will live again in freedom</p>
+<p>In the garden of the Lord</p>
+<p>They will walk behind their plowshare</p>
+<p>They will put away the sword</p>
+<p>Their chain will be broken and</p>
+<p>All men will have their reward</p>
+<p>Will you join in our crusade?</p>
+<p>Who will be strong and stand with me?</p>
+<p>Somewhere beyond the barricade</p>
+<p>Is there a world you long to see?</p>
+<p>Do you hear the people sing?</p>
+<p>Say do you hear the distant drums?</p>
+<p>It is the future that they bring</p>
+<p>When tomorrow comes!</p>
+<p>Oh, tomorrow comes!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="40">
+<h3>ENCORE 1 - SPEECHES / DO YOU HERE THE PEOPLE SING?</h3>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="41">
+<h3>ENCORE 2 - ONE DAY MORE</h3>
+</section>
+<script>!function(){"use strict";const t="marpitSVGPolyfill:setZoomFactor,",e=Symbol();let r,o;function n(n){const i="object"==typeof n&&n.target||document,a="object"==typeof n?n.zoom:n;window[e]||(Object.defineProperty(window,e,{configurable:!0,value:!0}),window.addEventListener("message",(({data:e,origin:r})=>{if(r===window.origin)try{if(e&&"string"==typeof e&&e.startsWith(t)){const[,t]=e.split(","),r=Number.parseFloat(t);Number.isNaN(r)||(o=r)}}catch(t){console.error(t)}})));let l=!1;Array.from(i.querySelectorAll("svg[data-marpit-svg]"),(t=>{var e,n,i,s;t.style.transform||(t.style.transform="translateZ(0)");const c=a||o||t.currentScale||1;r!==c&&(r=c,l=c);const d=t.getBoundingClientRect(),{length:f}=t.children;for(let r=0;r<f;r+=1){const o=t.children[r];if(o.getScreenCTM){const t=o.getScreenCTM();if(t){const r=null!==(n=null===(e=o.x)||void 0===e?void 0:e.baseVal.value)&&void 0!==n?n:0,a=null!==(s=null===(i=o.y)||void 0===i?void 0:i.baseVal.value)&&void 0!==s?s:0,l=o.children.length;for(let e=0;e<l;e+=1){const n=o.children[e];if("SECTION"===n.tagName){const{style:e}=n;e.transformOrigin||(e.transformOrigin=`${-r}px ${-a}px`),e.transform=`scale(${c}) matrix(${t.a}, ${t.b}, ${t.c}, ${t.d}, ${t.e-d.left}, ${t.f-d.top}) translateZ(0.0001px)`;break}}}}}})),!1!==l&&Array.from(i.querySelectorAll("iframe"),(({contentWindow:e})=>{null==e||e.postMessage(`${t}${l}`,"null"===window.origin?"*":window.origin)}))}r=1,o=void 0;const i=(t,e,r)=>{if(t.getAttribute(e)!==r)return t.setAttribute(e,r),!0};function a({once:t=!1,target:e=document}={}){const r="Apple Computer, Inc."===navigator.vendor?[n]:[];let o=!t;const a=()=>{for(const t of r)t({target:e});!function(t=document){Array.from(t.querySelectorAll('svg[data-marp-fitting="svg"]'),(t=>{var e;const r=t.firstChild,o=r.firstChild,{scrollWidth:n,scrollHeight:a}=o;let l,s=1;if(t.hasAttribute("data-marp-fitting-code")&&(l=null===(e=t.parentElement)||void 0===e?void 0:e.parentElement),t.hasAttribute("data-marp-fitting-math")&&(l=t.parentElement),l){const t=getComputedStyle(l),e=Math.ceil(l.clientWidth-parseFloat(t.paddingLeft||"0")-parseFloat(t.paddingRight||"0"));e&&(s=e)}const c=Math.max(n,s),d=Math.max(a,1),f=`0 0 ${c} ${d}`;i(r,"width",`${c}`),i(r,"height",`${d}`),i(t,"preserveAspectRatio",getComputedStyle(t).getPropertyValue("--preserve-aspect-ratio")||"xMinYMin meet"),i(t,"viewBox",f)&&t.classList.toggle("__reflow__")}))}(e),o&&window.requestAnimationFrame(a)};return a(),()=>{o=!1}}const l=Symbol(),s=document.currentScript;((t=document)=>{if("undefined"==typeof window)throw new Error("Marp Core's browser script is valid only in browser context.");if(t[l])return t[l];const e=a({target:t}),r=()=>{e(),delete t[l]};Object.defineProperty(t,l,{configurable:!0,value:r})})(s?s.getRootNode():document)}();
+</script></foreignObject></svg></div><script>/*!! License: https://unpkg.com/@marp-team/marp-cli@1.7.1/lib/bespoke.js.LICENSE.txt */
+!function(){"use strict";const e=document.body,t=(...e)=>history.replaceState(...e),n="presenter",r="next",o=["",n,r],a="data-bespoke-marp-",i=(e,{protocol:t,host:n,pathname:r,hash:o}=location)=>{const a=e.toString();return`${t}//${n}${r}${a?"?":""}${a}${o}`},s=()=>e.dataset.bespokeView,l=e=>new URLSearchParams(location.search).get(e),d=(e,n={})=>{var r;const o={location,setter:t,...n},a=new URLSearchParams(o.location.search);for(const t of Object.keys(e)){const n=e[t];"string"==typeof n?a.set(t,n):a.delete(t)}try{o.setter({...null!==(r=window.history.state)&&void 0!==r?r:{}},"",i(a,o.location))}catch(e){console.error(e)}},c=(()=>{const e="bespoke-marp";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch(e){return!1}})(),u=e=>{try{return localStorage.getItem(e)}catch(e){return null}},f=(e,t)=>{try{return localStorage.setItem(e,t),!0}catch(e){return!1}},m=e=>{try{return localStorage.removeItem(e),!0}catch(e){return!1}},g=(e,t)=>{const n="aria-hidden";t?e.setAttribute(n,"true"):e.removeAttribute(n)},p=e=>{e.parent.classList.add("bespoke-marp-parent"),e.slides.forEach((e=>e.classList.add("bespoke-marp-slide"))),e.on("activate",(t=>{const n="bespoke-marp-active",r=t.slide,o=r.classList,a=!o.contains(n);if(e.slides.forEach((e=>{e.classList.remove(n),g(e,!0)})),o.add(n),g(r,!1),a){const e=`${n}-ready`;o.add(e),document.body.clientHeight,o.remove(e)}}))},v=e=>{let t=0,n=0;Object.defineProperty(e,"fragments",{enumerable:!0,value:e.slides.map((e=>[null,...e.querySelectorAll("[data-marpit-fragment]")]))});const r=r=>void 0!==e.fragments[t][n+r],o=(r,o)=>{t=r,n=o,e.fragments.forEach(((e,t)=>{e.forEach(((e,n)=>{if(null==e)return;const i=t<r||t===r&&n<=o;e.setAttribute(`${a}fragment`,(i?"":"in")+"active");const s=`${a}current-fragment`;t===r&&n===o?e.setAttribute(s,"current"):e.removeAttribute(s)}))})),e.fragmentIndex=o;const i={slide:e.slides[r],index:r,fragments:e.fragments[r],fragmentIndex:o};e.fire("fragment",i)};e.on("next",(({fragment:a=!0})=>{if(a){if(r(1))return o(t,n+1),!1;const a=t+1;e.fragments[a]&&o(a,0)}else{const r=e.fragments[t].length;if(n+1<r)return o(t,r-1),!1;const a=e.fragments[t+1];a&&o(t+1,a.length-1)}})),e.on("prev",(({fragment:a=!0})=>{if(r(-1)&&a)return o(t,n-1),!1;const i=t-1;e.fragments[i]&&o(i,e.fragments[i].length-1)})),e.on("slide",(({index:t,fragment:n})=>{let r=0;if(void 0!==n){const o=e.fragments[t];if(o){const{length:e}=o;r=-1===n?e-1:Math.min(Math.max(n,0),e-1)}}o(t,r)})),o(0,0)},h=document,y=()=>!(!h.fullscreenEnabled&&!h.webkitFullscreenEnabled),b=()=>!(!h.fullscreenElement&&!h.webkitFullscreenElement),x=e=>{e.fullscreen=()=>{y()&&(async()=>{return b()?null===(e=h.exitFullscreen||h.webkitExitFullscreen)||void 0===e?void 0:e.call(h):((e=h.body)=>{var t;return null===(t=e.requestFullscreen||e.webkitRequestFullscreen)||void 0===t?void 0:t.call(e)})();var e})()},document.addEventListener("keydown",(t=>{"f"!==t.key&&"F11"!==t.key||t.altKey||t.ctrlKey||t.metaKey||!y()||(e.fullscreen(),t.preventDefault())}))},w="bespoke-marp-inactive",k=(e=2e3)=>({parent:t,fire:n})=>{const r=t.classList,o=e=>n(`marp-${e?"":"in"}active`);let a;const i=()=>{a&&clearTimeout(a),a=setTimeout((()=>{r.add(w),o()}),e),r.contains(w)&&(r.remove(w),o(!0))};for(const e of["mousedown","mousemove","touchend"])document.addEventListener(e,i);setTimeout(i,0)},E=["AUDIO","BUTTON","INPUT","SELECT","TEXTAREA","VIDEO"],L=e=>{e.parent.addEventListener("keydown",(e=>{if(!e.target)return;const t=e.target;(E.includes(t.nodeName)||"true"===t.contentEditable)&&e.stopPropagation()}))},$=e=>{window.addEventListener("load",(()=>{for(const t of e.slides){const e=t.querySelector("[data-marp-fitting]")?"":"hideable";t.setAttribute(`${a}load`,e)}}))},S=({interval:e=250}={})=>t=>{document.addEventListener("keydown",(e=>{if(" "===e.key&&e.shiftKey)t.prev();else if("ArrowLeft"===e.key||"ArrowUp"===e.key||"PageUp"===e.key)t.prev({fragment:!e.shiftKey});else if(" "!==e.key||e.shiftKey)if("ArrowRight"===e.key||"ArrowDown"===e.key||"PageDown"===e.key)t.next({fragment:!e.shiftKey});else if("End"===e.key)t.slide(t.slides.length-1,{fragment:-1});else{if("Home"!==e.key)return;t.slide(0)}else t.next();e.preventDefault()}));let n,r,o=0;t.parent.addEventListener("wheel",(a=>{let i=!1;const s=(e,t)=>{e&&(i=i||((e,t)=>((e,t)=>{const n="X"===t?"Width":"Height";return e[`client${n}`]<e[`scroll${n}`]})(e,t)&&((e,t)=>{const{overflow:n}=e,r=e[`overflow${t}`];return"auto"===n||"scroll"===n||"auto"===r||"scroll"===r})(getComputedStyle(e),t))(e,t)),(null==e?void 0:e.parentElement)&&s(e.parentElement,t)};if(0!==a.deltaX&&s(a.target,"X"),0!==a.deltaY&&s(a.target,"Y"),i)return;a.preventDefault();const l=Math.sqrt(a.deltaX**2+a.deltaY**2);if(void 0!==a.wheelDelta){if(void 0===a.webkitForce&&Math.abs(a.wheelDelta)<40)return;if(a.deltaMode===a.DOM_DELTA_PIXEL&&l<4)return}else if(a.deltaMode===a.DOM_DELTA_PIXEL&&l<12)return;r&&clearTimeout(r),r=setTimeout((()=>{n=0}),e);const d=Date.now()-o<e,c=l<=n;if(n=l,d||c)return;let u;(a.deltaX>0||a.deltaY>0)&&(u="next"),(a.deltaX<0||a.deltaY<0)&&(u="prev"),u&&(t[u](),o=Date.now())}))},P=(e=".bespoke-marp-osc")=>{const t=document.querySelector(e);if(!t)return()=>{};const n=(e,n)=>{t.querySelectorAll(`[${a}osc=${JSON.stringify(e)}]`).forEach(n)};return y()||n("fullscreen",(e=>e.style.display="none")),c||n("presenter",(e=>{e.disabled=!0,e.title="Presenter view is disabled due to restricted localStorage."})),e=>{t.addEventListener("click",(t=>{if(t.target instanceof HTMLElement){const{bespokeMarpOsc:n}=t.target.dataset;n&&t.target.blur();const r={fragment:!t.shiftKey};"next"===n?e.next(r):"prev"===n?e.prev(r):"fullscreen"===n?null==e||e.fullscreen():"presenter"===n&&e.openPresenterView()}})),e.parent.appendChild(t),e.on("activate",(({index:t})=>{n("page",(n=>n.textContent=`Page ${t+1} of ${e.slides.length}`))})),e.on("fragment",(({index:t,fragments:r,fragmentIndex:o})=>{n("prev",(e=>e.disabled=0===t&&0===o)),n("next",(n=>n.disabled=t===e.slides.length-1&&o===r.length-1))})),e.on("marp-active",(()=>g(t,!1))),e.on("marp-inactive",(()=>g(t,!0))),y()&&(e=>{for(const t of["","webkit"])h.addEventListener(t+"fullscreenchange",e)})((()=>n("fullscreen",(e=>e.classList.toggle("exit",y()&&b())))))}},T=e=>{window.addEventListener("message",(t=>{if(t.origin!==window.origin)return;const[n,r]=t.data.split(":");if("navigate"===n){const[t,n]=r.split(",");let o=Number.parseInt(t,10),a=Number.parseInt(n,10)+1;a>=e.fragments[o].length&&(o+=1,a=0),e.slide(o,{fragment:a})}}))};var I=["area","base","br","col","command","embed","hr","img","input","keygen","link","meta","param","source","track","wbr"];let N=e=>String(e).replace(/[&<>"']/g,(e=>`&${C[e]};`)),C={"&":"amp","<":"lt",">":"gt",'"':"quot","'":"apos"},A="dangerouslySetInnerHTML",D={className:"class",htmlFor:"for"},M={};function B(e,t){let n=[],r="";t=t||{};for(let e=arguments.length;e-- >2;)n.push(arguments[e]);if("function"==typeof e)return t.children=n.reverse(),e(t);if(e){if(r+="<"+e,t)for(let e in t)!1!==t[e]&&null!=t[e]&&e!==A&&(r+=` ${D[e]?D[e]:N(e)}="${N(t[e])}"`);r+=">"}if(-1===I.indexOf(e)){if(t[A])r+=t[A].__html;else for(;n.length;){let e=n.pop();if(e)if(e.pop)for(let t=e.length;t--;)n.push(e[t]);else r+=!0===M[e]?e:N(e)}r+=e?`</${e}>`:""}return M[r]=!0,r}const K=({children:e})=>B(null,null,...e),O="bespoke-marp-presenter-",q={container:`${O}container`,dragbar:`${O}dragbar-container`,next:`${O}next`,nextContainer:`${O}next-container`,noteContainer:`${O}note-container`,noteWrapper:`${O}note-wrapper`,noteButtons:`${O}note-buttons`,infoContainer:`${O}info-container`,infoPage:`${O}info-page`,infoPageText:`${O}info-page-text`,infoPagePrev:`${O}info-page-prev`,infoPageNext:`${O}info-page-next`,noteButtonsBigger:`${O}note-bigger`,noteButtonsSmaller:`${O}note-smaller`,infoTime:`${O}info-time`,infoTimer:`${O}info-timer`},_=e=>{const{title:t}=document;document.title="[Presenter view]"+(t?` - ${t}`:"");const n={},r=e=>(n[e]=n[e]||document.querySelector(`.${e}`),n[e]);document.body.appendChild((e=>{const t=document.createElement("div");return t.className=q.container,t.appendChild(e),t.insertAdjacentHTML("beforeend",B(K,null,B("div",{class:q.nextContainer},B("iframe",{class:q.next,src:"?view=next"})),B("div",{class:q.dragbar}),B("div",{class:q.noteContainer},B("div",{class:q.noteWrapper}),B("div",{class:q.noteButtons},B("button",{class:q.noteButtonsSmaller,tabindex:"-1",title:"Smaller notes font size"},"Smaller notes font size"),B("button",{class:q.noteButtonsBigger,tabindex:"-1",title:"Bigger notes font size"},"Bigger notes font size"))),B("div",{class:q.infoContainer},B("div",{class:q.infoPage},B("button",{class:q.infoPagePrev,tabindex:"-1",title:"Previous"},"Previous"),B("span",{class:q.infoPageText}),B("button",{class:q.infoPageNext,tabindex:"-1",title:"Next"},"Next")),B("time",{class:q.infoTime,title:"Current time"}),B("time",{class:q.infoTimer,title:"Timer"})))),t})(e.parent)),(e=>{let t=!1;r(q.dragbar).addEventListener("mousedown",(()=>{t=!0,r(q.dragbar).classList.add("active")})),window.addEventListener("mouseup",(()=>{t=!1,r(q.dragbar).classList.remove("active")})),window.addEventListener("mousemove",(e=>{if(!t)return;const n=e.clientX/document.documentElement.clientWidth*100;r(q.container).style.setProperty("--bespoke-marp-presenter-split-ratio",`${Math.max(0,Math.min(100,n))}%`)})),r(q.nextContainer).addEventListener("click",(()=>e.next()));const n=r(q.next),o=(a=n,(e,t)=>{var n;return null===(n=a.contentWindow)||void 0===n?void 0:n.postMessage(`navigate:${e},${t}`,"null"===window.origin?"*":window.origin)});var a;n.addEventListener("load",(()=>{r(q.nextContainer).classList.add("active"),o(e.slide(),e.fragmentIndex),e.on("fragment",(({index:e,fragmentIndex:t})=>o(e,t)))}));const i=document.querySelectorAll(".bespoke-marp-note");i.forEach((e=>{e.addEventListener("keydown",(e=>e.stopPropagation())),r(q.noteWrapper).appendChild(e)})),e.on("activate",(()=>i.forEach((t=>t.classList.toggle("active",t.dataset.index==e.slide())))));let s=0;const l=e=>{s=Math.max(-5,s+e),r(q.noteContainer).style.setProperty("--bespoke-marp-note-font-scale",(1.2**s).toFixed(4))},d=()=>l(1),c=()=>l(-1),u=r(q.noteButtonsBigger),f=r(q.noteButtonsSmaller);u.addEventListener("click",(()=>{u.blur(),d()})),f.addEventListener("click",(()=>{f.blur(),c()})),document.addEventListener("keydown",(e=>{"+"===e.key&&d(),"-"===e.key&&c()}),!0),e.on("activate",(({index:t})=>{r(q.infoPageText).textContent=`${t+1} / ${e.slides.length}`}));const m=r(q.infoPagePrev),g=r(q.infoPageNext);m.addEventListener("click",(t=>{m.blur(),e.prev({fragment:!t.shiftKey})})),g.addEventListener("click",(t=>{g.blur(),e.next({fragment:!t.shiftKey})})),e.on("fragment",(({index:t,fragments:n,fragmentIndex:r})=>{m.disabled=0===t&&0===r,g.disabled=t===e.slides.length-1&&r===n.length-1}));let p=new Date;const v=()=>{const e=new Date,t=e=>`${Math.floor(e)}`.padStart(2,"0"),n=e.getTime()-p.getTime(),o=t(n/1e3%60),a=t(n/1e3/60%60),i=t(n/36e5%24);r(q.infoTime).textContent=e.toLocaleTimeString(),r(q.infoTimer).textContent=`${i}:${a}:${o}`};v(),setInterval(v,250),r(q.infoTimer).addEventListener("click",(()=>{p=new Date}))})(e)},X=e=>{if(!(e=>e.syncKey&&"string"==typeof e.syncKey)(e))throw new Error("The current instance of Bespoke.js is invalid for Marp bespoke presenter plugin.");Object.defineProperties(e,{openPresenterView:{enumerable:!0,value:F},presenterUrl:{enumerable:!0,get:U}}),c&&document.addEventListener("keydown",(t=>{"p"!==t.key||t.altKey||t.ctrlKey||t.metaKey||(t.preventDefault(),e.openPresenterView())}))};function F(){const{max:e,floor:t}=Math,n=e(t(.85*window.innerWidth),640),r=e(t(.85*window.innerHeight),360);return window.open(this.presenterUrl,O+this.syncKey,`width=${n},height=${r},menubar=no,toolbar=no`)}function U(){const e=new URLSearchParams(location.search);return e.set("view","presenter"),e.set("sync",this.syncKey),i(e)}const V=e=>{const t=s();return t===r&&e.appendChild(document.createElement("span")),{"":X,[n]:_,[r]:T}[t]},R=e=>{e.on("activate",(t=>{document.querySelectorAll(".bespoke-progress-parent > .bespoke-progress-bar").forEach((n=>{n.style.flexBasis=100*t.index/(e.slides.length-1)+"%"}))}))},j=e=>{const t=Number.parseInt(e,10);return Number.isNaN(t)?null:t},H=(e={})=>{const t={history:!0,...e};return e=>{let n=!0;const r=e=>{const t=n;try{return n=!0,e()}finally{n=t}},o=(t={fragment:!0})=>{((t,n)=>{const{min:r,max:o}=Math,{fragments:a,slides:i}=e,s=o(0,r(t,i.length-1)),l=o(0,r(n||0,a[s].length-1));s===e.slide()&&l===e.fragmentIndex||e.slide(s,{fragment:l})})((j(location.hash.slice(1))||1)-1,t.fragment?j(l("f")||""):null)};e.on("fragment",(({index:e,fragmentIndex:r})=>{n||d({f:0===r||r.toString()},{location:{...location,hash:`#${e+1}`},setter:(...e)=>t.history?history.pushState(...e):history.replaceState(...e)})})),setTimeout((()=>{o(),window.addEventListener("hashchange",(()=>r((()=>{o({fragment:!1}),d({f:void 0})})))),window.addEventListener("popstate",(()=>{n||r((()=>o()))})),n=!1}),0)}},W=(e={})=>{var n;const r=e.key||(null===(n=window.history.state)||void 0===n?void 0:n.marpBespokeSyncKey)||Math.random().toString(36).slice(2),o=`bespoke-marp-sync-${r}`;var a;a={marpBespokeSyncKey:r},d({},{setter:(e,...n)=>t({...e,...a},...n)});const i=()=>{const e=u(o);return e?JSON.parse(e):Object.create(null)},s=e=>{const t=i(),n={...t,...e(t)};return f(o,JSON.stringify(n)),n},l=()=>{window.removeEventListener("pageshow",l),s((e=>({reference:(e.reference||0)+1})))};return e=>{l(),Object.defineProperty(e,"syncKey",{value:r,enumerable:!0});let t=!0;setTimeout((()=>{e.on("fragment",(e=>{t&&s((()=>({index:e.index,fragmentIndex:e.fragmentIndex})))}))}),0),window.addEventListener("storage",(n=>{if(n.key===o&&n.oldValue&&n.newValue){const r=JSON.parse(n.oldValue),o=JSON.parse(n.newValue);if(r.index!==o.index||r.fragmentIndex!==o.fragmentIndex)try{t=!1,e.slide(o.index,{fragment:o.fragmentIndex})}finally{t=!0}}}));const n=()=>{const{reference:e}=i();void 0===e||e<=1?m(o):s((()=>({reference:e-1})))};window.addEventListener("pagehide",(e=>{e.persisted&&window.addEventListener("pageshow",l),n()})),e.on("destroy",n)}},{PI:Y,abs:J,sqrt:z,atan2:G}=Math,Q={passive:!0},Z=({slope:e=-.7,swipeThreshold:t=30}={})=>n=>{let r;const o=n.parent,a=e=>{const t=o.getBoundingClientRect();return{x:e.pageX-(t.left+t.right)/2,y:e.pageY-(t.top+t.bottom)/2}};o.addEventListener("touchstart",(({touches:e})=>{r=1===e.length?a(e[0]):void 0}),Q),o.addEventListener("touchmove",(e=>{if(r)if(1===e.touches.length){e.preventDefault();const t=a(e.touches[0]),n=t.x-r.x,o=t.y-r.y;r.delta=z(J(n)**2+J(o)**2),r.radian=G(n,o)}else r=void 0})),o.addEventListener("touchend",(o=>{if(r){if(r.delta&&r.delta>=t&&r.radian){const t=(r.radian-e+Y)%(2*Y)-Y;n[t<0?"next":"prev"](),o.stopPropagation()}r=void 0}}),Q)},ee="_tA",te=e=>{const t=document.documentTransition;if(!t)return;let n;e._tP=!1;const r=(n,{back:r,cond:o})=>a=>{var i,s;const l=e.slides[e.slide()].querySelector("section[data-transition]");if(!l)return!0;const d=document.querySelector(".bespoke-marp-osc"),c=d?[d]:void 0;if(e._tP){if(a._tA){e._tP=!1;try{t.start({sharedElements:c}).catch((()=>{}))}catch(e){}return!0}}else{if(!o(a))return!0;const d="transition"+(a.back||r?"Back":""),u=Number.parseInt(null!==(i=l.dataset[`${d}Duration`])&&void 0!==i?i:"",10),f=Number.parseInt(null!==(s=l.dataset[`${d}Delay`])&&void 0!==s?s:"",10),m={};Number.isNaN(u)||(m.duration=u.toString()),Number.isNaN(f)||(m.delay=f.toString()),e._tP=t.prepare({rootTransition:l.dataset[d],rootConfig:m,sharedElements:c}).then((()=>n(a))).catch((()=>n(a)))}return!1};e.on("prev",r((t=>e.prev({...t,[ee]:!0})),{back:!0,cond:e=>{var t;return e.index>0&&!((null===(t=e.fragment)||void 0===t||t)&&n.fragmentIndex>0)}})),e.on("next",r((t=>e.next({...t,[ee]:!0})),{cond:t=>t.index+1<e.slides.length&&!(n.fragmentIndex+1<n.fragments.length)})),setTimeout((()=>{e.on("slide",r((t=>e.slide(t.index,{...t,[ee]:!0})),{cond:t=>{const n=e.slide();return t.index!==n&&(t.back=t.index<n,!0)}}))}),0),e.on("fragment",(e=>{n=e}))};let ne;const re=()=>(void 0===ne&&(ne="wakeLock"in navigator&&navigator.wakeLock),ne),oe=async()=>{const e=re();if(e)try{return await e.request("screen")}catch(e){console.warn(e)}return null},ae=async()=>{if(!re())return;let e;const t=()=>{e&&"visible"===document.visibilityState&&oe()};for(const e of["visibilitychange","fullscreenchange"])document.addEventListener(e,t);return e=await oe(),e};((t=document.getElementById("p"))=>{(()=>{const t=l("view");e.dataset.bespokeView=t===r||t===n?t:""})();const a=(e=>{const t=l(e);return d({[e]:void 0}),t})("sync")||void 0;var i,c,u,f,m,g,h,y,b,w,E,T;i=t,c=((...e)=>{const t=o.findIndex((e=>s()===e));return e.map((([e,n])=>e[t]&&n)).filter((e=>e))})([[1,1,0],W({key:a})],[[1,1,1],V(t)],[[1,1,0],L],[[1,1,1],p],[[1,0,0],k()],[[1,1,1],$],[[1,1,1],H({history:!1})],[[1,1,0],S()],[[1,1,0],x],[[1,0,0],R],[[1,1,0],Z()],[[1,0,0],P()],[[1,0,0],te],[[1,1,1],v],[[1,1,0],ae]),f=1===(i.parent||i).nodeType?i.parent||i:document.querySelector(i.parent||i),m=[].filter.call("string"==typeof i.slides?f.querySelectorAll(i.slides):i.slides||f.children,(function(e){return"SCRIPT"!==e.nodeName})),g={},h=function(e,t){return(t=t||{}).index=m.indexOf(e),t.slide=e,t},w=function(e,t){m[e]&&(u&&b("deactivate",h(u,t)),u=m[e],b("activate",h(u,t)))},E=function(e,t){var n=m.indexOf(u)+e;b(e>0?"next":"prev",h(u,t))&&w(n,t)},T={off:y=function(e,t){g[e]=(g[e]||[]).filter((function(e){return e!==t}))},on:function(e,t){return(g[e]||(g[e]=[])).push(t),y.bind(null,e,t)},fire:b=function(e,t){return(g[e]||[]).reduce((function(e,n){return e&&!1!==n(t)}),!0)},slide:function(e,t){if(!arguments.length)return m.indexOf(u);b("slide",h(m[e],t))&&w(e,t)},next:E.bind(null,1),prev:E.bind(null,-1),parent:f,slides:m,destroy:function(e){b("destroy",h(u,e)),g={}}},(c||[]).forEach((function(e){e(T)})),u||w(0)})()}();</script></body></html>
