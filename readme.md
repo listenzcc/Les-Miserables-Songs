@@ -1,5 +1,3 @@
-theme: Merlot
-
 # Les Miserables
 
 - [Les Miserables](#les-miserables)
