@@ -1,0 +1,4879 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-28T10:39:34+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2022/11/28/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-11-28T10:11:59+08:00</published><updated>2022-11-28T10:11:59+08:00</updated><id>http://localhost:4000/jekyll/update/2022/11/28/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/11/28/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/BingImageOfTheDay.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">readme</title><link href="http://localhost:4000/jekyll/update/2022/11/28/readme.html" rel="alternate" type="text/html" title="readme" /><published>2022-11-28T10:11:59+08:00</published><updated>2022-11-28T10:11:59+08:00</updated><id>http://localhost:4000/jekyll/update/2022/11/28/readme</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/11/28/readme.html">&lt;h1 id=&quot;les-miserables&quot;&gt;Les Miserables&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#les-miserables&quot;&gt;Les Miserables&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#act-1&quot;&gt;ACT 1&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#prologue-work-song&quot;&gt;PROLOGUE (WORK SONG)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#on-parole--the-bishop&quot;&gt;ON PAROLE / THE BISHOP&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#valjeans-soliloquy&quot;&gt;VALJEAN’S SOLILOQUY&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#at-the-end-of-the-day&quot;&gt;AT THE END OF THE DAY&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#i-dreamed-a-dream&quot;&gt;I DREAMED A DREAM&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#lovely-ladies&quot;&gt;LOVELY LADIES&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#fantines-arrest&quot;&gt;FANTINE’S ARREST&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#the-runaway-cart&quot;&gt;THE RUNAWAY CART&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#who-am-i--the-trial&quot;&gt;WHO AM I? — THE TRIAL&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#fantines-death&quot;&gt;FANTINE’S DEATH&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#the-confrontation&quot;&gt;THE CONFRONTATION&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#castle-on-a-cloud&quot;&gt;CASTLE ON A CLOUD&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#master-of-the-house&quot;&gt;MASTER OF THE HOUSE&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#the-bargain--waltz-of-treachery&quot;&gt;THE BARGAIN — WALTZ OF TREACHERY&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#look-down&quot;&gt;LOOK DOWN&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#stars&quot;&gt;STARS&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#abc-cafe--red-and-black&quot;&gt;ABC CAFE / RED AND BLACK&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#do-you-hear-the-people-sing&quot;&gt;DO YOU HEAR THE PEOPLE SING?&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#rue-plumet-in-my-life&quot;&gt;RUE PLUMET —IN MY LIFE&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#a-heart-full-of-love&quot;&gt;A HEART FULL OF LOVE&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#attack-on-rue-plumet&quot;&gt;ATTACK ON RUE PLUMET&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#one-day-more&quot;&gt;ONE DAY MORE!&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#act-2&quot;&gt;ACT 2&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#on-my-own&quot;&gt;ON MY OWN&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#back-at-the-barricade&quot;&gt;BACK AT THE BARRICADE&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#javerts-arrival--little-people&quot;&gt;JAVERT’S ARRIVAL / LITTLE PEOPLE&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#a-little-fall-of-rain&quot;&gt;A LITTLE FALL OF RAIN&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#night-of-anguish&quot;&gt;NIGHT OF ANGUISH&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#first-attack&quot;&gt;FIRST ATTACK&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#drink-with-me&quot;&gt;DRINK WITH ME&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#bring-him-home&quot;&gt;BRING HIM HOME&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#second-attack--the-final-battle&quot;&gt;SECOND ATTACK / THE FINAL BATTLE&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#the-sewers---dog-eats-dog&quot;&gt;THE SEWERS - DOG EATS DOG&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#javerts-suicide&quot;&gt;JAVERT’S SUICIDE&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#turning&quot;&gt;TURNING&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#empty-chairs-at-empty-tables&quot;&gt;EMPTY CHAIRS AT EMPTY TABLES&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#every-day--a-heart-full-of-life-reprise&quot;&gt;EVERY DAY / A HEART FULL OF LIFE (reprise)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#wedding-chorale--beggars-at-the-feast&quot;&gt;WEDDING CHORALE / BEGGARS AT THE FEAST&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#epilogue-finale&quot;&gt;EPILOGUE (FINALE)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#encore-1---speeches--do-you-here-the-people-sing&quot;&gt;ENCORE 1 - SPEECHES / DO YOU HERE THE PEOPLE SING?&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#encore-2---one-day-more&quot;&gt;ENCORE 2 - ONE DAY MORE&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;act-1&quot;&gt;ACT 1&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;prologue-work-song&quot;&gt;PROLOGUE (WORK SONG)&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;CHAIN GANG&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Look down, look down&lt;/p&gt;
+
+&lt;p&gt;Don’t look ’em in the eye&lt;/p&gt;
+
+&lt;p&gt;Look down, look down&lt;/p&gt;
+
+&lt;p&gt;You’re here until you die.&lt;/p&gt;
+
+&lt;p&gt;The sun is strong&lt;/p&gt;
+
+&lt;p&gt;It’s hot as hell below&lt;/p&gt;
+
+&lt;p&gt;Look down, look down&lt;/p&gt;
+
+&lt;p&gt;There’s twenty years to go.&lt;/p&gt;
+
+&lt;p&gt;I’ve done no wrong&lt;/p&gt;
+
+&lt;p&gt;Sweet Jesus, hear my prayer&lt;/p&gt;
+
+&lt;p&gt;Look down, look down&lt;/p&gt;
+
+&lt;p&gt;Sweet Jesus doesn’t care&lt;/p&gt;
+
+&lt;p&gt;I know she’ll wait&lt;/p&gt;
+
+&lt;p&gt;I know that she’ll be true&lt;/p&gt;
+
+&lt;p&gt;Look down, look down&lt;/p&gt;
+
+&lt;p&gt;They’ve all forgotten you&lt;/p&gt;
+
+&lt;p&gt;When I get free&lt;/p&gt;
+
+&lt;p&gt;You won’t see me&lt;/p&gt;
+
+&lt;p&gt;Here for dust&lt;/p&gt;
+
+&lt;p&gt;Look down, look down&lt;/p&gt;
+
+&lt;p&gt;Don’t look ’em in the eye.&lt;/p&gt;
+
+&lt;p&gt;How long, 0 Lord,&lt;/p&gt;
+
+&lt;p&gt;Before you let me die?&lt;/p&gt;
+
+&lt;p&gt;Look down, look down&lt;/p&gt;
+
+&lt;p&gt;You’ll always be a slave&lt;/p&gt;
+
+&lt;p&gt;Look down, look down,&lt;/p&gt;
+
+&lt;p&gt;You’re standing in your grave.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now bring me prisoner 24601&lt;/p&gt;
+
+&lt;p&gt;Your time is up&lt;/p&gt;
+
+&lt;p&gt;And your parole’s begun&lt;/p&gt;
+
+&lt;p&gt;You know what that means,&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, it means I’m free.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;No! It means You get&lt;/p&gt;
+
+&lt;p&gt;Your yellow ticket-of-leave&lt;/p&gt;
+
+&lt;p&gt;You are a thief.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I stole a loaf of bread.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You robbed a house.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I broke a window pane.&lt;/p&gt;
+
+&lt;p&gt;My sister’s child was close to death&lt;/p&gt;
+
+&lt;p&gt;And we were starving.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You will starve again&lt;/p&gt;
+
+&lt;p&gt;Unless you learn the meaning of the law.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I know the meaning of those 19 years&lt;/p&gt;
+
+&lt;p&gt;A slave of the law.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Five years for what you did&lt;/p&gt;
+
+&lt;p&gt;The rest because you tried to run&lt;/p&gt;
+
+&lt;p&gt;Yes, 24601.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My name is Jean Valjean.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And I’m Javert&lt;/p&gt;
+
+&lt;p&gt;Do not forget my name&lt;/p&gt;
+
+&lt;p&gt;Do not forget me&lt;/p&gt;
+
+&lt;p&gt;24601.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;on-parole--the-bishop&quot;&gt;ON PAROLE / THE BISHOP&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Freedom is mine. The earth is still.&lt;/p&gt;
+
+&lt;p&gt;I feel the wind. I breathe again&lt;/p&gt;
+
+&lt;p&gt;And the sky clears&lt;/p&gt;
+
+&lt;p&gt;The world is waking&lt;/p&gt;
+
+&lt;p&gt;Drink from the pool. How clean the taste&lt;/p&gt;
+
+&lt;p&gt;Never forget the years, the waste&lt;/p&gt;
+
+&lt;p&gt;Nor forgive them&lt;/p&gt;
+
+&lt;p&gt;For what they’ve done&lt;/p&gt;
+
+&lt;p&gt;They are the guilty—every one&lt;/p&gt;
+
+&lt;p&gt;The day begins&lt;/p&gt;
+
+&lt;p&gt;And now let’s see&lt;/p&gt;
+
+&lt;p&gt;What this new world&lt;/p&gt;
+
+&lt;p&gt;Will do for me&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EMPLOYER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ll have to go&lt;/p&gt;
+
+&lt;p&gt;I’ll pay you off for the day&lt;/p&gt;
+
+&lt;p&gt;Collect your bits and pieces there&lt;/p&gt;
+
+&lt;p&gt;And be on your way&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You have given me half&lt;/p&gt;
+
+&lt;p&gt;What the other men get&lt;/p&gt;
+
+&lt;p&gt;This handful of tin&lt;/p&gt;
+
+&lt;p&gt;Wouldn’t buy my sweat&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;LABORER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ve broke the law&lt;/p&gt;
+
+&lt;p&gt;It’s there for people to see&lt;/p&gt;
+
+&lt;p&gt;Why should you get the same&lt;/p&gt;
+
+&lt;p&gt;As honest men like me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And now I know how freedom feels&lt;/p&gt;
+
+&lt;p&gt;The jailer always at your heels.&lt;/p&gt;
+
+&lt;p&gt;It is the law&lt;/p&gt;
+
+&lt;p&gt;This piece of paper in my hand&lt;/p&gt;
+
+&lt;p&gt;That makes me cast throughout the land.&lt;/p&gt;
+
+&lt;p&gt;It is the law&lt;/p&gt;
+
+&lt;p&gt;Like a cur&lt;/p&gt;
+
+&lt;p&gt;I walk the street&lt;/p&gt;
+
+&lt;p&gt;The dirt beneath their feet.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BISHOP&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Come in, Sir, for you are weary&lt;/p&gt;
+
+&lt;p&gt;And the night is cold out there&lt;/p&gt;
+
+&lt;p&gt;Though our lives are very humble&lt;/p&gt;
+
+&lt;p&gt;What we have we have to share&lt;/p&gt;
+
+&lt;p&gt;There is wine here to revive you&lt;/p&gt;
+
+&lt;p&gt;There is bread to make you strong&lt;/p&gt;
+
+&lt;p&gt;There’s a bed to rest till morning&lt;/p&gt;
+
+&lt;p&gt;Rest from pain, and rest from wrong&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;He let me eat my fill&lt;/p&gt;
+
+&lt;p&gt;I have the lion’s share&lt;/p&gt;
+
+&lt;p&gt;The silver in my hand&lt;/p&gt;
+
+&lt;p&gt;Cost twice what I had earned&lt;/p&gt;
+
+&lt;p&gt;In all those nineteen years&lt;/p&gt;
+
+&lt;p&gt;That lifetime of despair&lt;/p&gt;
+
+&lt;p&gt;And yet he trusted me&lt;/p&gt;
+
+&lt;p&gt;The old fool trusted me&lt;/p&gt;
+
+&lt;p&gt;He’d done his bit of good&lt;/p&gt;
+
+&lt;p&gt;I played the grateful serf&lt;/p&gt;
+
+&lt;p&gt;And thanked him like I should&lt;/p&gt;
+
+&lt;p&gt;And when the house was still&lt;/p&gt;
+
+&lt;p&gt;I got up in the night&lt;/p&gt;
+
+&lt;p&gt;Took the silver&lt;/p&gt;
+
+&lt;p&gt;Took my flight!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CONSTABLES&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tell His Reverence your story.&lt;/p&gt;
+
+&lt;p&gt;Let us see if he’s impressed.&lt;/p&gt;
+
+&lt;p&gt;You were lodging here last night.&lt;/p&gt;
+
+&lt;p&gt;You were the honest Bishop’s guest.&lt;/p&gt;
+
+&lt;p&gt;And then, out of Christian goodness.&lt;/p&gt;
+
+&lt;p&gt;When he learned about your plight&lt;/p&gt;
+
+&lt;p&gt;You maintain he made a present of this silver&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BISHOP&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;That is right.&lt;/p&gt;
+
+&lt;p&gt;But my friend, you left so early&lt;/p&gt;
+
+&lt;p&gt;Surely something slipped your mind.&lt;/p&gt;
+
+&lt;p&gt;You forgot I gave these also&lt;/p&gt;
+
+&lt;p&gt;Would you leave the best behind?&lt;/p&gt;
+
+&lt;p&gt;So, Messieurs, you may release him&lt;/p&gt;
+
+&lt;p&gt;For this man has spoken true.&lt;/p&gt;
+
+&lt;p&gt;I commend you for your duty&lt;/p&gt;
+
+&lt;p&gt;And God’s blessing go with you.&lt;/p&gt;
+
+&lt;p&gt;But remember this, my brother&lt;/p&gt;
+
+&lt;p&gt;See in this some higher plan.&lt;/p&gt;
+
+&lt;p&gt;You must use this precious silver&lt;/p&gt;
+
+&lt;p&gt;To become an honest man.&lt;/p&gt;
+
+&lt;p&gt;By the witness of the martyrs&lt;/p&gt;
+
+&lt;p&gt;By the Passion and the Blood&lt;/p&gt;
+
+&lt;p&gt;God has raised you out of darkness&lt;/p&gt;
+
+&lt;p&gt;I have bought your soul for God!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;valjeans-soliloquy&quot;&gt;VALJEAN’S SOLILOQUY&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What have I done?&lt;/p&gt;
+
+&lt;p&gt;Sweet Jesus, what have I done?&lt;/p&gt;
+
+&lt;p&gt;Become a thief in the night!&lt;/p&gt;
+
+&lt;p&gt;Become a dog on the run!&lt;/p&gt;
+
+&lt;p&gt;And have I fallen so far&lt;/p&gt;
+
+&lt;p&gt;And is the hour so late&lt;/p&gt;
+
+&lt;p&gt;That nothing remains but the cry of my hate,&lt;/p&gt;
+
+&lt;p&gt;The cries in the dark that nobody hears&lt;/p&gt;
+
+&lt;p&gt;Here where I stand at the turning of the years?&lt;/p&gt;
+
+&lt;p&gt;If there’s another way to go&lt;/p&gt;
+
+&lt;p&gt;I missed it twenty long years ago.&lt;/p&gt;
+
+&lt;p&gt;My life was a war that could never be won&lt;/p&gt;
+
+&lt;p&gt;They gave me a number and murdered Valjean&lt;/p&gt;
+
+&lt;p&gt;When they chained Me and left me for dead&lt;/p&gt;
+
+&lt;p&gt;Just for stealing a mouthful of bread.&lt;/p&gt;
+
+&lt;p&gt;Yet why did I allow this man&lt;/p&gt;
+
+&lt;p&gt;To touch my soul and teach me love?&lt;/p&gt;
+
+&lt;p&gt;He treated me like any other.&lt;/p&gt;
+
+&lt;p&gt;He gave me his trust.&lt;/p&gt;
+
+&lt;p&gt;He called me Brother.&lt;/p&gt;
+
+&lt;p&gt;My life he claims for God above.&lt;/p&gt;
+
+&lt;p&gt;Can such things be?&lt;/p&gt;
+
+&lt;p&gt;For I had come to hate the world.&lt;/p&gt;
+
+&lt;p&gt;This world that always hated me!&lt;/p&gt;
+
+&lt;p&gt;Take an eye for an eye.&lt;/p&gt;
+
+&lt;p&gt;Turn your heart into stone.&lt;/p&gt;
+
+&lt;p&gt;This is all I have lived for.&lt;/p&gt;
+
+&lt;p&gt;This is all I have known.&lt;/p&gt;
+
+&lt;p&gt;One word from him and I’d be back&lt;/p&gt;
+
+&lt;p&gt;Beneath the lash, upon the rack.&lt;/p&gt;
+
+&lt;p&gt;Instead, he offers me my freedom.&lt;/p&gt;
+
+&lt;p&gt;I feel my shame inside me like a knife.&lt;/p&gt;
+
+&lt;p&gt;He told me that I have a soul.&lt;/p&gt;
+
+&lt;p&gt;How does he know?&lt;/p&gt;
+
+&lt;p&gt;What spirit comes to move my life?&lt;/p&gt;
+
+&lt;p&gt;Is there another way to go?&lt;/p&gt;
+
+&lt;p&gt;I am reaching, but I fall,&lt;/p&gt;
+
+&lt;p&gt;And the night is closing in,&lt;/p&gt;
+
+&lt;p&gt;And I stare into the void —&lt;/p&gt;
+
+&lt;p&gt;To the whirlpool of my sin.&lt;/p&gt;
+
+&lt;p&gt;I’ll escape now from the world&lt;/p&gt;
+
+&lt;p&gt;From the world of Jean Valjean&lt;/p&gt;
+
+&lt;p&gt;Jean Valjean is nothing now.&lt;/p&gt;
+
+&lt;p&gt;Another story must begin!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;at-the-end-of-the-day&quot;&gt;AT THE END OF THE DAY&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;THE POOR&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At the end of the day you’re another day older&lt;/p&gt;
+
+&lt;p&gt;And that’s all you can I say for the life of the poor&lt;/p&gt;
+
+&lt;p&gt;It’s a struggle, it’s a war&lt;/p&gt;
+
+&lt;p&gt;And there’s nothing that anyone’s giving&lt;/p&gt;
+
+&lt;p&gt;One more day standing about&lt;/p&gt;
+
+&lt;p&gt;What is it for?&lt;/p&gt;
+
+&lt;p&gt;One day less to be living!&lt;/p&gt;
+
+&lt;p&gt;At the end of the day you’re another day colder&lt;/p&gt;
+
+&lt;p&gt;And the shirt on your back doesn’t keep out the chill&lt;/p&gt;
+
+&lt;p&gt;And the righteous hurry past&lt;/p&gt;
+
+&lt;p&gt;They don’t hear the little ones crying&lt;/p&gt;
+
+&lt;p&gt;And the winter is coming on fast&lt;/p&gt;
+
+&lt;p&gt;Ready to kill&lt;/p&gt;
+
+&lt;p&gt;One day nearer to dying!&lt;/p&gt;
+
+&lt;p&gt;At the end of the day there’s another day dawning&lt;/p&gt;
+
+&lt;p&gt;And the sun in the morning is waiting to rise&lt;/p&gt;
+
+&lt;p&gt;Like the waves crash on the sand&lt;/p&gt;
+
+&lt;p&gt;Like a storm that’ll break any second&lt;/p&gt;
+
+&lt;p&gt;There’s a hunger in the land&lt;/p&gt;
+
+&lt;p&gt;There’s a reckoning still to be reckoned and&lt;/p&gt;
+
+&lt;p&gt;There’s gonna be hell to pay&lt;/p&gt;
+
+&lt;p&gt;At the end of the day!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FOREMAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At the end of the day you get nothing for nothing&lt;/p&gt;
+
+&lt;p&gt;Sitting flat on your butt doesn’t buy any bread.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WORKERS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There are children back at home&lt;/p&gt;
+
+&lt;p&gt;And the children have got to be fed&lt;/p&gt;
+
+&lt;p&gt;And you’re lucky to be in a job&lt;/p&gt;
+
+&lt;p&gt;And in a bed&lt;/p&gt;
+
+&lt;p&gt;And we’re counting our blessings!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WOMEN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Have you seen how the foreman is fuming today&lt;/p&gt;
+
+&lt;p&gt;With his terrible breath and his wandering hands?&lt;/p&gt;
+
+&lt;p&gt;It’s because little Fantine won’t give him his way&lt;/p&gt;
+
+&lt;p&gt;Take a look at his trousers, you see where he stands!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WORKERS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At the end of the day it’s another day over&lt;/p&gt;
+
+&lt;p&gt;With enough in your pocket to last for a week&lt;/p&gt;
+
+&lt;p&gt;Pay the landlord, pay the shop&lt;/p&gt;
+
+&lt;p&gt;Keep on grafting as long as you’re able&lt;/p&gt;
+
+&lt;p&gt;Keep on grafting till you drop&lt;/p&gt;
+
+&lt;p&gt;Or it’s back to the crumbs off the table&lt;/p&gt;
+
+&lt;p&gt;You’ve got to pay your way&lt;/p&gt;
+
+&lt;p&gt;At the end of the day!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GIRL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And what have we here, little innocent sister?&lt;/p&gt;
+
+&lt;p&gt;Come on Fantine let’s have all the news&lt;/p&gt;
+
+&lt;p&gt;“Ooh&amp;amp;mldr;dear Fantine, you must send us more money &amp;amp;mldr;&lt;/p&gt;
+
+&lt;p&gt;your child needs a doctor &amp;amp;mldr; There’s no time to lose &amp;amp;mldr; “&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Give that letter to me&lt;/p&gt;
+
+&lt;p&gt;It is none of your business&lt;/p&gt;
+
+&lt;p&gt;With a husband at home&lt;/p&gt;
+
+&lt;p&gt;And a bit on the side&lt;/p&gt;
+
+&lt;p&gt;Is there anyone here&lt;/p&gt;
+
+&lt;p&gt;Who can swear before God&lt;/p&gt;
+
+&lt;p&gt;She has nothing to fear&lt;/p&gt;
+
+&lt;p&gt;She has nothing to hide?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What is this fighting all about?&lt;/p&gt;
+
+&lt;p&gt;Will someone tear these two apart&lt;/p&gt;
+
+&lt;p&gt;This is a factory, not a circus.&lt;/p&gt;
+
+&lt;p&gt;Now, come on ladies, settle down&lt;/p&gt;
+
+&lt;p&gt;I run a business of repute&lt;/p&gt;
+
+&lt;p&gt;I am the Mayor of this town&lt;/p&gt;
+
+&lt;p&gt;I look to you to sort this out&lt;/p&gt;
+
+&lt;p&gt;And be as patient as you can.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FOREMAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now someone say how this began!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GIRL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At the end of the day&lt;/p&gt;
+
+&lt;p&gt;She’s the one who began it,&lt;/p&gt;
+
+&lt;p&gt;There’s a kid that she’s hiding&lt;/p&gt;
+
+&lt;p&gt;In some little town.&lt;/p&gt;
+
+&lt;p&gt;There’s a man she has to pay&lt;/p&gt;
+
+&lt;p&gt;You can guess how she picks up the extra.&lt;/p&gt;
+
+&lt;p&gt;You can bet she’s earning her keep&lt;/p&gt;
+
+&lt;p&gt;Sleeping around&lt;/p&gt;
+
+&lt;p&gt;And the boss wouldn’t like it!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes it’s true there’s a child&lt;/p&gt;
+
+&lt;p&gt;And the child is my daughter&lt;/p&gt;
+
+&lt;p&gt;And her father abandoned us&lt;/p&gt;
+
+&lt;p&gt;Leaving us flat.&lt;/p&gt;
+
+&lt;p&gt;Now she lives with an innkeeper man&lt;/p&gt;
+
+&lt;p&gt;And his wife&lt;/p&gt;
+
+&lt;p&gt;And I pay for the child.&lt;/p&gt;
+
+&lt;p&gt;What’s the matter with that?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WOMEN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At the end of the day&lt;/p&gt;
+
+&lt;p&gt;She’ll be nothing but trouble&lt;/p&gt;
+
+&lt;p&gt;And there’s trouble for all&lt;/p&gt;
+
+&lt;p&gt;When there’s trouble for one!&lt;/p&gt;
+
+&lt;p&gt;While we’re earning our daily bread&lt;/p&gt;
+
+&lt;p&gt;She’s the one with her hands in the butter&lt;/p&gt;
+
+&lt;p&gt;You must send the slut away&lt;/p&gt;
+
+&lt;p&gt;Or we’re all gonna end in the gutter&lt;/p&gt;
+
+&lt;p&gt;And it’s us who’ll have to pay&lt;/p&gt;
+
+&lt;p&gt;At the end of the day!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FOREMAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I might have known the bitch could bite&lt;/p&gt;
+
+&lt;p&gt;I might have known the cat had claws&lt;/p&gt;
+
+&lt;p&gt;I might have guessed your little secret.&lt;/p&gt;
+
+&lt;p&gt;Ah yes, the virtuous Fantine&lt;/p&gt;
+
+&lt;p&gt;Who keeps herself so pure and clean&lt;/p&gt;
+
+&lt;p&gt;You’d be the cause, I had no doubt&lt;/p&gt;
+
+&lt;p&gt;Of any trouble hereabout&lt;/p&gt;
+
+&lt;p&gt;You play a virgin in the light&lt;/p&gt;
+
+&lt;p&gt;But need no urgin’ in the night!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GIRL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;She’s been laughing at you&lt;/p&gt;
+
+&lt;p&gt;While she’s having her men.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WOMEN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;She’ll be nothing but trouble again and again.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WOMAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You must sack her today.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ALL WORKERS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sack the girl today&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FOREMAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Right my girl. On your way!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;i-dreamed-a-dream&quot;&gt;I DREAMED A DREAM&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There was time when men were kind.&lt;/p&gt;
+
+&lt;p&gt;When their voices were soft&lt;/p&gt;
+
+&lt;p&gt;And their words inviting.&lt;/p&gt;
+
+&lt;p&gt;There was a time when love was blind&lt;/p&gt;
+
+&lt;p&gt;And the world was a song&lt;/p&gt;
+
+&lt;p&gt;And the song was exciting.&lt;/p&gt;
+
+&lt;p&gt;There was a time.&lt;/p&gt;
+
+&lt;p&gt;Then it all went wrong.&lt;/p&gt;
+
+&lt;p&gt;I dreamed a dream in time gone by&lt;/p&gt;
+
+&lt;p&gt;When hope was high&lt;/p&gt;
+
+&lt;p&gt;And life worth living&lt;/p&gt;
+
+&lt;p&gt;I dreamed that love would never die&lt;/p&gt;
+
+&lt;p&gt;I dreamed that God would be forgiving.&lt;/p&gt;
+
+&lt;p&gt;Then I was young and unafraid&lt;/p&gt;
+
+&lt;p&gt;And dreams were made and used&lt;/p&gt;
+
+&lt;p&gt;And wasted&lt;/p&gt;
+
+&lt;p&gt;There was no ransom to be paid&lt;/p&gt;
+
+&lt;p&gt;No song unsung&lt;/p&gt;
+
+&lt;p&gt;No wine untasted.&lt;/p&gt;
+
+&lt;p&gt;But the tigers come at night&lt;/p&gt;
+
+&lt;p&gt;With their voices soft as thunder&lt;/p&gt;
+
+&lt;p&gt;As they tear your hope apart&lt;/p&gt;
+
+&lt;p&gt;As they turn your dream to shame.&lt;/p&gt;
+
+&lt;p&gt;He slept a summer by my side&lt;/p&gt;
+
+&lt;p&gt;He filled my days&lt;/p&gt;
+
+&lt;p&gt;With endless wonder&lt;/p&gt;
+
+&lt;p&gt;He took my childhood in his stride&lt;/p&gt;
+
+&lt;p&gt;But he was gone when autumn came.&lt;/p&gt;
+
+&lt;p&gt;And still I dream he’ll come to me&lt;/p&gt;
+
+&lt;p&gt;That we will live the years together&lt;/p&gt;
+
+&lt;p&gt;But there are dreams that cannot be&lt;/p&gt;
+
+&lt;p&gt;And there are storms&lt;/p&gt;
+
+&lt;p&gt;We cannot weather . . .&lt;/p&gt;
+
+&lt;p&gt;I had a dream my life would be&lt;/p&gt;
+
+&lt;p&gt;So different from this hell I’m living&lt;/p&gt;
+
+&lt;p&gt;So different now from what it seemed&lt;/p&gt;
+
+&lt;p&gt;Now life has killed&lt;/p&gt;
+
+&lt;p&gt;The dream I dreamed.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;lovely-ladies&quot;&gt;LOVELY LADIES&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;SAILORS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I smell women&lt;/p&gt;
+
+&lt;p&gt;Smell ’em in the air.&lt;/p&gt;
+
+&lt;p&gt;Think I’ll drop my anchor&lt;/p&gt;
+
+&lt;p&gt;In that harbor over there.&lt;/p&gt;
+
+&lt;p&gt;Lovely ladies&lt;/p&gt;
+
+&lt;p&gt;Smell ’em through the smoke&lt;/p&gt;
+
+&lt;p&gt;Seven days at sea&lt;/p&gt;
+
+&lt;p&gt;Can make you hungry for a poke.&lt;/p&gt;
+
+&lt;p&gt;Even stokers need a little stoke!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WHORE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Lovely ladies&lt;/p&gt;
+
+&lt;p&gt;Waiting for a bite&lt;/p&gt;
+
+&lt;p&gt;Waiting for the customers&lt;/p&gt;
+
+&lt;p&gt;Who only come at night&lt;/p&gt;
+
+&lt;p&gt;Lovely ladies&lt;/p&gt;
+
+&lt;p&gt;Ready for the call&lt;/p&gt;
+
+&lt;p&gt;Standing up or lying down&lt;/p&gt;
+
+&lt;p&gt;Or any way at all.&lt;/p&gt;
+
+&lt;p&gt;Bargain prices up against the wall,&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CRONE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What pretty hair!&lt;/p&gt;
+
+&lt;p&gt;What pretty locks you got there.&lt;/p&gt;
+
+&lt;p&gt;What luck you got. It’s worth a centime, my dear&lt;/p&gt;
+
+&lt;p&gt;I’ll take the lot.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t touch me. Leave me alone.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CRONE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s make a price. I’ll give you all of ten francs.&lt;/p&gt;
+
+&lt;p&gt;Just think of that!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It pays a debt.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CRONE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Just think of that!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What can I do? It pays a debt&lt;/p&gt;
+
+&lt;p&gt;Ten francs may save my poor Cosette!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WHORES&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Old men, young men, take ’em as they come,&lt;/p&gt;
+
+&lt;p&gt;Harbor rats and alley cats and every kind of scum.&lt;/p&gt;
+
+&lt;p&gt;Poor men, rich men, leaders of the land,&lt;/p&gt;
+
+&lt;p&gt;See them with their trousers off they’re never quite as grand&lt;/p&gt;
+
+&lt;p&gt;All it takes is money in your hand!&lt;/p&gt;
+
+&lt;p&gt;Lovely ladies&lt;/p&gt;
+
+&lt;p&gt;Going for a song&lt;/p&gt;
+
+&lt;p&gt;Got a lot of callers&lt;/p&gt;
+
+&lt;p&gt;But they never stay for long.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Come on, Captain, you can wear your shoes&lt;/p&gt;
+
+&lt;p&gt;Don’t it make a change&lt;/p&gt;
+
+&lt;p&gt;To have a girl who can’t refuse?&lt;/p&gt;
+
+&lt;p&gt;Easy money&lt;/p&gt;
+
+&lt;p&gt;Lying on a bed.&lt;/p&gt;
+
+&lt;p&gt;Just is well they never see the hate&lt;/p&gt;
+
+&lt;p&gt;That’s in your head!&lt;/p&gt;
+
+&lt;p&gt;Don’t they know&lt;/p&gt;
+
+&lt;p&gt;They’re making love to one already dead!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;fantines-arrest&quot;&gt;FANTINE’S ARREST&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;SAILOR&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s something new, I think I’ll give it a try&lt;/p&gt;
+
+&lt;p&gt;Come closer, you!&lt;/p&gt;
+
+&lt;p&gt;I like to see what I buy&amp;amp;mldr;&lt;/p&gt;
+
+&lt;p&gt;The usual price&lt;/p&gt;
+
+&lt;p&gt;For just one slice of your pie&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I don’t want you&lt;/p&gt;
+
+&lt;p&gt;No, no M’sieur let me go&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SAILOR&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Is this a trick? I won’t pay more!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;No, no, not at all&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SAILOR&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ve got some nerve, you little whore&lt;/p&gt;
+
+&lt;p&gt;You’ve got some gall.&lt;/p&gt;
+
+&lt;p&gt;It’s the same with a tart&lt;/p&gt;
+
+&lt;p&gt;As it is with a grocer—&lt;/p&gt;
+
+&lt;p&gt;The customer sees what he gets in advance&lt;/p&gt;
+
+&lt;p&gt;It’s not for the whore to say ‘yes sir’ or ’no sir’&lt;/p&gt;
+
+&lt;p&gt;It’s not for the harlot to pick or to choose or to lead in the dance&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ll kill you, you bastard&lt;/p&gt;
+
+&lt;p&gt;Try any of that!&lt;/p&gt;
+
+&lt;p&gt;Even a whore who has gone to the bird&lt;/p&gt;
+
+&lt;p&gt;Won’t be had by a rat&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tell me quickly what’s the story?&lt;/p&gt;
+
+&lt;p&gt;Who saw what, and why, and where?&lt;/p&gt;
+
+&lt;p&gt;Let him a give a full description&lt;/p&gt;
+
+&lt;p&gt;Let him answer to Javert!&lt;/p&gt;
+
+&lt;p&gt;In this nest of whores and vipers&lt;/p&gt;
+
+&lt;p&gt;Let one speak who saw it all&lt;/p&gt;
+
+&lt;p&gt;Who laid hands on this good man here?&lt;/p&gt;
+
+&lt;p&gt;What’s the substance of this brawl?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SAILOR&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Javert, would you believe it—&lt;/p&gt;
+
+&lt;p&gt;I was crossing from the park&lt;/p&gt;
+
+&lt;p&gt;When this prostitute attacked me&lt;/p&gt;
+
+&lt;p&gt;You can see she left her mark&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;She will answer for her actions&lt;/p&gt;
+
+&lt;p&gt;When you make a full report&lt;/p&gt;
+
+&lt;p&gt;You may rest assured, M’sieur&lt;/p&gt;
+
+&lt;p&gt;That she will answer to the court&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a child who sorely needs me&lt;/p&gt;
+
+&lt;p&gt;Please, M’sieur, she’s but ’that high’&lt;/p&gt;
+
+&lt;p&gt;Holy God, is there no mercy?&lt;/p&gt;
+
+&lt;p&gt;If I go to jail she’ll die!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I have heard such protestations&lt;/p&gt;
+
+&lt;p&gt;Every day for twenty years&lt;/p&gt;
+
+&lt;p&gt;Let’s have no more explanations&lt;/p&gt;
+
+&lt;p&gt;Save your breath, and save your tears’ honest work.&lt;/p&gt;
+
+&lt;p&gt;Just reward.&lt;/p&gt;
+
+&lt;p&gt;That’s the way to please the lord.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A moment of your time, Javert&lt;/p&gt;
+
+&lt;p&gt;I do believe this woman’s tale&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;But M’sieur Mayor!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ve done your duty, let her be&lt;/p&gt;
+
+&lt;p&gt;She needs a doctor, not a jail&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;But M’sieur Mayor&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Where will she end&lt;/p&gt;
+
+&lt;p&gt;This child without a friend?&lt;/p&gt;
+
+&lt;p&gt;I’ve seen your face before&lt;/p&gt;
+
+&lt;p&gt;Show me some way to help you&lt;/p&gt;
+
+&lt;p&gt;How have you come to grief&lt;/p&gt;
+
+&lt;p&gt;In such a place as this?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;M’sieur, don’t mock me now I pray&lt;/p&gt;
+
+&lt;p&gt;It’s hard enough, I’ve lost my pride&lt;/p&gt;
+
+&lt;p&gt;You let your foreman send me away&lt;/p&gt;
+
+&lt;p&gt;Yes you were there and turned aside&lt;/p&gt;
+
+&lt;p&gt;I never did no wrong!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Is it true what I’ve done?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My daughter’s close to dying&amp;amp;mldr;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To an innocent soul?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If there’s a god above&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Had I only known then&amp;amp;mldr;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;He’d let me die instead&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In his name my task has just begun. I will see it done&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;But M’sieur Mayor&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I will see it done&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;the-runaway-cart&quot;&gt;THE RUNAWAY CART&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Can this be true?&lt;/p&gt;
+
+&lt;p&gt;I don’t believe what I see&lt;/p&gt;
+
+&lt;p&gt;A man your age&lt;/p&gt;
+
+&lt;p&gt;To be as strong as you are&lt;/p&gt;
+
+&lt;p&gt;A mem’ry stirs&lt;/p&gt;
+
+&lt;p&gt;You make me think of a man&lt;/p&gt;
+
+&lt;p&gt;From years ago&lt;/p&gt;
+
+&lt;p&gt;A man who broke his parole&lt;/p&gt;
+
+&lt;p&gt;He disappeared&lt;/p&gt;
+
+&lt;p&gt;Forgive me, sir&lt;/p&gt;
+
+&lt;p&gt;I would not dare&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Say what you must&lt;/p&gt;
+
+&lt;p&gt;Don’t leave it there&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I have only known one other&lt;/p&gt;
+
+&lt;p&gt;Who can do what you have done&lt;/p&gt;
+
+&lt;p&gt;He’s a convict from the chain gang&lt;/p&gt;
+
+&lt;p&gt;He’s been ten years on the run&lt;/p&gt;
+
+&lt;p&gt;But he couldn’t run forever&lt;/p&gt;
+
+&lt;p&gt;We have found his hide-away&lt;/p&gt;
+
+&lt;p&gt;And he’s just been rearrested&lt;/p&gt;
+
+&lt;p&gt;And he comes to court today&lt;/p&gt;
+
+&lt;p&gt;But, of course, he now denies it—&lt;/p&gt;
+
+&lt;p&gt;You’d expect that of a ‘con’&lt;/p&gt;
+
+&lt;p&gt;But he couldn’t run forever&lt;/p&gt;
+
+&lt;p&gt;No, not even Jean Valjean!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;who-am-i--the-trial&quot;&gt;WHO AM I? — THE TRIAL&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;He thinks that man is me&lt;/p&gt;
+
+&lt;p&gt;He knew him at a glance!&lt;/p&gt;
+
+&lt;p&gt;That stranger he has found&lt;/p&gt;
+
+&lt;p&gt;This man could be my chance!&lt;/p&gt;
+
+&lt;p&gt;Why should I save his hide?&lt;/p&gt;
+
+&lt;p&gt;Why should I right this wrong&lt;/p&gt;
+
+&lt;p&gt;When I have come so far&lt;/p&gt;
+
+&lt;p&gt;And struggled for so long?&lt;/p&gt;
+
+&lt;p&gt;If I speak, I am condemned&lt;/p&gt;
+
+&lt;p&gt;If I stay silent, I am damned!&lt;/p&gt;
+
+&lt;p&gt;I am the master of hundreds of workers.&lt;/p&gt;
+
+&lt;p&gt;They all look to me.&lt;/p&gt;
+
+&lt;p&gt;Can I abandon them?&lt;/p&gt;
+
+&lt;p&gt;How would they live&lt;/p&gt;
+
+&lt;p&gt;If I am not free&lt;/p&gt;
+
+&lt;p&gt;If I speak, I am condemned.&lt;/p&gt;
+
+&lt;p&gt;If I stay silent, I am damned!&lt;/p&gt;
+
+&lt;p&gt;Who am I?&lt;/p&gt;
+
+&lt;p&gt;Can I condemn this man to slavery?&lt;/p&gt;
+
+&lt;p&gt;Pretend I do not see his agony?&lt;/p&gt;
+
+&lt;p&gt;This innocent who bears my face&lt;/p&gt;
+
+&lt;p&gt;Who goes to judgment in my place.&lt;/p&gt;
+
+&lt;p&gt;Who am I?&lt;/p&gt;
+
+&lt;p&gt;Can I conceal myself for evermore?&lt;/p&gt;
+
+&lt;p&gt;Pretend I’m not the man I was before?&lt;/p&gt;
+
+&lt;p&gt;And must my name until I die&lt;/p&gt;
+
+&lt;p&gt;Be no more than an alibi?&lt;/p&gt;
+
+&lt;p&gt;Must I lie?&lt;/p&gt;
+
+&lt;p&gt;How can I ever face my fellow men?&lt;/p&gt;
+
+&lt;p&gt;How can I ever face myself again?&lt;/p&gt;
+
+&lt;p&gt;My soul belongs to God, I know&lt;/p&gt;
+
+&lt;p&gt;I made that bargain long ago&lt;/p&gt;
+
+&lt;p&gt;He gave me hope when hope was gone&lt;/p&gt;
+
+&lt;p&gt;He gave me strength to journey on&lt;/p&gt;
+
+&lt;p&gt;Who am I? Who am I?&lt;/p&gt;
+
+&lt;p&gt;I am Jean Valjean!&lt;/p&gt;
+
+&lt;p&gt;And so, Javert, you see it’s true&lt;/p&gt;
+
+&lt;p&gt;That man bears no more guilt than you!&lt;/p&gt;
+
+&lt;p&gt;Who am I?&lt;/p&gt;
+
+&lt;p&gt;24601!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;fantines-death&quot;&gt;FANTINE’S DEATH&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cosette, it’s turned so cold&lt;/p&gt;
+
+&lt;p&gt;Cosette, it’s past your bed time!&lt;/p&gt;
+
+&lt;p&gt;You’ve played the day away&lt;/p&gt;
+
+&lt;p&gt;And soon it will be night.&lt;/p&gt;
+
+&lt;p&gt;Come to me. Cosette, the light is fading&lt;/p&gt;
+
+&lt;p&gt;Don’t you see the evening star appearing?&lt;/p&gt;
+
+&lt;p&gt;Come to me and rest against my shoulder&lt;/p&gt;
+
+&lt;p&gt;How fast the minutes fly away and every minute colder.&lt;/p&gt;
+
+&lt;p&gt;Hurry near, another day is dying&lt;/p&gt;
+
+&lt;p&gt;Don’t you hear the winter wind is crying?&lt;/p&gt;
+
+&lt;p&gt;There’s a darkness which comes without a warning&lt;/p&gt;
+
+&lt;p&gt;But I will sing you lullabies and wake you in the morning.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh, Fantine, our time is running out&lt;/p&gt;
+
+&lt;p&gt;But, Fantine, I swear this on my life.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Look, M’sieur, where all the children play.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Be at peace, be at peace evermore.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My Cosette &amp;amp;mldr;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Shall live in my protection.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Take her now&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Your child will want for nothing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Good M’sieur, you come from God in heaven.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And none will ever harm Cosette&lt;/p&gt;
+
+&lt;p&gt;As long as I am living.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Take my hand&lt;/p&gt;
+
+&lt;p&gt;The night grows ever colder.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I will keep you warm.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Take my child&lt;/p&gt;
+
+&lt;p&gt;I give her to your keeping.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Take shelter from the storm.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For God’s sake, please stay till I am sleeping&lt;/p&gt;
+
+&lt;p&gt;And tell Cosette I love her&lt;/p&gt;
+
+&lt;p&gt;And I’ll see her when I wake &amp;amp;mldr;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;the-confrontation&quot;&gt;THE CONFRONTATION&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Valjean, at last.&lt;/p&gt;
+
+&lt;p&gt;We see each other plain&lt;/p&gt;
+
+&lt;p&gt;‘M’sieur le Mayor’.&lt;/p&gt;
+
+&lt;p&gt;You’ll wear a different chain!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Before you say another word, Javert&lt;/p&gt;
+
+&lt;p&gt;Before you chain me up like a slave again&lt;/p&gt;
+
+&lt;p&gt;Listen to me. There is something I must do.&lt;/p&gt;
+
+&lt;p&gt;This woman leaves behind a suffering child.&lt;/p&gt;
+
+&lt;p&gt;There is none but me who can intercede.&lt;/p&gt;
+
+&lt;p&gt;In mercy’s name, three days are all I need&lt;/p&gt;
+
+&lt;p&gt;Then I’ll return. I pledge my word.&lt;/p&gt;
+
+&lt;p&gt;Then I’ll return . . .&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You must think me mad!&lt;/p&gt;
+
+&lt;p&gt;I’ve hunted you across the years.&lt;/p&gt;
+
+&lt;p&gt;Men like you can never change.&lt;/p&gt;
+
+&lt;p&gt;A man such as you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Believe of me what you will&lt;/p&gt;
+
+&lt;p&gt;There is a duty that I’m sworn to do&lt;/p&gt;
+
+&lt;p&gt;You know nothing of my life&lt;/p&gt;
+
+&lt;p&gt;All I did was steal some bread&lt;/p&gt;
+
+&lt;p&gt;You know nothing of the world&lt;/p&gt;
+
+&lt;p&gt;You would sooner see me dead&lt;/p&gt;
+
+&lt;p&gt;But not before I see this justice done.&lt;/p&gt;
+
+&lt;p&gt;I am warning you, Javert&lt;/p&gt;
+
+&lt;p&gt;I’m a stronger man by far&lt;/p&gt;
+
+&lt;p&gt;There is power in me yet&lt;/p&gt;
+
+&lt;p&gt;My race is not yet run&lt;/p&gt;
+
+&lt;p&gt;I am warning you, Javert&lt;/p&gt;
+
+&lt;p&gt;There is nothing I won’t dare&lt;/p&gt;
+
+&lt;p&gt;If I have to kill you here.&lt;/p&gt;
+
+&lt;p&gt;I’ll do what must be done&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Men like me can never change.&lt;/p&gt;
+
+&lt;p&gt;Men like you can never change.&lt;/p&gt;
+
+&lt;p&gt;No. 24601&lt;/p&gt;
+
+&lt;p&gt;My duty’s to the law&lt;/p&gt;
+
+&lt;p&gt;You have no rights&lt;/p&gt;
+
+&lt;p&gt;Come with me. 24601&lt;/p&gt;
+
+&lt;p&gt;Now the wheel has turned around&lt;/p&gt;
+
+&lt;p&gt;Jean Valjean is nothing now&lt;/p&gt;
+
+&lt;p&gt;Dare you talk to me of crime&lt;/p&gt;
+
+&lt;p&gt;And the price you had to pay&lt;/p&gt;
+
+&lt;p&gt;Every man is born in sin&lt;/p&gt;
+
+&lt;p&gt;Every man must choose his way&lt;/p&gt;
+
+&lt;p&gt;You know nothing of Javert&lt;/p&gt;
+
+&lt;p&gt;I was born inside a jail&lt;/p&gt;
+
+&lt;p&gt;I was born with scum like you&lt;/p&gt;
+
+&lt;p&gt;I am from the gutter too.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And this I swear to you tonight&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There is no place for you to hide.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Your child will live within my care.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Wherever you may hide away.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And I will raise her to the light.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN &amp;amp; JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I swear to you. I will be there!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;castle-on-a-cloud&quot;&gt;CASTLE ON A CLOUD&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;YOUNG COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a castle on a cloud&lt;/p&gt;
+
+&lt;p&gt;I like to go there in my sleep&lt;/p&gt;
+
+&lt;p&gt;Aren’t any floors for me to sweep&lt;/p&gt;
+
+&lt;p&gt;Not in my castle on a cloud.&lt;/p&gt;
+
+&lt;p&gt;There is a room that’s full of toys&lt;/p&gt;
+
+&lt;p&gt;There are a hundred boys and girls&lt;/p&gt;
+
+&lt;p&gt;Nobody shouts or talks too loud&lt;/p&gt;
+
+&lt;p&gt;Not in my castle on a cloud.&lt;/p&gt;
+
+&lt;p&gt;There is a lady all in white&lt;/p&gt;
+
+&lt;p&gt;Holds me and sings a lullaby&lt;/p&gt;
+
+&lt;p&gt;She’s nice to see&lt;/p&gt;
+
+&lt;p&gt;And she’s soft to touch&lt;/p&gt;
+
+&lt;p&gt;She says: ‘Cosette I love you very much’.&lt;/p&gt;
+
+&lt;p&gt;I know a place where no one’s lost&lt;/p&gt;
+
+&lt;p&gt;I know a place where no one cries&lt;/p&gt;
+
+&lt;p&gt;Crying at all is not allowed&lt;/p&gt;
+
+&lt;p&gt;Not in my castle on a cloud.&lt;/p&gt;
+
+&lt;p&gt;Oh help! I think I hear them now, and I’m nowhere near&lt;/p&gt;
+
+&lt;p&gt;finished sweeping and scrubbing and polishing the floor.&lt;/p&gt;
+
+&lt;p&gt;Oh, it’s her! It’s Madame!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MADAM THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now look, who’s here!&lt;/p&gt;
+
+&lt;p&gt;The little madam herself&lt;/p&gt;
+
+&lt;p&gt;Pretending once again she’s being so awfully good!&lt;/p&gt;
+
+&lt;p&gt;Better not let me catch you slacking&lt;/p&gt;
+
+&lt;p&gt;Better not catch my eye&lt;/p&gt;
+
+&lt;p&gt;Ten rotten francs your mother sends me&lt;/p&gt;
+
+&lt;p&gt;What is that going to buy&lt;/p&gt;
+
+&lt;p&gt;Now take that pail&lt;/p&gt;
+
+&lt;p&gt;My little ‘Mademoiselle’&lt;/p&gt;
+
+&lt;p&gt;And go draw some water from the well&lt;/p&gt;
+
+&lt;p&gt;We should never have taken you in in the first place&lt;/p&gt;
+
+&lt;p&gt;How stupid the things we do&lt;/p&gt;
+
+&lt;p&gt;Like mother, like daughter, the scum of the streets&lt;/p&gt;
+
+&lt;p&gt;Still there, Cosette?&lt;/p&gt;
+
+&lt;p&gt;Your tears will do you no good!&lt;/p&gt;
+
+&lt;p&gt;I told you fetch some water from the well in the wood&amp;amp;mldr;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Please do not send me out alone&lt;/p&gt;
+
+&lt;p&gt;Not in the darkness on my own.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MADAM THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Enough of that or I’ll forget to be nice!&lt;/p&gt;
+
+&lt;p&gt;You heard me ask for something and I never ask twice!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;master-of-the-house&quot;&gt;MASTER OF THE HOUSE&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Welcome, M’sieur&lt;/p&gt;
+
+&lt;p&gt;Sit yourself down&lt;/p&gt;
+
+&lt;p&gt;And meet the best&lt;/p&gt;
+
+&lt;p&gt;Innkeeper in town.&lt;/p&gt;
+
+&lt;p&gt;As for the rest.&lt;/p&gt;
+
+&lt;p&gt;All of them crooks&lt;/p&gt;
+
+&lt;p&gt;Rooking the guest&lt;/p&gt;
+
+&lt;p&gt;And cooking the books.&lt;/p&gt;
+
+&lt;p&gt;Seldom do you see&lt;/p&gt;
+
+&lt;p&gt;Honest men like me&lt;/p&gt;
+
+&lt;p&gt;A gent of good intent&lt;/p&gt;
+
+&lt;p&gt;Who’s content to be&lt;/p&gt;
+
+&lt;p&gt;Master of the house&lt;/p&gt;
+
+&lt;p&gt;Doling out the charm&lt;/p&gt;
+
+&lt;p&gt;Ready with a handshake&lt;/p&gt;
+
+&lt;p&gt;And an open palm&lt;/p&gt;
+
+&lt;p&gt;Tells a saucy tale&lt;/p&gt;
+
+&lt;p&gt;Makes a little stir&lt;/p&gt;
+
+&lt;p&gt;Customers appreciate a bon-viveur&lt;/p&gt;
+
+&lt;p&gt;Glad to do my friends a favor&lt;/p&gt;
+
+&lt;p&gt;Doesn’t cost me to be nice&lt;/p&gt;
+
+&lt;p&gt;But nothing gets you nothing&lt;/p&gt;
+
+&lt;p&gt;Everything has got a little price!&lt;/p&gt;
+
+&lt;p&gt;Master of the house&lt;/p&gt;
+
+&lt;p&gt;Keeper of the zoo&lt;/p&gt;
+
+&lt;p&gt;Ready to relieve ’em&lt;/p&gt;
+
+&lt;p&gt;Of a sou, or two.&lt;/p&gt;
+
+&lt;p&gt;Watering the wine&lt;/p&gt;
+
+&lt;p&gt;Making up the weight&lt;/p&gt;
+
+&lt;p&gt;Picking up their knickknacks&lt;/p&gt;
+
+&lt;p&gt;When they can’t see straight&lt;/p&gt;
+
+&lt;p&gt;Everybody loves landlord&lt;/p&gt;
+
+&lt;p&gt;Everybody’s bosom friend&lt;/p&gt;
+
+&lt;p&gt;I do whatever pleases&lt;/p&gt;
+
+&lt;p&gt;Jesus, Won’t I bleed ’em in the end!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER &amp;amp; CHORUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Master of the house&lt;/p&gt;
+
+&lt;p&gt;Quick to catch your eye&lt;/p&gt;
+
+&lt;p&gt;Never wants a passer-by&lt;/p&gt;
+
+&lt;p&gt;To pass him by&lt;/p&gt;
+
+&lt;p&gt;Servant to the poor&lt;/p&gt;
+
+&lt;p&gt;Butler to the great&lt;/p&gt;
+
+&lt;p&gt;Comforter. philosopher&lt;/p&gt;
+
+&lt;p&gt;And lifelong mate!&lt;/p&gt;
+
+&lt;p&gt;Everybody’s boon companion&lt;/p&gt;
+
+&lt;p&gt;Everybody’s chaperone&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;But lock up your valises&lt;/p&gt;
+
+&lt;p&gt;Jesus! Won’t I skin you to the bone!&lt;/p&gt;
+
+&lt;p&gt;Enter. M’sieur&lt;/p&gt;
+
+&lt;p&gt;Lay down yer load&lt;/p&gt;
+
+&lt;p&gt;Unlace yer boots&lt;/p&gt;
+
+&lt;p&gt;And rest from the road&lt;/p&gt;
+
+&lt;p&gt;This weighs a ton&lt;/p&gt;
+
+&lt;p&gt;Travel’s a curse&lt;/p&gt;
+
+&lt;p&gt;But here we strive&lt;/p&gt;
+
+&lt;p&gt;To lighten your purse.&lt;/p&gt;
+
+&lt;p&gt;Here the goose is cooked&lt;/p&gt;
+
+&lt;p&gt;Here the fat is fried&lt;/p&gt;
+
+&lt;p&gt;And nothing’s overlooked&lt;/p&gt;
+
+&lt;p&gt;Till I’m satisfied&lt;/p&gt;
+
+&lt;p&gt;Food beyond compare&lt;/p&gt;
+
+&lt;p&gt;Food beyond belief&lt;/p&gt;
+
+&lt;p&gt;Mix it in a mincer&lt;/p&gt;
+
+&lt;p&gt;And pretend it’s beef&lt;/p&gt;
+
+&lt;p&gt;Kidney of a horse&lt;/p&gt;
+
+&lt;p&gt;Liver of a cat&lt;/p&gt;
+
+&lt;p&gt;Filling up the sausages&lt;/p&gt;
+
+&lt;p&gt;With this and that!&lt;/p&gt;
+
+&lt;p&gt;Residents are more than welcome&lt;/p&gt;
+
+&lt;p&gt;Bridal suite is occupied!&lt;/p&gt;
+
+&lt;p&gt;Reasonable charges&lt;/p&gt;
+
+&lt;p&gt;Plus some little extras on the side!&lt;/p&gt;
+
+&lt;p&gt;Charge ’em for the lice&lt;/p&gt;
+
+&lt;p&gt;Extra for the mice&lt;/p&gt;
+
+&lt;p&gt;Two per cent for looking in the mirror twice.&lt;/p&gt;
+
+&lt;p&gt;Here a little slice&lt;/p&gt;
+
+&lt;p&gt;There a little cut&lt;/p&gt;
+
+&lt;p&gt;Three per cent for sleeping with the window shut.&lt;/p&gt;
+
+&lt;p&gt;When it comes to fixing prices&lt;/p&gt;
+
+&lt;p&gt;There are lots of tricks he knows&lt;/p&gt;
+
+&lt;p&gt;How it all increases&lt;/p&gt;
+
+&lt;p&gt;All those bits and pieces&lt;/p&gt;
+
+&lt;p&gt;Jesus! It’s amazing how it grows!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER &amp;amp; CHORUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Master of the house&lt;/p&gt;
+
+&lt;p&gt;Quick to catch your eye&lt;/p&gt;
+
+&lt;p&gt;Never wants a passer-by to pass him by&lt;/p&gt;
+
+&lt;p&gt;Servant to the poor&lt;/p&gt;
+
+&lt;p&gt;Butler to the great&lt;/p&gt;
+
+&lt;p&gt;Comforter, philosopher&lt;/p&gt;
+
+&lt;p&gt;And life-long mate&lt;/p&gt;
+
+&lt;p&gt;Everybody’s boon companion&lt;/p&gt;
+
+&lt;p&gt;Gives ’em everything he’s got.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Dirty bunch of geezers&lt;/p&gt;
+
+&lt;p&gt;Jesus! What a sorry little lot!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MADAME THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I used to dream&lt;/p&gt;
+
+&lt;p&gt;That I would meet a prince.&lt;/p&gt;
+
+&lt;p&gt;But God Almighty.&lt;/p&gt;
+
+&lt;p&gt;Have you seen what’s happened since?&lt;/p&gt;
+
+&lt;p&gt;‘Master of the house’?&lt;/p&gt;
+
+&lt;p&gt;Isn’t worth me spit!&lt;/p&gt;
+
+&lt;p&gt;‘Comforter, philosopher’&lt;/p&gt;
+
+&lt;p&gt;—and lifelong shit’&lt;/p&gt;
+
+&lt;p&gt;Cunning little brain&lt;/p&gt;
+
+&lt;p&gt;Regular Voltaire&lt;/p&gt;
+
+&lt;p&gt;Thinks he’s quite a lover&lt;/p&gt;
+
+&lt;p&gt;But there’s not much there.&lt;/p&gt;
+
+&lt;p&gt;What a cruel trick of nature&lt;/p&gt;
+
+&lt;p&gt;Landed me with such a louse&lt;/p&gt;
+
+&lt;p&gt;God knows how I’ve lasted&lt;/p&gt;
+
+&lt;p&gt;Living with this bastard in the house!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER &amp;amp; CHORUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Master of the house&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MADAME THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Master and a half.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER &amp;amp; CHORUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Comforter, philosopher.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MADAME THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t make me laugh&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER &amp;amp; CHORUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Servant to the poor&lt;/p&gt;
+
+&lt;p&gt;Butler to the great&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MADAME THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hypocrite and toady&lt;/p&gt;
+
+&lt;p&gt;And inebriate!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER &amp;amp; CHORUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Everybody bless the landlord!&lt;/p&gt;
+
+&lt;p&gt;Everybody bless his spouse!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Everybody raise a glass&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MADAME THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Raise it up the master’s ass.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ALL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Everybody raise a glass ta the master of the house.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;the-bargain--waltz-of-treachery&quot;&gt;THE BARGAIN — WALTZ OF TREACHERY&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I found her wandering in the woods&lt;/p&gt;
+
+&lt;p&gt;This little child, I found her trembling in the shadows&lt;/p&gt;
+
+&lt;p&gt;And I am here to help, Cosette&lt;/p&gt;
+
+&lt;p&gt;And I will settle any debt you may think proper&lt;/p&gt;
+
+&lt;p&gt;I will pay what I must pay&lt;/p&gt;
+
+&lt;p&gt;To take Cosette away.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What to do? What to say?&lt;/p&gt;
+
+&lt;p&gt;Shall you carry our treasure away?&lt;/p&gt;
+
+&lt;p&gt;What a gem! What a pearl!&lt;/p&gt;
+
+&lt;p&gt;Beyond rubies is our little girl!&lt;/p&gt;
+
+&lt;p&gt;How can we speak of debt?&lt;/p&gt;
+
+&lt;p&gt;Let’s not haggle for darling Cosette!&lt;/p&gt;
+
+&lt;p&gt;Dear Fantine, gone to rest&lt;/p&gt;
+
+&lt;p&gt;Have we done for her child what is best?&lt;/p&gt;
+
+&lt;p&gt;Shared our bread. Shared each bone.&lt;/p&gt;
+
+&lt;p&gt;Treated her like she’s one of our own!&lt;/p&gt;
+
+&lt;p&gt;Like our own, Monsieur!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Your feelings do you credit, sir&lt;/p&gt;
+
+&lt;p&gt;And I will ease the parting blow&lt;/p&gt;
+
+&lt;p&gt;Let us not talk of bargains or bones or greed&lt;/p&gt;
+
+&lt;p&gt;Now, may I say, we are agreed?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MADAM THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;That would quite fit the bill&lt;/p&gt;
+
+&lt;p&gt;If she hadn’t so often been ill&lt;/p&gt;
+
+&lt;p&gt;Little dear, cost us dear&lt;/p&gt;
+
+&lt;p&gt;Medicines are expensive, M’sieur!&lt;/p&gt;
+
+&lt;p&gt;Not that we begrudged a sou—&lt;/p&gt;
+
+&lt;p&gt;It’s no more than we Christians must do!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;M. &amp;amp; M’ME THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One thing more. One small doubt&lt;/p&gt;
+
+&lt;p&gt;There are treacherous people about&lt;/p&gt;
+
+&lt;p&gt;No offense. Please reflect&lt;/p&gt;
+
+&lt;p&gt;Your intentions may not be correct?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;No more words. Here’s your price.&lt;/p&gt;
+
+&lt;p&gt;Fifteen hundred for your sacrifice&lt;/p&gt;
+
+&lt;p&gt;Come, Cosette, say goodbye&lt;/p&gt;
+
+&lt;p&gt;Let us seek out a friendlier sky&lt;/p&gt;
+
+&lt;p&gt;Thank you both for Cosette&lt;/p&gt;
+
+&lt;p&gt;It won’t take you too long to forget.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;look-down&quot;&gt;LOOK DOWN&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;BEGGARS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Look down and see the beggars at your feet&lt;/p&gt;
+
+&lt;p&gt;Look down and show some mercy if you can&lt;/p&gt;
+
+&lt;p&gt;Look down and see&lt;/p&gt;
+
+&lt;p&gt;The sweepings of the street&lt;/p&gt;
+
+&lt;p&gt;Look down. Look down&lt;/p&gt;
+
+&lt;p&gt;Upon your fellow man!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GAVROCHE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;How do you do? My name’s Gavroche.&lt;/p&gt;
+
+&lt;p&gt;These are my people Here’s my patch.&lt;/p&gt;
+
+&lt;p&gt;Not much to look at, nothing posh&lt;/p&gt;
+
+&lt;p&gt;Nothing that you’d call up to scratch.&lt;/p&gt;
+
+&lt;p&gt;This is my school, my high society&lt;/p&gt;
+
+&lt;p&gt;Here in the slums of Saint Michele&lt;/p&gt;
+
+&lt;p&gt;We live on crumbs of humble piety—&lt;/p&gt;
+
+&lt;p&gt;Tough on the teeth, but what the hell!&lt;/p&gt;
+
+&lt;p&gt;Think you’re poor.&lt;/p&gt;
+
+&lt;p&gt;Think you’re free?&lt;/p&gt;
+
+&lt;p&gt;Follow me! Follow me!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BEGGARS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Look down and show some mercy if you can.&lt;/p&gt;
+
+&lt;p&gt;Look down, look down upon your fellow man.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OLD BEGGAR WOMAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What d’ you think yer at&lt;/p&gt;
+
+&lt;p&gt;Hanging round me pitch?&lt;/p&gt;
+
+&lt;p&gt;If you’re new around here, girl,&lt;/p&gt;
+
+&lt;p&gt;You’ve got a lot to learn!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;YOUNG PROSTITUTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Listen, you old bat&lt;/p&gt;
+
+&lt;p&gt;Crazy bloody witch&lt;/p&gt;
+
+&lt;p&gt;‘Least I give my customers&lt;/p&gt;
+
+&lt;p&gt;Some pleasure in return!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OLD BEGGAR WOMAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I know what you give.&lt;/p&gt;
+
+&lt;p&gt;Give ’em all the pox!&lt;/p&gt;
+
+&lt;p&gt;Spread around your poison&lt;/p&gt;
+
+&lt;p&gt;Till they end up in a box&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PIMP&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Leave the poor old cow.&lt;/p&gt;
+
+&lt;p&gt;Move it, Madeleine.&lt;/p&gt;
+
+&lt;p&gt;She used to be no better&lt;/p&gt;
+
+&lt;p&gt;Till the clap got to her brain&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BEGGARS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When’s it gonna end?&lt;/p&gt;
+
+&lt;p&gt;When we gonna live?&lt;/p&gt;
+
+&lt;p&gt;Something’s gotta happen now or&lt;/p&gt;
+
+&lt;p&gt;something’s gonna give&lt;/p&gt;
+
+&lt;p&gt;It’ll come, It’ll come. It’ll come&lt;/p&gt;
+
+&lt;p&gt;It’ll come, It’ll come. It’ll come. It’ll come.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Where are the leaders of the land?&lt;/p&gt;
+
+&lt;p&gt;Where are the swells who run the show?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Only one man — and that’s Lamarque&lt;/p&gt;
+
+&lt;p&gt;Speaks for these people here below.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BEGGARS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;See our children fed&lt;/p&gt;
+
+&lt;p&gt;Help us in our shame&lt;/p&gt;
+
+&lt;p&gt;Something for a crust of bread&lt;/p&gt;
+
+&lt;p&gt;In Holy Jesus’ name&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;URCHIN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the Lord’s Holy name.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BEGGARS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In his name&lt;/p&gt;
+
+&lt;p&gt;In his name&lt;/p&gt;
+
+&lt;p&gt;In his name&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Lamarque is ill and fading fast&lt;/p&gt;
+
+&lt;p&gt;Won’t last the week out so they say.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;With all the anger in the land&lt;/p&gt;
+
+&lt;p&gt;How long before the judgment day!&lt;/p&gt;
+
+&lt;p&gt;Before we cut the fat ones down to size?&lt;/p&gt;
+
+&lt;p&gt;Before the barricades arise?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BEGGARS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Look down and show some mercy if you can&lt;/p&gt;
+
+&lt;p&gt;Look down, look down&lt;/p&gt;
+
+&lt;p&gt;Upon your fellow man&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;stars&quot;&gt;STARS&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There out in the darkness&lt;/p&gt;
+
+&lt;p&gt;A fugitive running&lt;/p&gt;
+
+&lt;p&gt;Fallen from grace&lt;/p&gt;
+
+&lt;p&gt;Fallen from grace&lt;/p&gt;
+
+&lt;p&gt;God be my witness&lt;/p&gt;
+
+&lt;p&gt;I never shall yield&lt;/p&gt;
+
+&lt;p&gt;Till we come face to face&lt;/p&gt;
+
+&lt;p&gt;Till we come face to face.&lt;/p&gt;
+
+&lt;p&gt;He knows his way in the dark&lt;/p&gt;
+
+&lt;p&gt;But mine is the way of the Lord&lt;/p&gt;
+
+&lt;p&gt;And those who do follow the path of the righteous&lt;/p&gt;
+
+&lt;p&gt;Shall have their reward&lt;/p&gt;
+
+&lt;p&gt;And if they fall&lt;/p&gt;
+
+&lt;p&gt;As Lucifer fell&lt;/p&gt;
+
+&lt;p&gt;The flame&lt;/p&gt;
+
+&lt;p&gt;The sword!&lt;/p&gt;
+
+&lt;p&gt;Stars in your multitudes&lt;/p&gt;
+
+&lt;p&gt;Scarce to be counted&lt;/p&gt;
+
+&lt;p&gt;Filling the darkness&lt;/p&gt;
+
+&lt;p&gt;With order and light&lt;/p&gt;
+
+&lt;p&gt;You are the sentinels&lt;/p&gt;
+
+&lt;p&gt;Silent and sure&lt;/p&gt;
+
+&lt;p&gt;Keeping watch in the night&lt;/p&gt;
+
+&lt;p&gt;Keeping watch in the night&lt;/p&gt;
+
+&lt;p&gt;You know your place in the sky&lt;/p&gt;
+
+&lt;p&gt;You hold your course&lt;/p&gt;
+
+&lt;p&gt;And your aim&lt;/p&gt;
+
+&lt;p&gt;And each in your season&lt;/p&gt;
+
+&lt;p&gt;Returns and returns&lt;/p&gt;
+
+&lt;p&gt;And is always the same&lt;/p&gt;
+
+&lt;p&gt;And if you fall&lt;/p&gt;
+
+&lt;p&gt;As Lucifer fell&lt;/p&gt;
+
+&lt;p&gt;You fall&lt;/p&gt;
+
+&lt;p&gt;In flame!&lt;/p&gt;
+
+&lt;p&gt;And so it has been and so it’s written&lt;/p&gt;
+
+&lt;p&gt;On the doorway to paradise&lt;/p&gt;
+
+&lt;p&gt;That those who falter&lt;/p&gt;
+
+&lt;p&gt;And those who fall&lt;/p&gt;
+
+&lt;p&gt;Must pay&lt;/p&gt;
+
+&lt;p&gt;The price.&lt;/p&gt;
+
+&lt;p&gt;Lord let me find him&lt;/p&gt;
+
+&lt;p&gt;That I may see him&lt;/p&gt;
+
+&lt;p&gt;Safe behind bars&lt;/p&gt;
+
+&lt;p&gt;I will never rest&lt;/p&gt;
+
+&lt;p&gt;Till then&lt;/p&gt;
+
+&lt;p&gt;This I swear&lt;/p&gt;
+
+&lt;p&gt;This I swear by the stars!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;abc-cafe--red-and-black&quot;&gt;ABC CAFE / RED AND BLACK&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;STUDENTS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At Notre Dame&lt;/p&gt;
+
+&lt;p&gt;The sections are prepared!&lt;/p&gt;
+
+&lt;p&gt;At Rue du Bac&lt;/p&gt;
+
+&lt;p&gt;They’re straining at the leash!&lt;/p&gt;
+
+&lt;p&gt;Students, workers, everyone,&lt;/p&gt;
+
+&lt;p&gt;There’s a river on the run:&lt;/p&gt;
+
+&lt;p&gt;Like the flowing of the tide&lt;/p&gt;
+
+&lt;p&gt;Paris coming to our side!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The time is near&lt;/p&gt;
+
+&lt;p&gt;So near it’s stirring the blood in their veins&lt;/p&gt;
+
+&lt;p&gt;And yet beware&lt;/p&gt;
+
+&lt;p&gt;Don’t let the wine go to your brains&lt;/p&gt;
+
+&lt;p&gt;For the army we fight is a dangerous foe&lt;/p&gt;
+
+&lt;p&gt;With the men and the arms that we never can match&lt;/p&gt;
+
+&lt;p&gt;it is easy to sit here and swat ’em like flies&lt;/p&gt;
+
+&lt;p&gt;But the National Guard will be harder to catch&lt;/p&gt;
+
+&lt;p&gt;We need a sign&lt;/p&gt;
+
+&lt;p&gt;To rally the people&lt;/p&gt;
+
+&lt;p&gt;To call them to arms&lt;/p&gt;
+
+&lt;p&gt;To bring them in line!&lt;/p&gt;
+
+&lt;p&gt;Marius, you’re late&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JOLY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What’s wrong today?&lt;/p&gt;
+
+&lt;p&gt;You look as if you’ve seen a ghost&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GRANTAIRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Some wine, and say what’s going on.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A ghost you say, a ghost maybe&lt;/p&gt;
+
+&lt;p&gt;She was just like a ghost to me&lt;/p&gt;
+
+&lt;p&gt;One minute there&amp;amp;mldr;then she was gone!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GRANTAIRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I am agog!&lt;/p&gt;
+
+&lt;p&gt;I am aghast!&lt;/p&gt;
+
+&lt;p&gt;Is Marius in love at last?&lt;/p&gt;
+
+&lt;p&gt;I have never seen him ‘ooh’ and ‘aah’&lt;/p&gt;
+
+&lt;p&gt;You talk of battles to be won&lt;/p&gt;
+
+&lt;p&gt;And here he comes like Don Ju-an&lt;/p&gt;
+
+&lt;p&gt;It’s better than an o-per-a!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It is time for us all&lt;/p&gt;
+
+&lt;p&gt;To decide who we are&lt;/p&gt;
+
+&lt;p&gt;Do we fight for the right&lt;/p&gt;
+
+&lt;p&gt;To a night at the opera now?&lt;/p&gt;
+
+&lt;p&gt;Have you asked of yourselves&lt;/p&gt;
+
+&lt;p&gt;What’s the price you might pay?&lt;/p&gt;
+
+&lt;p&gt;Is it simply a game&lt;/p&gt;
+
+&lt;p&gt;For rich young boys to play,&lt;/p&gt;
+
+&lt;p&gt;The color of the world&lt;/p&gt;
+
+&lt;p&gt;Is changing day by day&lt;/p&gt;
+
+&lt;p&gt;Red — the blood of angry men!&lt;/p&gt;
+
+&lt;p&gt;Black — the dark of ages past!&lt;/p&gt;
+
+&lt;p&gt;Red — a world about to dawn!&lt;/p&gt;
+
+&lt;p&gt;Black — the night that ends at last!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Had you been there tonight&lt;/p&gt;
+
+&lt;p&gt;You might know how it feels&lt;/p&gt;
+
+&lt;p&gt;To be struck to the bone&lt;/p&gt;
+
+&lt;p&gt;In a moment of breathless delight!&lt;/p&gt;
+
+&lt;p&gt;Had you been there tonight&lt;/p&gt;
+
+&lt;p&gt;You might also have known&lt;/p&gt;
+
+&lt;p&gt;How your world may be changed&lt;/p&gt;
+
+&lt;p&gt;In just one burst of light&lt;/p&gt;
+
+&lt;p&gt;And what was right seems wrong&lt;/p&gt;
+
+&lt;p&gt;And what was wrong seems right!&lt;/p&gt;
+
+&lt;p&gt;Red — I feel my soul on fire!&lt;/p&gt;
+
+&lt;p&gt;Black — my world if she’s not there!&lt;/p&gt;
+
+&lt;p&gt;Red — the color of desire!&lt;/p&gt;
+
+&lt;p&gt;Black — the color of despair!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Marius, you’re no longer a child&lt;/p&gt;
+
+&lt;p&gt;I do not doubt you mean it well&lt;/p&gt;
+
+&lt;p&gt;But now there is a higher call&lt;/p&gt;
+
+&lt;p&gt;Who cares about your lonely soul?&lt;/p&gt;
+
+&lt;p&gt;We strive towards a larger goal&lt;/p&gt;
+
+&lt;p&gt;Our little lives don’t count at all!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;STUDENTS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Red — the blood of angry men!&lt;/p&gt;
+
+&lt;p&gt;Black — the dark of ages past!&lt;/p&gt;
+
+&lt;p&gt;Red - a world about to dawn!&lt;/p&gt;
+
+&lt;p&gt;Black - the night that ends at last!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, Courfeyrac, do we have all the guns we need&lt;/p&gt;
+
+&lt;p&gt;Feuilly, Combeferre, our time is running short&lt;/p&gt;
+
+&lt;p&gt;Grantaire, put that bottle down!&lt;/p&gt;
+
+&lt;p&gt;Do we have the guns we need?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GRANTAIRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Give me brandy on my breath&lt;/p&gt;
+
+&lt;p&gt;And I’ll breathe them all to death&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COURFEYRAC&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At St. Antoine they’re with us to a man&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COMBEFERRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At Notre Dame they’re tearing up the stones&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FEUILLY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Twenty rifles good as new&lt;/p&gt;
+
+&lt;p&gt;JOLY&lt;/p&gt;
+
+&lt;p&gt;Twenty rounds for every man.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GAVROCHE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Listen&lt;/p&gt;
+
+&lt;p&gt;Listen to me&lt;/p&gt;
+
+&lt;p&gt;Listen everybody&lt;/p&gt;
+
+&lt;p&gt;General Lamarque is dead&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Lamarque is dead&lt;/p&gt;
+
+&lt;p&gt;Lamarque&lt;/p&gt;
+
+&lt;p&gt;His death is the hour of fate&lt;/p&gt;
+
+&lt;p&gt;The people’s man&lt;/p&gt;
+
+&lt;p&gt;His death is the sign we await&lt;/p&gt;
+
+&lt;p&gt;On his funeral day they will honor his name&lt;/p&gt;
+
+&lt;p&gt;It’s a rallying cry that will reach every ear.&lt;/p&gt;
+
+&lt;p&gt;In the death of Lamarque we will kindle the a flame&lt;/p&gt;
+
+&lt;p&gt;They will see that the day of salvation is near&lt;/p&gt;
+
+&lt;p&gt;The time is here&lt;/p&gt;
+
+&lt;p&gt;Let us welcome it gladly with courage and cheer&lt;/p&gt;
+
+&lt;p&gt;Let us take to the streets with no doubt in our hearts&lt;/p&gt;
+
+&lt;p&gt;But a jubilant shout&lt;/p&gt;
+
+&lt;p&gt;They will come one and all,&lt;/p&gt;
+
+&lt;p&gt;They will come when we call!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;do-you-hear-the-people-sing&quot;&gt;DO YOU HEAR THE PEOPLE SING?&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you hear the people sing?&lt;/p&gt;
+
+&lt;p&gt;Singing the song of angry men?&lt;/p&gt;
+
+&lt;p&gt;It is the music of a people&lt;/p&gt;
+
+&lt;p&gt;Who will not be slaves again!&lt;/p&gt;
+
+&lt;p&gt;When the beating of your heart&lt;/p&gt;
+
+&lt;p&gt;Echoes the beating of the drums&lt;/p&gt;
+
+&lt;p&gt;There is a life about to start&lt;/p&gt;
+
+&lt;p&gt;When tomorrow comes!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COMBEFERRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Will you join in our crusade?&lt;/p&gt;
+
+&lt;p&gt;Who will be strong and stand with me?&lt;/p&gt;
+
+&lt;p&gt;Beyond the barricade&lt;/p&gt;
+
+&lt;p&gt;Is there a world you long to see?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COURFEYRAC&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Then join in the fight&lt;/p&gt;
+
+&lt;p&gt;That will give you the right to be free&amp;amp;mldr;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CHORUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you hear the people sing?&lt;/p&gt;
+
+&lt;p&gt;Singing the song of angry men?&lt;/p&gt;
+
+&lt;p&gt;It is the music of a people&lt;/p&gt;
+
+&lt;p&gt;Who will not be slaves again!&lt;/p&gt;
+
+&lt;p&gt;When the beating of your heart&lt;/p&gt;
+
+&lt;p&gt;Echoes the beating of the drums&lt;/p&gt;
+
+&lt;p&gt;There is a life about to start&lt;/p&gt;
+
+&lt;p&gt;When tomorrow comes!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FEUILLY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Will you give all you can give&lt;/p&gt;
+
+&lt;p&gt;So that our banner may advance?&lt;/p&gt;
+
+&lt;p&gt;Some will fall and some will live&lt;/p&gt;
+
+&lt;p&gt;Will you stand up and take your chance?&lt;/p&gt;
+
+&lt;p&gt;The blood of the martyrs&lt;/p&gt;
+
+&lt;p&gt;Will water the meadows of France!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CHORUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you hear the people sing?&lt;/p&gt;
+
+&lt;p&gt;Singing the song of angry men?&lt;/p&gt;
+
+&lt;p&gt;It is the music of a people&lt;/p&gt;
+
+&lt;p&gt;Who will not be slaves again!&lt;/p&gt;
+
+&lt;p&gt;When the beating of your heart&lt;/p&gt;
+
+&lt;p&gt;Echoes the beating of the drums&lt;/p&gt;
+
+&lt;p&gt;There is a life about to start&lt;/p&gt;
+
+&lt;p&gt;When tomorrow comes!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;rue-plumet-in-my-life&quot;&gt;RUE PLUMET —IN MY LIFE&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;How strange this feeling that my life’s begun at last&lt;/p&gt;
+
+&lt;p&gt;This change, can people really fall in love so fast?&lt;/p&gt;
+
+&lt;p&gt;What’s the matter with you, Cosette?&lt;/p&gt;
+
+&lt;p&gt;Have you been too much on your own?&lt;/p&gt;
+
+&lt;p&gt;So many things unclear&lt;/p&gt;
+
+&lt;p&gt;So many things unknown,&lt;/p&gt;
+
+&lt;p&gt;In my life&lt;/p&gt;
+
+&lt;p&gt;There are so many questions and answers&lt;/p&gt;
+
+&lt;p&gt;That somehow seem wrong&lt;/p&gt;
+
+&lt;p&gt;In my life&lt;/p&gt;
+
+&lt;p&gt;There are times when I catch in the silence&lt;/p&gt;
+
+&lt;p&gt;The sigh of a far away song&lt;/p&gt;
+
+&lt;p&gt;And it sings&lt;/p&gt;
+
+&lt;p&gt;Of a world that I long to see&lt;/p&gt;
+
+&lt;p&gt;Out of reach&lt;/p&gt;
+
+&lt;p&gt;Just a whisper away&lt;/p&gt;
+
+&lt;p&gt;Waiting for me.&lt;/p&gt;
+
+&lt;p&gt;Does he know I’m alive?&lt;/p&gt;
+
+&lt;p&gt;Do I know if he’s real?&lt;/p&gt;
+
+&lt;p&gt;Does he see what I saw?&lt;/p&gt;
+
+&lt;p&gt;Does he feel what I feel?&lt;/p&gt;
+
+&lt;p&gt;In my life&lt;/p&gt;
+
+&lt;p&gt;I’m no longer alone&lt;/p&gt;
+
+&lt;p&gt;Now the love in my life&lt;/p&gt;
+
+&lt;p&gt;Is so near&lt;/p&gt;
+
+&lt;p&gt;Find me now, find me here!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In my life&lt;/p&gt;
+
+&lt;p&gt;She has burst like the music of angels&lt;/p&gt;
+
+&lt;p&gt;The light of the sun!&lt;/p&gt;
+
+&lt;p&gt;And my life seems to stop&lt;/p&gt;
+
+&lt;p&gt;As if something is over&lt;/p&gt;
+
+&lt;p&gt;And something has scarcely begun&lt;/p&gt;
+
+&lt;p&gt;Eponine, you’re the friend&lt;/p&gt;
+
+&lt;p&gt;Who has brought me here&lt;/p&gt;
+
+&lt;p&gt;Thanks to you, I am one with the gods&lt;/p&gt;
+
+&lt;p&gt;And Heaven is near!&lt;/p&gt;
+
+&lt;p&gt;And I soar through a world that is new, that is free&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Every word that he says&lt;/p&gt;
+
+&lt;p&gt;Is a dagger in me!&lt;/p&gt;
+
+&lt;p&gt;In my life, there’s been no one like him anywhere,&lt;/p&gt;
+
+&lt;p&gt;Anywhere, where he is&lt;/p&gt;
+
+&lt;p&gt;If he asked&amp;amp;mldr;I’d be his!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS &amp;amp; EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In my life, there is someone who touches my life.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Waiting near!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Waiting near!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;a-heart-full-of-love&quot;&gt;A HEART FULL OF LOVE&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A heart full of love&lt;/p&gt;
+
+&lt;p&gt;A heart full of song&lt;/p&gt;
+
+&lt;p&gt;I’m doing everything all wrong&lt;/p&gt;
+
+&lt;p&gt;Oh God, for shame&lt;/p&gt;
+
+&lt;p&gt;I do not even know your name&lt;/p&gt;
+
+&lt;p&gt;Dear Mad’moiselle&lt;/p&gt;
+
+&lt;p&gt;Won’t you say?&lt;/p&gt;
+
+&lt;p&gt;Will you tell?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A heart full of love&lt;/p&gt;
+
+&lt;p&gt;No fear, no regret.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My name is Marius Pontmercy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And mine’s Cosette.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cosette. I don’t know what to say.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Then make no sound.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I am lost.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I am found!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A heart full of light.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A night bright as day.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And you must never go away&lt;/p&gt;
+
+&lt;p&gt;Cosette, Cosette!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a chain we’ll never break.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do I dream?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m awake.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A heart full of love.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A heart full of you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A single look and then I knew.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I knew it too.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;From today.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Every day.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE &amp;amp; MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For it isn’t a dream&lt;/p&gt;
+
+&lt;p&gt;Not a dream&lt;/p&gt;
+
+&lt;p&gt;After all&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;
+(interjections)&lt;/p&gt;
+
+&lt;p&gt;He was never mine to lose&lt;/p&gt;
+
+&lt;p&gt;Why regret&lt;/p&gt;
+
+&lt;p&gt;What could not be?&lt;/p&gt;
+
+&lt;p&gt;These are words&lt;/p&gt;
+
+&lt;p&gt;He’ll never say&lt;/p&gt;
+
+&lt;p&gt;Not to me&lt;/p&gt;
+
+&lt;p&gt;Not to me&lt;/p&gt;
+
+&lt;p&gt;Not for me&lt;/p&gt;
+
+&lt;p&gt;His heart&lt;/p&gt;
+
+&lt;p&gt;Full of love&lt;/p&gt;
+
+&lt;p&gt;He will never&lt;/p&gt;
+
+&lt;p&gt;Feel this way.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;attack-on-rue-plumet&quot;&gt;ATTACK ON RUE PLUMET&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is his lair&lt;/p&gt;
+
+&lt;p&gt;I’ve seen the old fox around&lt;/p&gt;
+
+&lt;p&gt;He keeps himself to himself&lt;/p&gt;
+
+&lt;p&gt;He’s staving close to the ground&lt;/p&gt;
+
+&lt;p&gt;I smell profit here&lt;/p&gt;
+
+&lt;p&gt;Ten years ago&lt;/p&gt;
+
+&lt;p&gt;He came and paid for Cosette&lt;/p&gt;
+
+&lt;p&gt;I let her go for a song&lt;/p&gt;
+
+&lt;p&gt;It’s time we settled the debt&lt;/p&gt;
+
+&lt;p&gt;This’ll cost him dear&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BRUJON&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What do I care&lt;/p&gt;
+
+&lt;p&gt;Who you should rob?&lt;/p&gt;
+
+&lt;p&gt;Gimme my share&lt;/p&gt;
+
+&lt;p&gt;Finish the job!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You shut your mouth&lt;/p&gt;
+
+&lt;p&gt;Give me your hand.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BRUJON&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What have we here?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Who is this hussy?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BABET&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s your brat Eponine&lt;/p&gt;
+
+&lt;p&gt;Don’t you know your own kid&lt;/p&gt;
+
+&lt;p&gt;Why’s she hanging about you?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Eponine, get on home&lt;/p&gt;
+
+&lt;p&gt;You’re not needed in this&lt;/p&gt;
+
+&lt;p&gt;We’re enough here without you&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I know this house&lt;/p&gt;
+
+&lt;p&gt;I tell you there’s nothing here for you&lt;/p&gt;
+
+&lt;p&gt;Just the old man and the girl,&lt;/p&gt;
+
+&lt;p&gt;They live ordinary lives.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t interfere&lt;/p&gt;
+
+&lt;p&gt;You’ve got some gall&lt;/p&gt;
+
+&lt;p&gt;Take care, young miss&lt;/p&gt;
+
+&lt;p&gt;You’ve got a lot to say&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BRUJON&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;She’s going soft&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CLAQUESOUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Happens to us all.&lt;/p&gt;
+
+&lt;p&gt;MONTPARNASSE&lt;/p&gt;
+
+&lt;p&gt;Go home. ‘Ponine&lt;/p&gt;
+
+&lt;p&gt;Go home, you’re in the way.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m gonna scream. I’m gonna warn them here.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One little scream and you’ll regret it&lt;/p&gt;
+
+&lt;p&gt;For a year.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CLAQUESOUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What a palaver&lt;/p&gt;
+
+&lt;p&gt;What an absolute treat&lt;/p&gt;
+
+&lt;p&gt;To watch a cat and it’s father&lt;/p&gt;
+
+&lt;p&gt;Pick a bone in the street.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BRUJON&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Not a sound out of you!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Well. I told you I’d do it&lt;/p&gt;
+
+&lt;p&gt;Told you I’d do it&amp;amp;mldr;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You wait my girl, you’ll rue this night&lt;/p&gt;
+
+&lt;p&gt;I’ll make you scream. You’ll scream alright.&lt;/p&gt;
+
+&lt;p&gt;Leave her to me. Don’t wait around.&lt;/p&gt;
+
+&lt;p&gt;Make for the sewers. Go underground.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It was your cry sent them away&lt;/p&gt;
+
+&lt;p&gt;Once more ‘Ponine, saving the day!&lt;/p&gt;
+
+&lt;p&gt;Dearest Cosette—my friend ‘Ponine&lt;/p&gt;
+
+&lt;p&gt;Brought me to you&lt;/p&gt;
+
+&lt;p&gt;Showed me the way!&lt;/p&gt;
+
+&lt;p&gt;Someone is near&lt;/p&gt;
+
+&lt;p&gt;Let’s not be seen&lt;/p&gt;
+
+&lt;p&gt;Somebody’s here.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My dear Cosette&lt;/p&gt;
+
+&lt;p&gt;I heard a cry in the dark&lt;/p&gt;
+
+&lt;p&gt;I heard the shout of angry voices in the street&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;That was my cry you heard, Papa&lt;/p&gt;
+
+&lt;p&gt;I was afraid of what they’d do&lt;/p&gt;
+
+&lt;p&gt;They ran away when they heard my cry&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cosette, my child, what will become of you?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Three men I saw beyond the wall&lt;/p&gt;
+
+&lt;p&gt;Three men in shadow moving fast!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This was a warning to us all&lt;/p&gt;
+
+&lt;p&gt;These were the shadows of the past!&lt;/p&gt;
+
+&lt;p&gt;Must be Javert!&lt;/p&gt;
+
+&lt;p&gt;He’s found my cover at last&lt;/p&gt;
+
+&lt;p&gt;I’ve got to take Cosette away&lt;/p&gt;
+
+&lt;p&gt;Before they return&lt;/p&gt;
+
+&lt;p&gt;We must get away from shadows&lt;/p&gt;
+
+&lt;p&gt;That will never let us be&lt;/p&gt;
+
+&lt;p&gt;Tomorrow to Calais,&lt;/p&gt;
+
+&lt;p&gt;And then a ship across the sea!&lt;/p&gt;
+
+&lt;p&gt;Hurry, Cosette, prepare to leave and say no more&lt;/p&gt;
+
+&lt;p&gt;Tomorrow, we’ll away!&lt;/p&gt;
+
+&lt;p&gt;Hurry, Cosette, it’s time to close another door&lt;/p&gt;
+
+&lt;p&gt;And live another day!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;one-day-more&quot;&gt;ONE DAY MORE!&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One day more!&lt;/p&gt;
+
+&lt;p&gt;Another day, another destiny.&lt;/p&gt;
+
+&lt;p&gt;This never-ending road to Calvary&lt;/p&gt;
+
+&lt;p&gt;These men who seem to know my crime&lt;/p&gt;
+
+&lt;p&gt;Will surely come a second time.&lt;/p&gt;
+
+&lt;p&gt;One day more!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I did not live until today&lt;/p&gt;
+
+&lt;p&gt;How can I live when we are parted?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One day more.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS &amp;amp; COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tomorrow you’ll be worlds away&lt;/p&gt;
+
+&lt;p&gt;And yet with you my world has started!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One more day all on my own.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS &amp;amp; COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Will we ever meet again?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One more day with him not caring.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS &amp;amp; COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I was born to be with you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What a life I might have known.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS &amp;amp; COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And I swear I will be true.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;But he never saw me there!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One more day before the storm.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do I follow where she goes?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At the barricades of freedom.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Shall I join my brothers there?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When our ranks begin to form.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do I stay: and do I dare?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Will you take your place with me?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CHORUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The time is now&lt;/p&gt;
+
+&lt;p&gt;The day is here&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One day more!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One day more to revolution&lt;/p&gt;
+
+&lt;p&gt;We will nip it in the bud&lt;/p&gt;
+
+&lt;p&gt;I will join these little schoolboys&lt;/p&gt;
+
+&lt;p&gt;They will wet themselves&amp;amp;mldr;with blood!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One day more.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Watch ’em run amuck&lt;/p&gt;
+
+&lt;p&gt;Catch ’em as they fall&lt;/p&gt;
+
+&lt;p&gt;Never know your luck&lt;/p&gt;
+
+&lt;p&gt;When there’s a free-for-all.&lt;/p&gt;
+
+&lt;p&gt;Here a little ‘dip’&lt;/p&gt;
+
+&lt;p&gt;There a little ’touch’&lt;/p&gt;
+
+&lt;p&gt;Most of them are goners&lt;/p&gt;
+
+&lt;p&gt;So they won’t miss much!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;REBEL STUDENTS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One day to a new beginning.&lt;/p&gt;
+
+&lt;p&gt;Raise the flag of freedom high&lt;/p&gt;
+
+&lt;p&gt;Every man will be a king&lt;/p&gt;
+
+&lt;p&gt;Every man will be a king&lt;/p&gt;
+
+&lt;p&gt;There’s a new world for the winning&lt;/p&gt;
+
+&lt;p&gt;There’s a new world to be won!&lt;/p&gt;
+
+&lt;p&gt;Do you hear the people sing?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My place is here&lt;/p&gt;
+
+&lt;p&gt;I fight with you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One day more.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS &amp;amp; COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I did not live until today&lt;/p&gt;
+
+&lt;p&gt;How can I live when we are parted?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I will join these people’s heroes&lt;/p&gt;
+
+&lt;p&gt;I will follow where they go&lt;/p&gt;
+
+&lt;p&gt;I will learn their little secrets&lt;/p&gt;
+
+&lt;p&gt;I will know the things they know.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One more day all on my own.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One day more.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS &amp;amp; COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tomorrow you’ll be worlds away&lt;/p&gt;
+
+&lt;p&gt;And yet with you my world has started.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One more day to revolution&lt;/p&gt;
+
+&lt;p&gt;We will nip it in the bud&lt;/p&gt;
+
+&lt;p&gt;I will join these little schoolboys&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Watch ’em run amuck&lt;/p&gt;
+
+&lt;p&gt;Catch ’em as they fall&lt;/p&gt;
+
+&lt;p&gt;Never know your luck&lt;/p&gt;
+
+&lt;p&gt;When there’s a free for ail.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tomorrow we’ll be far away&lt;/p&gt;
+
+&lt;p&gt;Tomorrow is the judgment day.&lt;/p&gt;
+
+&lt;p&gt;Tomorrow is the judgment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tomorrow is the judgment day&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ALL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tomorrow we’ll discover&lt;/p&gt;
+
+&lt;p&gt;What our God in Heaven has in store&lt;/p&gt;
+
+&lt;p&gt;One more dawn&lt;/p&gt;
+
+&lt;p&gt;One more day&lt;/p&gt;
+
+&lt;p&gt;One day more!&lt;/p&gt;
+
+&lt;h2 id=&quot;act-2&quot;&gt;ACT 2&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;on-my-own&quot;&gt;ON MY OWN&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And now I’m all alone again&lt;/p&gt;
+
+&lt;p&gt;Nowhere to turn, no one to go to&lt;/p&gt;
+
+&lt;p&gt;Without a home, without a friend&lt;/p&gt;
+
+&lt;p&gt;Without a face to say hello to&lt;/p&gt;
+
+&lt;p&gt;And now the night is near, now I can make&lt;/p&gt;
+
+&lt;p&gt;Believe he’s here.&lt;/p&gt;
+
+&lt;p&gt;Sometimes I walk alone at night&lt;/p&gt;
+
+&lt;p&gt;When everybody else is sleeping&lt;/p&gt;
+
+&lt;p&gt;I think of him and then I’m happy&lt;/p&gt;
+
+&lt;p&gt;With the company I’m keeping&lt;/p&gt;
+
+&lt;p&gt;The city goes to bed&lt;/p&gt;
+
+&lt;p&gt;And I can live inside my head.&lt;/p&gt;
+
+&lt;p&gt;On my own&lt;/p&gt;
+
+&lt;p&gt;Pretending he’s beside me.&lt;/p&gt;
+
+&lt;p&gt;All alone, I walk with him till morning&lt;/p&gt;
+
+&lt;p&gt;Without him&lt;/p&gt;
+
+&lt;p&gt;I feel his arms around me&lt;/p&gt;
+
+&lt;p&gt;And when I lose my way I close my eyes&lt;/p&gt;
+
+&lt;p&gt;And he has found me.&lt;/p&gt;
+
+&lt;p&gt;In the rain the pavement shines like silver&lt;/p&gt;
+
+&lt;p&gt;All the lights are misty in the river&lt;/p&gt;
+
+&lt;p&gt;In the darkness the trees are full of starlight&lt;/p&gt;
+
+&lt;p&gt;And all I see is him and me for ever and forever.&lt;/p&gt;
+
+&lt;p&gt;And I know it’s only in my mind&lt;/p&gt;
+
+&lt;p&gt;That I’m talking to myself and not to him&lt;/p&gt;
+
+&lt;p&gt;And although I know that he is blind&lt;/p&gt;
+
+&lt;p&gt;Still I say there’s a way for us.&lt;/p&gt;
+
+&lt;p&gt;I love him&lt;/p&gt;
+
+&lt;p&gt;But when the night is over&lt;/p&gt;
+
+&lt;p&gt;He is gone, the river’s just a river&lt;/p&gt;
+
+&lt;p&gt;Without him the world around me changes&lt;/p&gt;
+
+&lt;p&gt;The trees are bare and everywhere&lt;/p&gt;
+
+&lt;p&gt;The streets are full of strangers.&lt;/p&gt;
+
+&lt;p&gt;I love him&lt;/p&gt;
+
+&lt;p&gt;But everyday I’m learning&lt;/p&gt;
+
+&lt;p&gt;All my life I’ve only been pretending&lt;/p&gt;
+
+&lt;p&gt;Without me his world will go on turning&lt;/p&gt;
+
+&lt;p&gt;A world that’s full of happiness that I have never known.&lt;/p&gt;
+
+&lt;p&gt;I love him, I love him.&lt;/p&gt;
+
+&lt;p&gt;I love him, but only on my own.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;back-at-the-barricade&quot;&gt;BACK AT THE BARRICADE&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;CHORUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Red — the blood of angry men!&lt;/p&gt;
+
+&lt;p&gt;Black — the dark of ages past!&lt;/p&gt;
+
+&lt;p&gt;Red — a world about to dawn!&lt;/p&gt;
+
+&lt;p&gt;Black — the night that ends at last!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;STUDENTS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we pledge ourselves to hold this barricade.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let them come in their legions&lt;/p&gt;
+
+&lt;p&gt;And they will be met!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Have faith in yourselves&lt;/p&gt;
+
+&lt;p&gt;And don’t be afraid.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GRANTAIRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s give ’em a screwing&lt;/p&gt;
+
+&lt;p&gt;They’ll never forget!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COMBEFERRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is where it begins!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COURFEYRAC&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And if I should die in the fight to be free&lt;/p&gt;
+
+&lt;p&gt;Where the fighting is hardest&lt;/p&gt;
+
+&lt;p&gt;There will I be.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FEUILLY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let them come if they dare&lt;/p&gt;
+
+&lt;p&gt;We’ll be there!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ARMY OFFICER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You at the barricade, listen to this!&lt;/p&gt;
+
+&lt;p&gt;No one is coming to help you to fight!&lt;/p&gt;
+
+&lt;p&gt;You’re on your own&lt;/p&gt;
+
+&lt;p&gt;You have no friends&lt;/p&gt;
+
+&lt;p&gt;Give up your guns—or die!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Damn their warnings. Damn their lies!&lt;/p&gt;
+
+&lt;p&gt;They will see the people rise!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;STUDENTS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Damn their warnings. Damn their lies!&lt;/p&gt;
+
+&lt;p&gt;They will see the people rise!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;javerts-arrival--little-people&quot;&gt;JAVERT’S ARRIVAL / LITTLE PEOPLE&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Listen my friends&lt;/p&gt;
+
+&lt;p&gt;I have done as I said&lt;/p&gt;
+
+&lt;p&gt;I have been to their lines&lt;/p&gt;
+
+&lt;p&gt;I have counted each man&lt;/p&gt;
+
+&lt;p&gt;I will tell what I can&lt;/p&gt;
+
+&lt;p&gt;Better be warned.&lt;/p&gt;
+
+&lt;p&gt;They have armies to spare&lt;/p&gt;
+
+&lt;p&gt;And our danger is real&lt;/p&gt;
+
+&lt;p&gt;We will need enough cunning&lt;/p&gt;
+
+&lt;p&gt;To bring them to heal&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Have faith&lt;/p&gt;
+
+&lt;p&gt;If you know what their movements are&lt;/p&gt;
+
+&lt;p&gt;We’ll spoil their game&lt;/p&gt;
+
+&lt;p&gt;There are ways that a people can fight&lt;/p&gt;
+
+&lt;p&gt;We shall overcome their power&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I have overhead their plans&lt;/p&gt;
+
+&lt;p&gt;There will be no attack tonight&lt;/p&gt;
+
+&lt;p&gt;They intend to starve you out&lt;/p&gt;
+
+&lt;p&gt;Before they start a proper fight&lt;/p&gt;
+
+&lt;p&gt;Concentrate their force&lt;/p&gt;
+
+&lt;p&gt;Hit us from the right&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GAVROCHE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Liar!&lt;/p&gt;
+
+&lt;p&gt;Good evening dear Inspector&lt;/p&gt;
+
+&lt;p&gt;Lovely evening, my dear&lt;/p&gt;
+
+&lt;p&gt;I know this man, my friends&lt;/p&gt;
+
+&lt;p&gt;His name’s Inspector Javert!&lt;/p&gt;
+
+&lt;p&gt;So don’t believe a word he says&lt;/p&gt;
+
+&lt;p&gt;‘Cause none of it’s true&lt;/p&gt;
+
+&lt;p&gt;This only goes to show&lt;/p&gt;
+
+&lt;p&gt;What little people can do!&lt;/p&gt;
+
+&lt;p&gt;And little people know&lt;/p&gt;
+
+&lt;p&gt;When little people fight&lt;/p&gt;
+
+&lt;p&gt;We may look easy pickings&lt;/p&gt;
+
+&lt;p&gt;But we got some bite&lt;/p&gt;
+
+&lt;p&gt;So never kick a dog&lt;/p&gt;
+
+&lt;p&gt;Because he’s just a pup&lt;/p&gt;
+
+&lt;p&gt;We’ll fight like twenty armies&lt;/p&gt;
+
+&lt;p&gt;And we won’t give up!&lt;/p&gt;
+
+&lt;p&gt;So you’d better run for cover&lt;/p&gt;
+
+&lt;p&gt;When the pup grows up!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;STUDENT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Bravo, little Gavroche! You’re the top of the class&lt;/p&gt;
+
+&lt;p&gt;So what are we gonna do with this snake in the grass&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tie this man and take him&lt;/p&gt;
+
+&lt;p&gt;To the tavern in there&lt;/p&gt;
+
+&lt;p&gt;The people will decide your fate&lt;/p&gt;
+
+&lt;p&gt;Inspector Javert!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COURFEYRAC&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Take this bastard now and shoot him!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FEUILLY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let us watch this devil dance.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;LESGLES&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You’d have done the same, Inspector&lt;/p&gt;
+
+&lt;p&gt;If we’d let you have your chance!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Take this man. Bring him through.&lt;/p&gt;
+
+&lt;p&gt;There is work we have to do.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;a-little-fall-of-rain&quot;&gt;A LITTLE FALL OF RAIN&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t you fret. M’sieur Marius,&lt;/p&gt;
+
+&lt;p&gt;I don’t feel any pain&lt;/p&gt;
+
+&lt;p&gt;A little fall of rain&lt;/p&gt;
+
+&lt;p&gt;Can hardly hurt me now&lt;/p&gt;
+
+&lt;p&gt;You’re here. That’s all I need to know.&lt;/p&gt;
+
+&lt;p&gt;And you will keep me safe&lt;/p&gt;
+
+&lt;p&gt;And you will keep me close&lt;/p&gt;
+
+&lt;p&gt;And rain will make the flowers grow.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;But you will live ‘Ponine — dear God above&lt;/p&gt;
+
+&lt;p&gt;If I could heal your wounds with words of love.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Just hold me now, and let it be.&lt;/p&gt;
+
+&lt;p&gt;Shelter me, comfort me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You would live a hundred years&lt;/p&gt;
+
+&lt;p&gt;If I could show you how&lt;/p&gt;
+
+&lt;p&gt;I won’t desert you now&amp;amp;mldr;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The rain can’t hurt me now&lt;/p&gt;
+
+&lt;p&gt;This rain will wash away what’s past&lt;/p&gt;
+
+&lt;p&gt;And you will keep me safe&lt;/p&gt;
+
+&lt;p&gt;And you will keep me close.&lt;/p&gt;
+
+&lt;p&gt;I’ll sleep in your embrace at last.&lt;/p&gt;
+
+&lt;p&gt;The rain that brings you here&lt;/p&gt;
+
+&lt;p&gt;Is heaven blessed.&lt;/p&gt;
+
+&lt;p&gt;The skies begin to clear&lt;/p&gt;
+
+&lt;p&gt;And I’m at rest.&lt;/p&gt;
+
+&lt;p&gt;A breath away from where you are&lt;/p&gt;
+
+&lt;p&gt;I’ve come home from so far&lt;/p&gt;
+
+&lt;p&gt;So don’t you fret. M’sieur Marius&lt;/p&gt;
+
+&lt;p&gt;I don’t feel any pain&lt;/p&gt;
+
+&lt;p&gt;A little fall of rain&lt;/p&gt;
+
+&lt;p&gt;Can hardly hurt me now.&lt;/p&gt;
+
+&lt;p&gt;That’s all I need to know.&lt;/p&gt;
+
+&lt;p&gt;And you will keep me safe&lt;/p&gt;
+
+&lt;p&gt;And you will keep me close&lt;/p&gt;
+
+&lt;p&gt;And rain will make the flowers&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hush-a-bye, dear Eponine&lt;/p&gt;
+
+&lt;p&gt;You won’t feel any pain&lt;/p&gt;
+
+&lt;p&gt;A little fall of rain&lt;/p&gt;
+
+&lt;p&gt;Can hardly hurt you now&lt;/p&gt;
+
+&lt;p&gt;I’m here.&lt;/p&gt;
+
+&lt;p&gt;I will stay with you till you are sleeping&lt;/p&gt;
+
+&lt;p&gt;And rain will make the flowers grow.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;night-of-anguish&quot;&gt;NIGHT OF ANGUISH&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;She is the first to fall.&lt;/p&gt;
+
+&lt;p&gt;The first of us to fall upon this barricade.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Her name was Eponine.&lt;/p&gt;
+
+&lt;p&gt;Her life was cold and dark yet she was unafraid.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COMBEFERRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We fight here in the name.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PROUVAIRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;She will not die in vain.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;LESGLES&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;She will not be betrayed.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;first-attack&quot;&gt;FIRST ATTACK&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;JOLY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here comes a man in uniform&lt;/p&gt;
+
+&lt;p&gt;What brings you to this place?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I come here as a volunteer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JOLY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Approach and show your face.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SENTRY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You wear an army uniform.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s why they let me through.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JOLY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ve got some years behind you, sir.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;But much that I can do.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JOLY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You see that prisoner over there?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GRANTAIRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A volunteer like you!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COMBEFERRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A spy! who calls himself, Javert!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GRANTAIRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;He’s gonna get it, too!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SENTRY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;They’re getting ready to attack.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Take this and use it well!&lt;/p&gt;
+
+&lt;p&gt;But if you shoot us in the back&lt;/p&gt;
+
+&lt;p&gt;You’ll never live to tell.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;STUDENT 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Platoon of sappers advancing towards the barricade.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;STUDENT 2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Troops behind them! Fifty men or more!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Fire!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;LESGLES&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;See how they run away!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GRANTAIRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;By God, we’ve won the day!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;They will be back again.&lt;/p&gt;
+
+&lt;p&gt;Make an attack again.&lt;/p&gt;
+
+&lt;p&gt;For your presence of mind,&lt;/p&gt;
+
+&lt;p&gt;For the deed you have done,&lt;/p&gt;
+
+&lt;p&gt;I will thank you, M’sieur&lt;/p&gt;
+
+&lt;p&gt;When our battle is won.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Give me no thanks, M’sieur&lt;/p&gt;
+
+&lt;p&gt;There’s something you can do.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If it is in my power.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Give me the spy, Javert—&lt;/p&gt;
+
+&lt;p&gt;Let me take care of him!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The law is inside out,&lt;/p&gt;
+
+&lt;p&gt;The world is upside down.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do what you have to do,&lt;/p&gt;
+
+&lt;p&gt;This man belongs to you.&lt;/p&gt;
+
+&lt;p&gt;The enemy may be regrouping. Hold yourselves in&lt;/p&gt;
+
+&lt;p&gt;readiness. Come, my friends, back to your positions, the&lt;/p&gt;
+
+&lt;p&gt;night is falling fast.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;drink-with-me&quot;&gt;DRINK WITH ME&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We meet again.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ve hungered for this all your life&lt;/p&gt;
+
+&lt;p&gt;Take your revenge!&lt;/p&gt;
+
+&lt;p&gt;How right you should kill with a knife!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You talk too much&lt;/p&gt;
+
+&lt;p&gt;You’re life is safe in my hands.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t understand.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Get out of here.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Valjean, take care!&lt;/p&gt;
+
+&lt;p&gt;I’m warning you&amp;amp;mldr;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Clear out of here.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Once a thief, forever a thief&lt;/p&gt;
+
+&lt;p&gt;What you want you always steal!&lt;/p&gt;
+
+&lt;p&gt;You would trade your life for mine&lt;/p&gt;
+
+&lt;p&gt;Yes, Valjean, you want a deal!&lt;/p&gt;
+
+&lt;p&gt;Shoot me now, for all I care&lt;/p&gt;
+
+&lt;p&gt;If you let me go, beware&lt;/p&gt;
+
+&lt;p&gt;You’ll still answer too Javert!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You are wrong, and always have been wrong.&lt;/p&gt;
+
+&lt;p&gt;I’m a man no worse than any man.&lt;/p&gt;
+
+&lt;p&gt;You are free and there are no conditions,&lt;/p&gt;
+
+&lt;p&gt;No bargains or petitions.&lt;/p&gt;
+
+&lt;p&gt;There’s nothing that I blame you for&lt;/p&gt;
+
+&lt;p&gt;You’ve done your duty, nothing more.&lt;/p&gt;
+
+&lt;p&gt;If I come out of this alive, you’ll find me&lt;/p&gt;
+
+&lt;p&gt;At number fifty-five, Rue Plumet&lt;/p&gt;
+
+&lt;p&gt;No doubt our paths will cross again.&lt;/p&gt;
+
+&lt;p&gt;Go!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FEUILLY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Drink with me to days gone by&lt;/p&gt;
+
+&lt;p&gt;Sing with me the songs we knew.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PROUVAIRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s to pretty girls&lt;/p&gt;
+
+&lt;p&gt;Who went to our heads.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JOLY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s to witty girls&lt;/p&gt;
+
+&lt;p&gt;Who went to our beds.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ALL THREE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s to them&lt;/p&gt;
+
+&lt;p&gt;And here’s to you!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GRANTAIRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Drink with me to days gone by&lt;/p&gt;
+
+&lt;p&gt;Can it be you fear to die?&lt;/p&gt;
+
+&lt;p&gt;Will the world remember you&lt;/p&gt;
+
+&lt;p&gt;When you fall?&lt;/p&gt;
+
+&lt;p&gt;Could it be your death&lt;/p&gt;
+
+&lt;p&gt;Means nothing at all?&lt;/p&gt;
+
+&lt;p&gt;Is your life just one more lie?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MEN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Drink with me to days gone by&lt;/p&gt;
+
+&lt;p&gt;To the life that used to be&lt;/p&gt;
+
+&lt;p&gt;Let the wine of friendship never run dry.&lt;/p&gt;
+
+&lt;p&gt;Here’s to you&lt;/p&gt;
+
+&lt;p&gt;And here’s to me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WOMEN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Drink with me to days gone by&lt;/p&gt;
+
+&lt;p&gt;To the life that used to be.&lt;/p&gt;
+
+&lt;p&gt;At the shrine of friendship never say die.&lt;/p&gt;
+
+&lt;p&gt;Here’s to you&lt;/p&gt;
+
+&lt;p&gt;And here’s to me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do I care if I should die&lt;/p&gt;
+
+&lt;p&gt;Now she goes across the sea?&lt;/p&gt;
+
+&lt;p&gt;Life without Cosette&lt;/p&gt;
+
+&lt;p&gt;Means nothing at all.&lt;/p&gt;
+
+&lt;p&gt;Would you weep, Cosette.&lt;/p&gt;
+
+&lt;p&gt;Should Marius fall?&lt;/p&gt;
+
+&lt;p&gt;Will you weep, Cosette.&lt;/p&gt;
+
+&lt;p&gt;For me?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;bring-him-home&quot;&gt;BRING HIM HOME&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;God on high&lt;/p&gt;
+
+&lt;p&gt;Hear my prayer&lt;/p&gt;
+
+&lt;p&gt;In my need&lt;/p&gt;
+
+&lt;p&gt;You have always been there&lt;/p&gt;
+
+&lt;p&gt;He is young&lt;/p&gt;
+
+&lt;p&gt;He’s afraid&lt;/p&gt;
+
+&lt;p&gt;Let him rest&lt;/p&gt;
+
+&lt;p&gt;Heaven blessed.&lt;/p&gt;
+
+&lt;p&gt;Bring him home&lt;/p&gt;
+
+&lt;p&gt;Bring him home&lt;/p&gt;
+
+&lt;p&gt;Bring him home.&lt;/p&gt;
+
+&lt;p&gt;He’s like the son I might have known&lt;/p&gt;
+
+&lt;p&gt;If God had granted me a son.&lt;/p&gt;
+
+&lt;p&gt;The summers die&lt;/p&gt;
+
+&lt;p&gt;One by one&lt;/p&gt;
+
+&lt;p&gt;How soon they fly&lt;/p&gt;
+
+&lt;p&gt;On and on&lt;/p&gt;
+
+&lt;p&gt;And I am old&lt;/p&gt;
+
+&lt;p&gt;And will be gone&lt;/p&gt;
+
+&lt;p&gt;Bring him peace&lt;/p&gt;
+
+&lt;p&gt;Bring him joy&lt;/p&gt;
+
+&lt;p&gt;He is young&lt;/p&gt;
+
+&lt;p&gt;He is only a boy&lt;/p&gt;
+
+&lt;p&gt;You can take&lt;/p&gt;
+
+&lt;p&gt;You can give&lt;/p&gt;
+
+&lt;p&gt;Let him be&lt;/p&gt;
+
+&lt;p&gt;Let him live&lt;/p&gt;
+
+&lt;p&gt;If I die, let me die&lt;/p&gt;
+
+&lt;p&gt;Let him live, bring him home&lt;/p&gt;
+
+&lt;p&gt;Bring him home&lt;/p&gt;
+
+&lt;p&gt;Bring him home.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;second-attack--the-final-battle&quot;&gt;SECOND ATTACK / THE FINAL BATTLE&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;ARMY OFFICER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You at the barricades, listen to this&lt;/p&gt;
+
+&lt;p&gt;The people of Paris sleep in their beds.&lt;/p&gt;
+
+&lt;p&gt;You’ll have no chance&lt;/p&gt;
+
+&lt;p&gt;No chance at all.&lt;/p&gt;
+
+&lt;p&gt;Why throw your lives away?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let us die facing our foe—&lt;/p&gt;
+
+&lt;p&gt;Make them bleed while we can&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COMBEFERRE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Make ’em pay through the nose.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COURFEYRAC&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Make ’em pay for every man.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENJOLRAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let others rise&lt;/p&gt;
+
+&lt;p&gt;To take our place&lt;/p&gt;
+
+&lt;p&gt;Until the earth is free!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;the-sewers---dog-eats-dog&quot;&gt;THE SEWERS - DOG EATS DOG&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s a hint of gold&lt;/p&gt;
+
+&lt;p&gt;Stuck into a tooth&lt;/p&gt;
+
+&lt;p&gt;Pardon me. M’sieur&lt;/p&gt;
+
+&lt;p&gt;You won’t be needing this no more.&lt;/p&gt;
+
+&lt;p&gt;Shouldn’t be too hard to sell&lt;/p&gt;
+
+&lt;p&gt;Add it to the pile&lt;/p&gt;
+
+&lt;p&gt;Add it to the stock&lt;/p&gt;
+
+&lt;p&gt;Here among the sewer rats&lt;/p&gt;
+
+&lt;p&gt;A breath away from Hell&lt;/p&gt;
+
+&lt;p&gt;Y’ get accustomed to the smell.&lt;/p&gt;
+
+&lt;p&gt;Well someone’s got to clean them up, my friends&lt;/p&gt;
+
+&lt;p&gt;Bodies on the highway&lt;/p&gt;
+
+&lt;p&gt;Law and order upside down&lt;/p&gt;
+
+&lt;p&gt;Someone’s got to collect their odds and ends&lt;/p&gt;
+
+&lt;p&gt;As a service to the town&lt;/p&gt;
+
+&lt;p&gt;Here’s a tasty ring&lt;/p&gt;
+
+&lt;p&gt;Pretty little thing&lt;/p&gt;
+
+&lt;p&gt;Wouldn’t want to waste it&lt;/p&gt;
+
+&lt;p&gt;That would really be a crime.&lt;/p&gt;
+
+&lt;p&gt;Thank you sir, I’m in your debt&lt;/p&gt;
+
+&lt;p&gt;Here’s a little toy&lt;/p&gt;
+
+&lt;p&gt;Take it off the boy&lt;/p&gt;
+
+&lt;p&gt;His heart’s no longer going&lt;/p&gt;
+
+&lt;p&gt;And he’s lived his little time&lt;/p&gt;
+
+&lt;p&gt;But his watch is ticking yet!&lt;/p&gt;
+
+&lt;p&gt;Well someone’s got to clean them up, my friends&lt;/p&gt;
+
+&lt;p&gt;Before the little harvest&lt;/p&gt;
+
+&lt;p&gt;Disappears into the mud&lt;/p&gt;
+
+&lt;p&gt;Someone’s got to collect their odds and ends&lt;/p&gt;
+
+&lt;p&gt;When the gutters run with blood&lt;/p&gt;
+
+&lt;p&gt;It’s a world where the dogs eat the dogs&lt;/p&gt;
+
+&lt;p&gt;Where they kill for the bones in the street&lt;/p&gt;
+
+&lt;p&gt;And God in His Heaven&lt;/p&gt;
+
+&lt;p&gt;He don’t interfere&lt;/p&gt;
+
+&lt;p&gt;‘Cos he’s dead as the stiffs at my feet.&lt;/p&gt;
+
+&lt;p&gt;I raise my eyes to see the heavens&lt;/p&gt;
+
+&lt;p&gt;And only the moon looks down.&lt;/p&gt;
+
+&lt;p&gt;The harvest moon shines down.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;javerts-suicide&quot;&gt;JAVERT’S SUICIDE&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s you Javert&lt;/p&gt;
+
+&lt;p&gt;I knew you wouldn’t wait too long&lt;/p&gt;
+
+&lt;p&gt;The faithful servant at his post once more&lt;/p&gt;
+
+&lt;p&gt;This man’s done no wrong&lt;/p&gt;
+
+&lt;p&gt;And he needs a doctor’s care.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I warned you I would not give IN,&lt;/p&gt;
+
+&lt;p&gt;I won’t be swayed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Another hour yet and then I’m yours&lt;/p&gt;
+
+&lt;p&gt;And all our debts are paid.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The man of mercy&lt;/p&gt;
+
+&lt;p&gt;Comes again&lt;/p&gt;
+
+&lt;p&gt;And talks of justice.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Come, time is running short&lt;/p&gt;
+
+&lt;p&gt;Look down, Javert,&lt;/p&gt;
+
+&lt;p&gt;He’s standing in his grave&lt;/p&gt;
+
+&lt;p&gt;Give way, Javert,&lt;/p&gt;
+
+&lt;p&gt;There is a life to save.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JAVERT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Take him, Valjean&lt;/p&gt;
+
+&lt;p&gt;Before I change my mind.&lt;/p&gt;
+
+&lt;p&gt;I will be waiting&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Who is this man?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;What sort of devil is he&lt;/p&gt;
+
+&lt;p&gt;To have me caught in a trap&lt;/p&gt;
+
+&lt;p&gt;And choose to let me go free?&lt;/p&gt;
+
+&lt;p&gt;It was his hour at last&lt;/p&gt;
+
+&lt;p&gt;To put a seal on my fate&lt;/p&gt;
+
+&lt;p&gt;Wipe out the past&lt;/p&gt;
+
+&lt;p&gt;And wash me clean off the slate!&lt;/p&gt;
+
+&lt;p&gt;All it would take&lt;/p&gt;
+
+&lt;p&gt;Was a flick of his knife.&lt;/p&gt;
+
+&lt;p&gt;Vengeance was his and he gave me back my life!&lt;/p&gt;
+
+&lt;p&gt;Damned if I’ll live in the debt of a thief&lt;/p&gt;
+
+&lt;p&gt;Damned if I’ll yield at the end of the chase&lt;/p&gt;
+
+&lt;p&gt;I am the Law and the Law is not mocked&lt;/p&gt;
+
+&lt;p&gt;I’ll spit his pity right back in his face&lt;/p&gt;
+
+&lt;p&gt;There is nothing on earth that we share&lt;/p&gt;
+
+&lt;p&gt;It is either Valjean or Javert!&lt;/p&gt;
+
+&lt;p&gt;How can I now allow this man&lt;/p&gt;
+
+&lt;p&gt;To hold dominion over me?&lt;/p&gt;
+
+&lt;p&gt;This desperate man that I have hunted&lt;/p&gt;
+
+&lt;p&gt;He gave me my life. He gave me freedom.&lt;/p&gt;
+
+&lt;p&gt;I should have perished by his hand&lt;/p&gt;
+
+&lt;p&gt;It was his right&lt;/p&gt;
+
+&lt;p&gt;It was my right to die as well.&lt;/p&gt;
+
+&lt;p&gt;Instead, I live &amp;amp;mldr; but live in hell.&lt;/p&gt;
+
+&lt;p&gt;And my thoughts fly apart&lt;/p&gt;
+
+&lt;p&gt;Can this man be believed?&lt;/p&gt;
+
+&lt;p&gt;Shall his sins be forgiven?&lt;/p&gt;
+
+&lt;p&gt;Shall his crimes be reprieved?&lt;/p&gt;
+
+&lt;p&gt;And must I now begin to doubt.&lt;/p&gt;
+
+&lt;p&gt;Who never doubted all these years?&lt;/p&gt;
+
+&lt;p&gt;My heart is stone and still it trembles&lt;/p&gt;
+
+&lt;p&gt;The world I have known is lost in shadow&lt;/p&gt;
+
+&lt;p&gt;Is he from heaven or from hell?&lt;/p&gt;
+
+&lt;p&gt;And does he know&lt;/p&gt;
+
+&lt;p&gt;That, granting me my life today&lt;/p&gt;
+
+&lt;p&gt;This man has killed me even so?&lt;/p&gt;
+
+&lt;p&gt;I am reaching but I fall&lt;/p&gt;
+
+&lt;p&gt;And the stars are black and cold&lt;/p&gt;
+
+&lt;p&gt;As I stare into the void&lt;/p&gt;
+
+&lt;p&gt;Of a world that cannot hold&lt;/p&gt;
+
+&lt;p&gt;I’ll escape now from the world&lt;/p&gt;
+
+&lt;p&gt;From the world of Jean Valjean&lt;/p&gt;
+
+&lt;p&gt;There is nowhere I can turn&lt;/p&gt;
+
+&lt;p&gt;There is no way to go on&amp;amp;mldr;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;turning&quot;&gt;TURNING&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;WOMEN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Did you see them&lt;/p&gt;
+
+&lt;p&gt;Going off to fight&lt;/p&gt;
+
+&lt;p&gt;Children of the barricades&lt;/p&gt;
+
+&lt;p&gt;Who didn’t last the night?&lt;/p&gt;
+
+&lt;p&gt;Did you see them&lt;/p&gt;
+
+&lt;p&gt;Lying where they died?&lt;/p&gt;
+
+&lt;p&gt;Someone used to cradle them&lt;/p&gt;
+
+&lt;p&gt;And kiss them when they cried&lt;/p&gt;
+
+&lt;p&gt;Did you see them lying side by side?&lt;/p&gt;
+
+&lt;p&gt;Who will wake them?&lt;/p&gt;
+
+&lt;p&gt;No one ever will&lt;/p&gt;
+
+&lt;p&gt;No one ever told them&lt;/p&gt;
+
+&lt;p&gt;That a summer day can kill&lt;/p&gt;
+
+&lt;p&gt;They were school boys&lt;/p&gt;
+
+&lt;p&gt;Never held a gun&lt;/p&gt;
+
+&lt;p&gt;Fighting for a new world&lt;/p&gt;
+
+&lt;p&gt;That would rise up like the sun.&lt;/p&gt;
+
+&lt;p&gt;Where’s that new world now the fighting’s done?&lt;/p&gt;
+
+&lt;p&gt;Nothing changes. Nothing ever will.&lt;/p&gt;
+
+&lt;p&gt;Every year another brat, another mouth to fill&lt;/p&gt;
+
+&lt;p&gt;Same old story. What’s the use of tears?&lt;/p&gt;
+
+&lt;p&gt;What’s the use of praying&lt;/p&gt;
+
+&lt;p&gt;If there’s nobody who hears?&lt;/p&gt;
+
+&lt;p&gt;Turning turning turning turning turning&lt;/p&gt;
+
+&lt;p&gt;Through the years&lt;/p&gt;
+
+&lt;p&gt;Turning, turning, turning through the years.&lt;/p&gt;
+
+&lt;p&gt;Minutes into hours, and the hours into years.&lt;/p&gt;
+
+&lt;p&gt;Nothing changes. Nothing ever can&lt;/p&gt;
+
+&lt;p&gt;Round about the roundabout, and back where you began.&lt;/p&gt;
+
+&lt;p&gt;Round and round and back where you began!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;empty-chairs-at-empty-tables&quot;&gt;EMPTY CHAIRS AT EMPTY TABLES&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a grief that can’t be spoken&lt;/p&gt;
+
+&lt;p&gt;There’s a pain goes on and on&lt;/p&gt;
+
+&lt;p&gt;Empty chairs at empty tables&lt;/p&gt;
+
+&lt;p&gt;Now my friends are dead and gone&lt;/p&gt;
+
+&lt;p&gt;Here they talked of revolution&lt;/p&gt;
+
+&lt;p&gt;Here it was they lit the flame&lt;/p&gt;
+
+&lt;p&gt;Here they sang about ’tomorrow’&lt;/p&gt;
+
+&lt;p&gt;And tomorrow never came.&lt;/p&gt;
+
+&lt;p&gt;From the table in the corner&lt;/p&gt;
+
+&lt;p&gt;They could see a world reborn&lt;/p&gt;
+
+&lt;p&gt;And they rose with voices ringing&lt;/p&gt;
+
+&lt;p&gt;I can hear them now&lt;/p&gt;
+
+&lt;p&gt;The very words that they had sung&lt;/p&gt;
+
+&lt;p&gt;Became their last communion&lt;/p&gt;
+
+&lt;p&gt;On the lonely barricade at dawn!&lt;/p&gt;
+
+&lt;p&gt;Oh my friends, my friends, forgive me&lt;/p&gt;
+
+&lt;p&gt;That I live and you are gone&lt;/p&gt;
+
+&lt;p&gt;There’s a grief that can’t be spoken&lt;/p&gt;
+
+&lt;p&gt;There’s a pain goes on and on&lt;/p&gt;
+
+&lt;p&gt;Phantom faces at the window&lt;/p&gt;
+
+&lt;p&gt;Phantom shadows on the floor&lt;/p&gt;
+
+&lt;p&gt;Empty chairs at empty tables&lt;/p&gt;
+
+&lt;p&gt;Where my friends will meet no more,&lt;/p&gt;
+
+&lt;p&gt;Oh my friends, my friends, don’t ask me&lt;/p&gt;
+
+&lt;p&gt;What your sacrifice was for&lt;/p&gt;
+
+&lt;p&gt;Empty chairs at empty tables&lt;/p&gt;
+
+&lt;p&gt;Where my friends will sing no more.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;every-day--a-heart-full-of-life-reprise&quot;&gt;EVERY DAY / A HEART FULL OF LIFE (reprise)&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Every day&lt;/p&gt;
+
+&lt;p&gt;You walk with stronger step&lt;/p&gt;
+
+&lt;p&gt;You with longer step,&lt;/p&gt;
+
+&lt;p&gt;‘The worst is over’.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Every day,&lt;/p&gt;
+
+&lt;p&gt;I wonder every day&lt;/p&gt;
+
+&lt;p&gt;Who was it brought me here&lt;/p&gt;
+
+&lt;p&gt;From the barricade?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t think about it, Marius!&lt;/p&gt;
+
+&lt;p&gt;With all the years ahead of us!&lt;/p&gt;
+
+&lt;p&gt;I will never go away&lt;/p&gt;
+
+&lt;p&gt;And we will be together&lt;/p&gt;
+
+&lt;p&gt;‘Every day’,&lt;/p&gt;
+
+&lt;p&gt;‘Every day’.&lt;/p&gt;
+
+&lt;p&gt;We’ll remember that night&lt;/p&gt;
+
+&lt;p&gt;And the vow that we made.&lt;/p&gt;
+
+&lt;p&gt;A heart full of love.&lt;/p&gt;
+
+&lt;p&gt;A night full of you.&lt;/p&gt;
+
+&lt;p&gt;The words are old&lt;/p&gt;
+
+&lt;p&gt;But always true.&lt;/p&gt;
+
+&lt;p&gt;Oh, God for shame&lt;/p&gt;
+
+&lt;p&gt;You did not even know my name.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Dear Mad’moiselle&lt;/p&gt;
+
+&lt;p&gt;I was lost in your spell.&lt;/p&gt;
+
+&lt;p&gt;Cosette, Cosette.&lt;/p&gt;
+
+&lt;p&gt;Waiting for you&lt;/p&gt;
+
+&lt;p&gt;At your feet.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A heart full of love&lt;/p&gt;
+
+&lt;p&gt;No fear nor regret&lt;/p&gt;
+
+&lt;p&gt;‘My name is Marius Pontmercy.’&lt;/p&gt;
+
+&lt;p&gt;I saw you waiting and I knew.&lt;/p&gt;
+
+&lt;p&gt;At your call.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;She was never mine to keep&lt;/p&gt;
+
+&lt;p&gt;She is youthful, she is free.&lt;/p&gt;
+
+&lt;p&gt;Love is the garden of the young.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS &amp;amp; COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And it wasn’t a dream&lt;/p&gt;
+
+&lt;p&gt;Not a dream, after all.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A heart full of love,&lt;/p&gt;
+
+&lt;p&gt;This I give you this day.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;wedding-chorale--beggars-at-the-feast&quot;&gt;WEDDING CHORALE / BEGGARS AT THE FEAST&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;FIRST CHORUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ring out the bells&lt;/p&gt;
+
+&lt;p&gt;Upon this day of days&lt;/p&gt;
+
+&lt;p&gt;May all the angels&lt;/p&gt;
+
+&lt;p&gt;Of the Lord above&lt;/p&gt;
+
+&lt;p&gt;In jubilation&lt;/p&gt;
+
+&lt;p&gt;Sing their songs of praise&lt;/p&gt;
+
+&lt;p&gt;And crown this&lt;/p&gt;
+
+&lt;p&gt;Blessed time with&lt;/p&gt;
+
+&lt;p&gt;Peace and love.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SECOND CHORUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ring out the bells&lt;/p&gt;
+
+&lt;p&gt;Upon this day of days&lt;/p&gt;
+
+&lt;p&gt;May all the angels&lt;/p&gt;
+
+&lt;p&gt;Of the Lord above&lt;/p&gt;
+
+&lt;p&gt;In jubilation&lt;/p&gt;
+
+&lt;p&gt;Sing their songs of praise&lt;/p&gt;
+
+&lt;p&gt;And crown this&lt;/p&gt;
+
+&lt;p&gt;Blessed time with&lt;/p&gt;
+
+&lt;p&gt;Peace and love.&lt;/p&gt;
+
+&lt;p&gt;BEGGARS AT THE FEAST&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ain’t it a laugh?&lt;/p&gt;
+
+&lt;p&gt;Ain’t it a treat?&lt;/p&gt;
+
+&lt;p&gt;Hob-nobbin’ here&lt;/p&gt;
+
+&lt;p&gt;Among the elite?&lt;/p&gt;
+
+&lt;p&gt;Here comes a prince&lt;/p&gt;
+
+&lt;p&gt;There goes a Jew&lt;/p&gt;
+
+&lt;p&gt;This one’s a queer&lt;/p&gt;
+
+&lt;p&gt;But what can you do?&lt;/p&gt;
+
+&lt;p&gt;Paris at my feet&lt;/p&gt;
+
+&lt;p&gt;Paris in the dust&lt;/p&gt;
+
+&lt;p&gt;And here’s me breaking bread&lt;/p&gt;
+
+&lt;p&gt;With the upper crust . .&lt;/p&gt;
+
+&lt;p&gt;Beggar at the feast!&lt;/p&gt;
+
+&lt;p&gt;Master of the dance!&lt;/p&gt;
+
+&lt;p&gt;Life is easy pickins&lt;/p&gt;
+
+&lt;p&gt;If you grab your chance&lt;/p&gt;
+
+&lt;p&gt;Everywhere you go&lt;/p&gt;
+
+&lt;p&gt;Law-abiding folk&lt;/p&gt;
+
+&lt;p&gt;Doing what is decent&lt;/p&gt;
+
+&lt;p&gt;But they’re mostly broke!&lt;/p&gt;
+
+&lt;p&gt;Singing to the Lord on Sundays&lt;/p&gt;
+
+&lt;p&gt;Praying for the gifts He’ll send.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;M. &amp;amp;.MME. THENARDIER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;But we’re the ones who take it&lt;/p&gt;
+
+&lt;p&gt;We’re the ones who make it in the end!&lt;/p&gt;
+
+&lt;p&gt;Watch the buggers dance&lt;/p&gt;
+
+&lt;p&gt;Watch ’em till they drop&lt;/p&gt;
+
+&lt;p&gt;Keep your wits about you&lt;/p&gt;
+
+&lt;p&gt;And you stand on top!&lt;/p&gt;
+
+&lt;p&gt;Masters of the land&lt;/p&gt;
+
+&lt;p&gt;Always get our share&lt;/p&gt;
+
+&lt;p&gt;Clear away the barricades&lt;/p&gt;
+
+&lt;p&gt;And we’re still there!&lt;/p&gt;
+
+&lt;p&gt;We know where the wind is blowing&lt;/p&gt;
+
+&lt;p&gt;Money is the stuff we smell.&lt;/p&gt;
+
+&lt;p&gt;And when we’re rich as Croesus&lt;/p&gt;
+
+&lt;p&gt;Jesus! won’t we see you all in Hell!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;epilogue-finale&quot;&gt;EPILOGUE (FINALE)&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Alone I wait in the shadows&lt;/p&gt;
+
+&lt;p&gt;I count the hours till I can sleep&lt;/p&gt;
+
+&lt;p&gt;I dreamed a dream Cosette stood by&lt;/p&gt;
+
+&lt;p&gt;It made her weep&lt;/p&gt;
+
+&lt;p&gt;To know I die&lt;/p&gt;
+
+&lt;p&gt;Alone, at the end of the day&lt;/p&gt;
+
+&lt;p&gt;Upon this wedding night I pray&lt;/p&gt;
+
+&lt;p&gt;Take these children, my Lord, to thy embrace&lt;/p&gt;
+
+&lt;p&gt;And show them grace.&lt;/p&gt;
+
+&lt;p&gt;God on high,&lt;/p&gt;
+
+&lt;p&gt;Hear my prayer&lt;/p&gt;
+
+&lt;p&gt;Take me now&lt;/p&gt;
+
+&lt;p&gt;To thy care&lt;/p&gt;
+
+&lt;p&gt;Where you are.&lt;/p&gt;
+
+&lt;p&gt;Let me be,&lt;/p&gt;
+
+&lt;p&gt;Take me now,&lt;/p&gt;
+
+&lt;p&gt;Take me there&lt;/p&gt;
+
+&lt;p&gt;Bring me home,&lt;/p&gt;
+
+&lt;p&gt;Bring me home&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Mssr. I bless your name.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I am ready, Fontaine.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Mssr. lay down your burden.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At the end of my days.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You raised my child with love&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;She’s the best of my life&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And you will be with God.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Papa, Papa I do not understand&lt;/p&gt;
+
+&lt;p&gt;Are you all right? They said you’d gone away.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cosette, my child, am I forgiven now?&lt;/p&gt;
+
+&lt;p&gt;Thank God, thank God, I’ve lived to see this day.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MARIUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s you who must forgive a thoughtless fool.&lt;/p&gt;
+
+&lt;p&gt;It’s you who must forgive a thankless man.&lt;/p&gt;
+
+&lt;p&gt;It’s thanks to you that I am living&lt;/p&gt;
+
+&lt;p&gt;And again I lay down my life at your feet.&lt;/p&gt;
+
+&lt;p&gt;Cosette, your father is a saint.&lt;/p&gt;
+
+&lt;p&gt;When they wounded me&lt;/p&gt;
+
+&lt;p&gt;He took me from the barricade&lt;/p&gt;
+
+&lt;p&gt;Carried like a babe, and brought me home to you!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you are here,&lt;/p&gt;
+
+&lt;p&gt;Again beside me.&lt;/p&gt;
+
+&lt;p&gt;Now I can die in peace&lt;/p&gt;
+
+&lt;p&gt;For now my life is blessed&amp;amp;mldr;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;COSETTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You will live, Papa, you’re going to live.&lt;/p&gt;
+
+&lt;p&gt;It’s too soon, too soon to say good-bye!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, Cosette, forbid me not to die.&lt;/p&gt;
+
+&lt;p&gt;I’ll obey,&lt;/p&gt;
+
+&lt;p&gt;I will try.&lt;/p&gt;
+
+&lt;p&gt;On this page&lt;/p&gt;
+
+&lt;p&gt;I write my last confession.&lt;/p&gt;
+
+&lt;p&gt;Read it well&lt;/p&gt;
+
+&lt;p&gt;When I, at last, am sleeping&lt;/p&gt;
+
+&lt;p&gt;It’s a story&lt;/p&gt;
+
+&lt;p&gt;Of those who always loved you.&lt;/p&gt;
+
+&lt;p&gt;Your mother gave her life for you&lt;/p&gt;
+
+&lt;p&gt;Then gave you to my keeping.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Come with me&lt;/p&gt;
+
+&lt;p&gt;Where chains will never bind you&lt;/p&gt;
+
+&lt;p&gt;All your grief,&lt;/p&gt;
+
+&lt;p&gt;Your grief, at last, behind you&lt;/p&gt;
+
+&lt;p&gt;Lord in heaven,&lt;/p&gt;
+
+&lt;p&gt;Look down on him in mercy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Forgive me all my trespasses&lt;/p&gt;
+
+&lt;p&gt;And take me to your glory.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FANTINE, EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Take my hand&lt;/p&gt;
+
+&lt;p&gt;And lead me to salvation&lt;/p&gt;
+
+&lt;p&gt;Take my love&lt;/p&gt;
+
+&lt;p&gt;For love is everlasting.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VALJEAN, FANTINE &amp;amp; EPONINE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And remember&lt;/p&gt;
+
+&lt;p&gt;The truth that once was spoken,&lt;/p&gt;
+
+&lt;p&gt;To love another person&lt;/p&gt;
+
+&lt;p&gt;Is to see the face of God.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CHORUS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you hear the people sing&lt;/p&gt;
+
+&lt;p&gt;Lost in the valley of the night?&lt;/p&gt;
+
+&lt;p&gt;It is the music of the people&lt;/p&gt;
+
+&lt;p&gt;Who are climbing to the light&lt;/p&gt;
+
+&lt;p&gt;For the wretched of the earth&lt;/p&gt;
+
+&lt;p&gt;There is a flame that never dies&lt;/p&gt;
+
+&lt;p&gt;Even the darkest night will end&lt;/p&gt;
+
+&lt;p&gt;And the sun will rise.&lt;/p&gt;
+
+&lt;p&gt;They will live again in freedom&lt;/p&gt;
+
+&lt;p&gt;In the garden of the Lord&lt;/p&gt;
+
+&lt;p&gt;They will walk behind their plowshare&lt;/p&gt;
+
+&lt;p&gt;They will put away the sword&lt;/p&gt;
+
+&lt;p&gt;Their chain will be broken and&lt;/p&gt;
+
+&lt;p&gt;All men will have their reward&lt;/p&gt;
+
+&lt;p&gt;Will you join in our crusade?&lt;/p&gt;
+
+&lt;p&gt;Who will be strong and stand with me?&lt;/p&gt;
+
+&lt;p&gt;Somewhere beyond the barricade&lt;/p&gt;
+
+&lt;p&gt;Is there a world you long to see?&lt;/p&gt;
+
+&lt;p&gt;Do you hear the people sing?&lt;/p&gt;
+
+&lt;p&gt;Say do you hear the distant drums?&lt;/p&gt;
+
+&lt;p&gt;It is the future that they bring&lt;/p&gt;
+
+&lt;p&gt;When tomorrow comes!&lt;/p&gt;
+
+&lt;p&gt;Oh, tomorrow comes!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;encore-1---speeches--do-you-here-the-people-sing&quot;&gt;ENCORE 1 - SPEECHES / DO YOU HERE THE PEOPLE SING?&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;encore-2---one-day-more&quot;&gt;ENCORE 2 - ONE DAY MORE&lt;/h3&gt;</content><author><name></name></author><summary type="html">Les Miserables</summary></entry></feed>
